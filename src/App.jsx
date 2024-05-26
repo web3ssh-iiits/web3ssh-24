@@ -1,13 +1,13 @@
 //import './App.css'
-import HeroSection from './components/HeroSection'
+import CommonQuestions from "./components/CommonQuestions";
+import HeroSection from "./components/HeroSection";
 function App() {
-
-  return (
-    <>
-      <HeroSection />
-    </>
-    
-  )
+    return (
+        <>
+            <HeroSection />
+            <CommonQuestions />
+        </>
+    );
 }
 
-export default App
+export default App;
