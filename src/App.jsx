@@ -7,8 +7,8 @@ function App() {
 
   return (
     <>
-      < Navbar />
-      <HeroSection />
+      <Navbar />
+      <HeroSection className="pt-28" />
       <CommonQuestions />
     </>
   )

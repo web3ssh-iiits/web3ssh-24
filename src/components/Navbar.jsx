@@ -18,15 +18,15 @@ export default function Navbar() {
         },
         margin: "20 90",
         backgroundColor: "rgba(0, 0, 0, 0.61)",
-        border: "1px solid #161616",
+        border: "1px solid #32224B",
         borderRadius: "20px",
         backdropFilter: "blur(5px)",
       })
     }
   )
   return (
-    <div className="w-full fixed flex">
-      <div className="disappear w-full top-0 right-0 z-10 text-white bg-black h-20 border-[#161616] flex p-3 justify-between items-center" >
+    <div className="w-full fixed top-0 flex">
+      <div className="disappear w-full top-0 right-0 z-10 text-white bg-[#221040] h-20 border-[#32224B] flex p-3 justify-between items-center" >
         <div className="h-full pl-8 w-full">
           <img src="/web3ssh.png" alt="Web3SSH logo" className="max-h-full" />
         </div>
