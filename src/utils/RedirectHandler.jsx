@@ -1,4 +1,3 @@
-import { useEffect } from "react";
 import { useLocation } from "react-router-dom";
 import redirects from "../redirects.json";
 import ErrorPage from "../components/ErrorPage";
