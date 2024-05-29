@@ -1,6 +1,7 @@
 import SpeakerCard from "./SpeakerCard"
 import Speakers from "../../storage/speakerlist_days.json"
 import { useState } from "react";
+import DayButton from "./dayButton";
 
 
 const days = [];
@@ -16,33 +17,18 @@ Object.keys(Speakers).forEach((day) => {
 export default function CarouselPanel() {
   const [sliderIndex, setSliderIndex] = useState(0);
 
-  function showNextSlide() {
-    setSliderIndex(idx => {
-      if (idx == days.length - 1) return 0
-      return idx + 1
-    })
-  }
-
-  function showPrevSlide() {
-    setSliderIndex(idx => {
-      if (idx === 0) return days.length - 1;
-      return idx - 1;
-    })
-  }
-
   function showSlide(idx) {
     setSliderIndex(() => idx)
   }
 
-  // <SpeakerCard imgSrc="https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg" title="Introduction to web3" date="19-02-97" speaker="Laisha Wadhwa" />
 
   return (
-    <div className="flex-col w-full h-full flex justify-center items-center py-20 ">
-      <div className="w-full flex justify-center">
-        <button onClick={() => showSlide(0)}> day1 </button>
-        <button onClick={() => showSlide(1)}> day2 </button>
-        <button onClick={() => showSlide(2)}> day3 </button>
-        <button onClick={() => showSlide(3)}> day4 </button>
+    <div className="flex-col w-full h-full flex justify-center items-center">
+      <div className="w-full flex justify-center gap-[40px] py-10">
+        <DayButton onClick={() => showSlide(0)}> DAY 1 </DayButton>
+        <DayButton onClick={() => showSlide(1)}> DAY 2 </DayButton>
+        <DayButton onClick={() => showSlide(2)}> DAY 3 </DayButton>
+        <DayButton onClick={() => showSlide(3)}> DAY 4 </DayButton>
       </div>
       <div className="w-full flex shrink-0 overflow-hidden">
         {
