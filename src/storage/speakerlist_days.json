@@ -1,0 +1,106 @@
+{
+  "day1": {
+    "slot1": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot2": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot3": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot4": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    }
+  },
+  "day2": {
+    "slot1": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwx",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot2": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwx",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot3": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwx",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot4": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwx",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    }
+  },
+  "day3": {
+    "slot1": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot2": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot3": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot4": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    }
+  },
+  "day4": {
+    "slot1": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot2": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot3": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    },
+    "slot4": {
+      "imgUrl": "https://images.pexels.com/photos/1108099/pexels-photo-1108099.jpeg",
+      "name": "Laisa Wadhwa",
+      "time": "9:00AM",
+      "title": "Introduction to web3"
+    }
+  }
+}
