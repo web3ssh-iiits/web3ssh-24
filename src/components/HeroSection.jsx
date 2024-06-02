@@ -4,7 +4,7 @@ import clsx from 'clsx';
 
 const LandingPage = ({ className }) => {
   return (
-    <div className={clsx("flex flex-col items-center justify-center h-[100vh] bg-[radial-gradient(ellipse_at_bottom,_var(--tw-gradient-stops))] from-violet-200 via-[#AE79FF] to-[#221040] text-white", className)}>
+    <div className={clsx("flex flex-col items-center justify-center h-[100vh] z-10 text-white", className)}>
       <div className="mt-2">
         <img src={LogoImg} alt="Web 3 Event Logo" className='h-24 w-24' />
       </div>
