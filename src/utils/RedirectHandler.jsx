@@ -1,6 +1,6 @@
-import { useLocation } from "react-router-dom";
-import redirects from "../redirects.json";
-import ErrorPage from "../components/ErrorPage";
+import { useLocation } from 'react-router-dom';
+import redirects from '../redirects.json';
+import ErrorPage from '../components/ErrorPage';
 
 const RedirectHandler = () => {
   const location = useLocation();
