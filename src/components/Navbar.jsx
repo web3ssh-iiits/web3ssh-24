@@ -28,7 +28,7 @@ export default function Navbar() {
     }
   )
   return (
-    <div className="w-full fixed top-0 flex">
+    <div className="w-full fixed top-0 flex z-50">
       <div className="disappear w-full right-0 z-10 text-white bg-[#221040] h-20 border-[#32224B] flex p-3 justify-between items-center" >
         <div className="h-full pl-8 w-full">
           <img src="/web3ssh.png" alt="Web3SSH logo" className="max-h-full h-full" />
