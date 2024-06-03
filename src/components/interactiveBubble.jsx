@@ -16,8 +16,8 @@ const InteractiveBubble = () => {
     window.addEventListener('mousemove', handleMouseMove);
 
     const move = () => {
-      setCurX(prevCurX => prevCurX + (tgX - prevCurX) / 20);
-      setCurY(prevCurY => prevCurY + (tgY - prevCurY) / 20);
+      setCurX((prevCurX) => prevCurX + (tgX - prevCurX) / 20);
+      setCurY((prevCurY) => prevCurY + (tgY - prevCurY) / 20);
       if (interBubbleRef.current) {
         interBubbleRef.current.style.transform = `translate(${Math.round(curX)}px, ${Math.round(curY)}px)`;
       }
@@ -32,7 +32,10 @@ const InteractiveBubble = () => {
   }, [curX, curY, tgX, tgY]);
 
   return (
-    <div className="interactive w-16 h-16 bg-blue-500 rounded-full" ref={interBubbleRef}></div>
+    <div
+      className="interactive w-16 h-16 bg-blue-500 rounded-full"
+      ref={interBubbleRef}
+    ></div>
   );
 };
 

@@ -147,7 +147,7 @@ export default function Footer() {
           </div>
         </div>
         <div className="mt-4 pt-6 text-gray-600 border-t border-gray-800 text-center">
-          {" "}
+          {' '}
           © 2024 Web3.0 All rights reserved.
         </div>
       </footer>
