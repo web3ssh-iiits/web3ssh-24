@@ -1,42 +1,12 @@
-import React, { useState } from 'react';
+import { useState } from 'react';
+import faqData from '../data/faq.json';
 
 const CommonQuestions = () => {
   const [expandedItem, setExpandedItem] = useState(null);
-  const [bannerOpen, setBannerOpen] = useState(true);
 
   const toggleExpand = (item) => {
     setExpandedItem(expandedItem === item ? null : item);
   };
-
-  // Array of objects containing questions and answers
-  const faqData = [
-    {
-      question: 'What are the advantages of your service?',
-      answer:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque excepturi vero ipsam eaque explicabo, libero perspiciatis quos reiciendis quam doloribus porro dolore magnam, necessitatibus quis non nulla dolores enim unde totam autem?',
-    },
-    {
-      question:
-        'Are there any fees or commissions in addition to the monthly subscription?',
-      answer:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque excepturi vero ipsam eaque explicabo, libero perspiciatis quos reiciendis quam doloribus porro dolore magnam, necessitatibus quis non nulla dolores enim unde totam autem?',
-    },
-    {
-      question: "You really don't charge per user? Why not?",
-      answer: 'No, we have a flat monthly subscription...',
-    },
-    {
-      question: 'What are the advantages of your service?',
-      answer:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque excepturi vero ipsam eaque explicabo, libero perspiciatis quos reiciendis quam doloribus porro dolore magnam, necessitatibus quis non nulla dolores enim unde totam autem?',
-    },
-    {
-      question: 'What are the advantages of your service?',
-      answer:
-        'Lorem ipsum, dolor sit amet consectetur adipisicing elit. Atque excepturi vero ipsam eaque explicabo, libero perspiciatis quos reiciendis quam doloribus porro dolore magnam, necessitatibus quis non nulla dolores enim unde totam autem?',
-    },
-    // Add more questions and answers as needed
-  ];
 
   return (
     <div className="font-inter antialiased text-white">
