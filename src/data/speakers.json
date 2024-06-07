@@ -1,32 +1,32 @@
 [
-  {
-    "name": "Dr. Shashidhar",
-    "experience": "Lead ML Engineer, Lucidity Finance",
-    "imageUrl": ""
-  },
-  {
-    "name": "Laisha Wadhwa",
-    "experience": "Lead Researcher, Samsung India",
-    "imageUrl": ""
-  },
-  {
-    "name": "Pranshu Rastogi",
-    "experience": "Head of Ecosystem, Push Protocol",
-    "imageUrl": ""
-  },
-  {
-    "name": "Ilham EL Boloumi",
-    "experience": "Founder, Datachain Ed",
-    "imageUrl": ""
-  },
-  {
-    "name": "Zaryab Afsar",
-    "experience": "Blockchain Lead, Push Protocol",
-    "imageUrl": ""
-  },
-  {
-    "name": "Dr. Rajendra Prasath",
-    "experience": "Associate Professor, IIIT Sri City",
-    "imageUrl": ""
-  }
-]
+    {
+      "name": "Dr. Shashidhar",
+      "experience": "Lead ML Engineer, Lucidity Finance",
+      "imageUrl": "/speakers/dr_shashidhar_r.png"
+    },
+    {
+      "name": "Laisha Wadhwa",
+      "experience": "Lead Researcher, Samsung India",
+      "imageUrl": "/speakers/laisha_wadhwa.png"
+    },
+    {
+      "name": "Pranshu Rastogi",
+      "experience": "Head of Ecosystem, Push Protocol",
+      "imageUrl": "/speakers/pranshu_rastogi.png"
+    },
+    {
+      "name": "Ilham EL Boloumi",
+      "experience": "Founder, Datachain Ed",
+      "imageUrl": "/speakers/elham_el_boloumi.png"
+    },
+    {
+      "name": "Zaryab Afsar",
+      "experience": "Blockchain Lead, Push Protocol",
+      "imageUrl": "/speakers/zaryab_afser.png"
+    },
+    {
+      "name": "Dr. Rajendra Prasath",
+      "experience": "Associate Professor, IIIT Sri City",
+      "imageUrl": "/speakers/dr_rajendra_prasath.png"
+    }
+  ]
