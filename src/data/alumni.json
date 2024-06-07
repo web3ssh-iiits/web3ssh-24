@@ -1,0 +1,37 @@
+[
+  {
+    "name": "Hani Mohammed",
+    "experience": "Lead ML Engineer at Lucidity Finance, Ex-Developer Advocate at Polygon Labs, Ex-Head of Developer Relations at Pesto Tech, Ex-Senior Software Engineer at Goldman Sachs",
+    "imageUrl": ""
+  },
+  {
+    "name": "Priyanshu Mishra",
+    "experience": "Blockchain developer @ Router Protocol, Ex-Blockchain developer @ Wow Labz and Nethermind, Master in Advanced Solidity and System Design, Rated 5 Star on CodeChef, Worked on Hyperlane, Layerzero, Zetachain, and Axelar",
+    "imageUrl": ""
+  },
+  {
+    "name": "Laisha Wadhwa",
+    "experience": "Software Engineer @ New York University, Founding Engineer of Skillbee - raised $3.2M in seed funding, MLH Fellow, Summer of BitCoin 2021",
+    "imageUrl": ""
+  },
+  {
+    "name": "Abhishek Bhagat",
+    "experience": "Building degenask.me, FBI Fellow at Farcaster, Ex-Fullstack Blockchain Developer at ReviFi, Winner at Hackverse 2024 (CoinEx Track), Runner-up at Hackverse 2024 (XDC Track), Runner-up at Hackverse 2.0 (XDC Track), Fellow at DeFi Talents (cohort-5)",
+    "imageUrl": ""
+  },
+  {
+    "name": "Vaibhav Pandey",
+    "experience": "Integration Engineer at Push Protocol, Ex-Workflow Engineer at Instadapp, Winner at Hackverse 2024 (CoinEx Track), Runner-up at Hackverse 2024 (XDC Track), SIH’2022 Winner, UNESCO India-Africa Hackathon Finalist",
+    "imageUrl": ""
+  },
+  {
+    "name": "Sreevallabh Karanam",
+    "experience": "Full Stack and Cloud Engineer at Fluidity, Ex-Full Stack Engineer at Froker, Ex-Frontend Engineer at Mastrok, Winner at Hackverse 2023 & 2024 XDC Track, Winner at SIH'22 in Disaster Management, Finalist in UNESCO India-Africa Hackathon 2022",
+    "imageUrl": ""
+  },
+  {
+    "name": "Mohammed Aasim Choudhry",
+    "experience": "Blockchain Developer Intern at Plena Finance, Built WeLearn: Blockchain-based E-learning platform, Implemented Flash Loans using AaveV3, Uniswap Routing for optimal swap path between tokens",
+    "imageUrl": ""
+  }
+]

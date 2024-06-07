@@ -1,0 +1,32 @@
+[
+  {
+    "name": "Dr. Shashidhar",
+    "experience": "Lead ML Engineer, Lucidity Finance",
+    "imageUrl": ""
+  },
+  {
+    "name": "Laisha Wadhwa",
+    "experience": "Lead Researcher, Samsung India",
+    "imageUrl": ""
+  },
+  {
+    "name": "Pranshu Rastogi",
+    "experience": "Head of Ecosystem, Push Protocol",
+    "imageUrl": ""
+  },
+  {
+    "name": "Ilham EL Boloumi",
+    "experience": "Founder, Datachain Ed",
+    "imageUrl": ""
+  },
+  {
+    "name": "Zaryab Afsar",
+    "experience": "Blockchain Lead, Push Protocol",
+    "imageUrl": ""
+  },
+  {
+    "name": "Dr. Rajendra Prasath",
+    "experience": "Associate Professor, IIIT Sri City",
+    "imageUrl": ""
+  }
+]
