@@ -2,8 +2,9 @@ import { useState } from "react";
 import { createPortal } from "react-dom";
 import { Modal } from "./Modal";
 import { AnimatePresence } from "framer-motion";
+import clsx from "clsx";
 
-export default function SpeakerCardV2({ title, speaker, imgSrc }) {
+export default function SpeakerCardV2({ title, experience, imgSrc, className }) {
 
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -15,7 +16,7 @@ export default function SpeakerCardV2({ title, speaker, imgSrc }) {
 
   return (
     <div
-      className="w-96 aspect-[3/4] overflow-hidden rounded-2xl relative group bg-none cursor-pointer"
+      className={clsx("w-96 aspect-[3/4] overflow-hidden rounded-2xl relative group bg-none cursor-pointer", className)}
       onClick={() =>
         handleClick()
       }
@@ -24,9 +25,9 @@ export default function SpeakerCardV2({ title, speaker, imgSrc }) {
         {
           modalOpen &&
           <Modal >
-            <h1>This is a modal</h1>
+            <h1>HOW THE FUCK DO MODALS WORK</h1>
             <br />
-            <p>This is the modal description</p>
+            <p>THIS IS A TEST MODAL </p>
           </Modal>
         }
       </AnimatePresence>
@@ -36,7 +37,7 @@ export default function SpeakerCardV2({ title, speaker, imgSrc }) {
       </p>
       <div className="mb-[16px] flex px-4 absolute bottom-0 justify-center items-center w-full ">
         <p className="mt-[20px] font-mono text-center z-20 text-white bg-gray-600/60 p-1 rounded-md transition-transform delay-100 duration-500 group-hover:translate-y-[calc(100%_+_80px)]">
-          👤 {speaker}
+          👤 {experience}
         </p>
       </div>
       <img
