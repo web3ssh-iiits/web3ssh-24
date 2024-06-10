@@ -1,8 +1,7 @@
-import SpeakerCard from "./SpeakerCard"
-import Speakers from "../../storage/speakerlist_days.json"
-import { useState } from "react";
-import DayButton from "./dayButton";
-
+import SpeakerCard from './SpeakerCard';
+import Speakers from '../../storage/speakerlist_days.json';
+import { useState } from 'react';
+import DayButton from './dayButton';
 
 const days = [];
 
@@ -18,9 +17,8 @@ export default function CarouselPanel() {
   const [sliderIndex, setSliderIndex] = useState(0);
 
   function showSlide(idx) {
-    setSliderIndex(() => idx)
+    setSliderIndex(() => idx);
   }
-
 
   return (
     <div className="flex-col w-full h-full flex justify-center items-center">
@@ -31,22 +29,28 @@ export default function CarouselPanel() {
         <DayButton onClick={() => showSlide(3)}> DAY 4 </DayButton>
       </div>
       <div className="w-full flex shrink-0 overflow-hidden">
-        {
-          days.map((day, idx) => {
-            return (
-              <div key={idx} className="flex flex-wrap gap-10 object-cover justify-center w-full h-full shrink-0 grow-0 transition-all duration-300 ease-in-out" style={{ translate: `${-100 * sliderIndex}%` }} >
-                {
-                  day.map((slot, idx) => {
-                    return (<SpeakerCard key={idx} imgSrc={slot.imgUrl} title={slot.title} date={slot.time} speaker={slot.name} />
-                    )
-                  })
-                }
-              </div>
-            )
-          })
-        }
-
+        {days.map((day, idx) => {
+          return (
+            <div
+              key={idx}
+              className="flex flex-wrap gap-10 object-cover justify-center w-full h-full shrink-0 grow-0 transition-all duration-300 ease-in-out"
+              style={{ translate: `${-100 * sliderIndex}%` }}
+            >
+              {day.map((slot, idx) => {
+                return (
+                  <SpeakerCard
+                    key={idx}
+                    imgSrc={slot.imgUrl}
+                    title={slot.title}
+                    date={slot.time}
+                    speaker={slot.name}
+                  />
+                );
+              })}
+            </div>
+          );
+        })}
       </div>
     </div>
-  )
+  );
 }

@@ -17,5 +17,5 @@ export default function SpeakerCard({ imgSrc, title, date, speaker }) {
         src={imgSrc}
       />
     </div>
-  )
+  );
 }
