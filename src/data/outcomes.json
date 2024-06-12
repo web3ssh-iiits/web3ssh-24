@@ -2,26 +2,26 @@
   {
     "title": "Mastery of Web Development",
     "text": "Mastery of Web Development with React/Svelte and Node/Bun",
-    "logoUrl": ""
+    "graphics": "/graphics/mastery.png"
   },
   {
     "title": "In-depth Understanding",
     "text": "In-depth Understanding of Blockchain and Web3 Technology",
-    "logoUrl": ""
+    "graphics": "/graphics/learning_lit.png"
   },
   {
     "title": "Practical Experience",
     "text": "Practical Experience with Decentralized Apps (DApps) and Decentralized Finance (DeFi)",
-    "logoUrl": ""
+    "graphics": "/graphics/experience.png"
   },
   {
     "title": "Personalized Code Reviews",
     "text": "Personalized Code Reviews and Peer Learning Sessions",
-    "logoUrl": ""
+    "graphics": "/graphics/reviews.png"
   },
   {
     "title": "Certificate of Completion",
     "text": "Certificate of Completion and Web 3.0 Handbook for all participants",
-    "logoUrl": ""
+    "graphics": "/graphics/certificate.png"
   }
 ]
