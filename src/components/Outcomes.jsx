@@ -61,7 +61,7 @@ const Outcomes = () => {
 
     return (
         <>
-            {(window.innerWidth >= 768) && (<section className="flex w-[80vw] min-w-[700px] mx-auto min-h-screen bg-gray-950/40 text-gray-300 rounded-lg overflow-hidden border shadow-md" ref={container}>
+            {(window.innerWidth >= 768) && (<section className="flex w-screen mx-auto min-h-screen bg-gray-950/40 text-gray-300  overflow-hidden " ref={container}>
                 <div className='w-1/2 h-screen flex items-center justify-center border-r-2 text-7xl backdrop-blur-md' ref={text}>
                     Outcomes
                 </div>

@@ -6,6 +6,7 @@ import Footer from './components/Footer';
 import Outcomes from "./components/Outcomes";
 import GradientBackground from './components/background';
 import AnalyticsSection from './components/AnalyticsSection';
+import KeyComponents from './components/KeyComponents';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <AnalyticsSection />
         <Outcomes />
         <CommonQuestions />
+        <KeyComponents />
         <Footer />
       </div>
     </div>
