@@ -1,9 +1,8 @@
-import React from 'react';
 import LogoImg from '/web3ssh.png';
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
 
-const LandingPage = ({ className }) => {
+const HeroSection = () => {
   const words = [
     {
       text: 'Web',
@@ -29,7 +28,7 @@ const LandingPage = ({ className }) => {
     <div
       className={clsx(
         'flex flex-col items-center justify-center h-[100vh] z-10 text-white',
-        className,
+        'pt-28',
       )}
     >
       <div className="my-4">
@@ -74,4 +73,4 @@ const LandingPage = ({ className }) => {
   );
 };
 
-export default LandingPage;
+export default HeroSection;
