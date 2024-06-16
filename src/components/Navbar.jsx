@@ -25,7 +25,7 @@ export default function Navbar() {
     });
   });
   return (
-    <div className="w-full fixed top-0 flex z-50">
+    <div className="w-full fixed top-0 flex z-50 text-2xl">
       <div className="disappear w-full right-0 z-10 text-white h-20 border-none flex p-3 justify-between items-center">
         <div className="h-full pl-8 w-full">
           <img
@@ -34,7 +34,7 @@ export default function Navbar() {
             className="max-h-full h-full"
           />
         </div>
-        <div className="hidden sm:flex justify-between gap-6 items-center ">
+        <div className="hidden sm:flex justify-between gap-6 items-center">
           <ul className="flex gap-6">
             <li>
               <a
@@ -49,7 +49,7 @@ export default function Navbar() {
                 href="#"
                 className="hover:bg-[#AE79FF] transition-colors duration-300 px-3 py-1 rounded-md"
               >
-                Sponsors
+                Speakers
               </a>
             </li>
             <li>
@@ -57,7 +57,7 @@ export default function Navbar() {
                 href="#"
                 className="hover:bg-[#AE79FF] transition-colors duration-300 px-3 py-1 rounded-md"
               >
-                Schedule
+                Hackathon
               </a>
             </li>
             <li>
@@ -67,6 +67,16 @@ export default function Navbar() {
               >
                 FAQ
               </a>
+
+            </li>
+            <li>
+              <a
+                href="#"
+                className="hover:bg-[#AE79FF] transition-colors duration-300 px-3 py-1 rounded-md"
+              >
+                Team
+              </a>
+
             </li>
           </ul>
         </div>
@@ -120,7 +130,7 @@ export default function Navbar() {
           <a href="early-iiits">
             <button
               type="button"
-              className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg text-sm px-5 py-2.5 text-center me-2"
+              className="text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg  sm:text-xl px-5 py-2.5 text-center me-2"
             >
               Register Now
             </button>
