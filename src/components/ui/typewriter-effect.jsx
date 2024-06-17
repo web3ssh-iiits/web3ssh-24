@@ -1,5 +1,3 @@
-'use client';
-
 import { cn } from '../../utils/cn';
 import { motion, stagger, useAnimate, useInView } from 'framer-motion';
 import { useEffect } from 'react';
@@ -61,7 +59,7 @@ export const TypewriterEffect = ({ words, className, cursorClassName }) => {
   return (
     <div
       className={cn(
-        'text-base sm:text-xl md:text-3xl lg:text-5xl font-bold text-center',
+        'text-4xl sm:text-4xl  lg:text-7xl font-bold text-center',
         className,
       )}
     >

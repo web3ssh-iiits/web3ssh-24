@@ -1,0 +1,26 @@
+[
+  {
+    "sectionHead": "Product",
+    "sectionItems": [
+      { "text": "Features", "href": "#" },
+      { "text": "Integrations", "href": "#" },
+      { "text": "Pricing", "href": "#" },
+      { "text": "FAQ", "href": "#" }
+    ]
+  },
+  {
+    "sectionHead": "Company",
+    "sectionItems": [
+      { "text": "Privacy", "href": "#" },
+      { "text": "Terms of Service", "href": "#" }
+    ]
+  },
+  {
+    "sectionHead": "Developers",
+    "sectionItems": [
+      { "text": "Developer API", "href": "#" },
+      { "text": "Documentation", "href": "#" },
+      { "text": "Guides", "href": "#" }
+    ]
+  }
+]

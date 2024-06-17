@@ -11,7 +11,7 @@ const CommonQuestions = () => {
   return (
     <div className="font-inter antialiased text-white">
       <main className="min-h-screen flex flex-col justify-center  overflow-hidden">
-        <div className="w-full max-w-2xl mx-auto px-4 md:px-6 py-24">
+        <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
           <h1 className="text-5xl py-2 font-bold text-white mb-6 text-center">
             FAQ
           </h1>
@@ -30,7 +30,7 @@ const CommonQuestions = () => {
                     aria-expanded={expandedItem === index + 1}
                     aria-controls={`faqs-text-0${index + 1}`}
                   >
-                    <span className="flex-1">{item.question}</span>
+                    <span className="flex-1 lg:text-4xl text-2xl">{item.question}</span>
                     <svg
                       className={`fill-current h-6 w-6 transition-transform duration-200 ease-out ${
                         expandedItem === index + 1 ? '' : 'rotate-180'
@@ -57,7 +57,7 @@ const CommonQuestions = () => {
                       : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <p className="pb-3 text-sm text-gray-300">{item.answer}</p>
+                  <p className="pb-3 text-2xl text-gray-300">{item.answer}</p>
                 </div>
               </div>
             ))}
