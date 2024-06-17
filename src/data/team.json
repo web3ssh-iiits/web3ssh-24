@@ -5,11 +5,11 @@
     "members": [
       {
         "name": "Abhishek Bhagat",
-        "profilePic": "/team/abhishek_bhagat.png"
+        "profilePic": "/team/abhishek_bhagat.jpeg"
       },
       {
-        "name": "Abhishek Bhagat",
-        "profilePic": "/team/abhishek_bhagat.png"
+        "name": "Vaibhav Pande",
+        "profilePic": "/team/vaibhav_pandey.jpeg"
       },
 
       {
@@ -18,7 +18,7 @@
       },
       {
         "name": "Suvan Sarkar",
-        "profilePic": "/team/suvansh.png"
+        "profilePic": "/team/suvan.png"
       }
     ]
   },
@@ -26,8 +26,28 @@
     "role": "Tech Team",
     "members": [
       {
+        "name": "Sreevallabh Karanam",
+        "profilePic": "/team/sreevallabh_karanam.jpg"
+      },
+      {
+        "name": "Mithun U",
+        "profilePic": "/team/mithun.png"
+      },
+      {
         "name": "Varun Mantri",
         "profilePic": "/team/varun_mantri.jpeg"
+      },
+      {
+        "name": "Vinayak Anand",
+        "profilePic": "/team/vinayak_anand.jpeg"
+      },
+      {
+        "name": "Bishwajeet Sahoo",
+        "profilePic": "/team/void.png"
+      },
+      {
+        "name": "Saurabh Pal",
+        "profilePic": "/team/xor.png"
       }
     ]
   },
