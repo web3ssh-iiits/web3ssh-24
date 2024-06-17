@@ -1,23 +1,129 @@
 [
   {
-    "Student Co-ordinators": [
+    "role": "Co-ordinators",
+
+    "members": [
+      {
+        "name": "Abhishek Bhagat",
+        "profilePic": "/team/abhishek_bhagat.png"
+      },
+      {
+        "name": "Abhishek Bhagat",
+        "profilePic": "/team/abhishek_bhagat.png"
+      },
+
       {
         "name": "Aahnik Daw",
-        "github": "aahnik",
-        "linkedin": "aahnik",
-        "twitter": "aahnikd",
-        "website": "https://aahnik.dev",
         "profilePic": "/team/aahnik.png"
       },
       {
         "name": "Suvan Sarkar",
-        "github": "suvansh",
-        "linkedin": "suvansh",
-        "twitter": "suvansh",
-        "website": "https://suvansh.dev",
         "profilePic": "/team/suvansh.png"
       }
-    ],
-    "Design Team": []
+    ]
+  },
+  {
+    "role": "Tech Team",
+    "members": [
+      {
+        "name": "Varun Mantri",
+        "profilePic": "/team/varun_mantri.jpeg"
+      }
+    ]
+  },
+  {
+    "role": "Design Team",
+    "members": [
+      {
+        "name": "Aditya Pande",
+        "profilePic": "/team/aditya_pande.jpg"
+      },
+      {
+        "name": "Tejasri Pacharu",
+        "profilePic": "/team/tejasri_pacharu.jpg"
+      },
+      {
+        "name": "Abhishek Suwalka",
+        "profilePic": "/team/abhishek_suwalka.jpg"
+      },
+      {
+        "name": "Naman Goyal",
+        "profilePic": "/team/naman_goyal.jpg"
+      },
+      {
+        "name": "Sai Akshita Dimpu Pagoti",
+        "profilePic": "/team/sai_akshita_dimpu_pagoti.jpg"
+      }
+    ]
+  },
+  {
+    "role": "PR Team",
+    "members": [
+      {
+        "name": "Aryan Sharma",
+        "profilePic": "/team/aryan_sharma.jpg"
+      },
+      {
+        "name": "Amodini Ap",
+        "profilePic": "/team/amodini_ap.jpg"
+      },
+      {
+        "name": "Shyam Modi",
+        "profilePic": "/team/shyam_modi.jpg"
+      },
+      {
+        "name": "Karthik M Sarma",
+        "profilePic": "/team/karthik_m_sarma.jpg"
+      },
+      {
+        "name": "Siddharth Singh",
+        "profilePic": "/team/siddharth_singh.jpg"
+      },
+
+      {
+        "name": "Kaushal Edara",
+        "profilePic": "/team/kaushal_edara.png"
+      }
+    ]
+  },
+  {
+    "role": "Video Producton",
+    "members": [
+      {
+        "name": "Yagnesh Kumar Koduru",
+        "profilePic": "/team/yagnesh_kumar_koduru.jpg"
+      },
+      {
+        "name": "Vanya Awasthi",
+        "profilePic": "/team/vanya_awasthi.jpg"
+      },
+      {
+        "name": "Vedant Kesarwani",
+        "profilePic": "/team/vedant_kesarwani.jpg"
+      }
+    ]
+  },
+  {
+    "role": "Sponsorship Team",
+    "members": [
+      {
+        "name": "Charishma Bollineni",
+        "profilePic": "/team/charishma_bollineni.jpg"
+      },
+      {
+        "name": "Shreeraj M",
+        "profilePic": "/team/shreeraj_m.JPG"
+      },
+
+      {
+        "name": "Adarsh Singh",
+        "profilePic": "/team/adarsh_singh.png"
+      },
+
+      {
+        "name": "Piyush Singh",
+        "profilePic": "/team/piyush_singh.png"
+      }
+    ]
   }
 ]
