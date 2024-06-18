@@ -44,26 +44,26 @@ const KeyComponents = () => {
           {data.map((content, index) => (
             <div
               key={index}
-              className="group h-full w-screen flex flex-wrap items-center justify-evenly px-8 border-x text-2xl backdrop-blur-sm bg-black bg-opacity-70"
+              className="group h-full w-screen flex flex-wrap lg:flex-nowrap overflow-hidden gap-5 items-center justify-evenly px-8 border-x text-2xl backdrop-blur-sm bg-black bg-opacity-70"
             >
               {content.graphics && (
                 <CardContainer className="relative inline-block overflow-hidden rounded-xl px-8 py-3 text-sm font-medium bg-gray-900/30 group-hover:bg-white/70 transition-all duration-500 delay-100">
-                  {/* <span className="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-white/70 transition-all duration-200 group-hover:w-full"></span>
+                  <span className="ease absolute left-0 top-0 h-0 w-0 border-t-2 border-white/70 transition-all duration-200 group-hover:w-full"></span>
                   <span className="ease absolute right-0 top-0 h-0 w-0 border-r-2 border-white/70 transition-all duration-200 group-hover:h-full"></span>
                   <span className="ease absolute bottom-0 right-0 h-0 w-0 border-b-2 border-white/70 transition-all duration-200 group-hover:w-full"></span>
-                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-white/70 transition-all duration-200 group-hover:h-full"></span> */}
+                  <span className="ease absolute bottom-0 left-0 h-0 w-0 border-l-2 border-white/70 transition-all duration-200 group-hover:h-full"></span>
 
                   <CardItem translateZ={100} translateX={10} translateY={10}>
                     <img
                       src={content.graphics}
                       alt={content.title}
-                      className="w[625px] h-[483px]"
+                      className="  lg:w-[325px] lg:h-[283px] w-[150px] h-[150px]"
                     />
                   </CardItem>
                 </CardContainer>
               )}
               <div className=" text-left">
-                <h2 className="sm:text-6xl font-bold mb-16">{content.title}</h2>
+                <h2 className="sm:text-6xl font-bold lg:mb-16 mb-2">{content.title}</h2>
                 <p className="mb-4 sm:text-4xl">{content.text}</p>
               </div>
             </div>
