@@ -5,7 +5,7 @@ import clsx from "clsx"
 export default function SpeakersPanel({ className }) {
   return (
     <div className={clsx("w-full flex flex-col justify-center items-center", className)}>
-      <div className="text-white text-9xl mb-24">
+      <div className="text-white text-4xl md:text-9xl mb-20">
         <h1>Speakers!</h1>
       </div>
       <div className="w-full flex flex-wrap justify-center items-center">
@@ -16,7 +16,8 @@ export default function SpeakersPanel({ className }) {
                 title={e.name}
                 experience={e.experience}
                 imgSrc={e.imageUrl}
-                className="m-2"
+                data={e.details}
+                className="mx-6 my-4"
               />
             )
           })

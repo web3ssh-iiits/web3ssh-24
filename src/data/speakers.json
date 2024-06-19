@@ -2,31 +2,37 @@
   {
     "name": "Dr. Shashidhar",
     "experience": "Lead ML Engineer, Lucidity Finance",
-    "imageUrl": "/speakers/dr_shashidhar_r.png"
+    "imageUrl": "/speakers/dr_shashidhar_r.png",
+    "details": "Something nice about the speaker"
   },
   {
     "name": "Laisha Wadhwa",
     "experience": "Lead Researcher, Samsung India",
-    "imageUrl": "/speakers/laisha_wadhwa.png"
+    "imageUrl": "/speakers/laisha_wadhwa.png",
+    "details": "Something nice about the speaker"
   },
   {
     "name": "Pranshu Rastogi",
     "experience": "Head of Ecosystem, Push Protocol",
-    "imageUrl": "/speakers/pranshu_rastogi.png"
+    "imageUrl": "/speakers/pranshu_rastogi.png",
+    "details": "Something nice about the speaker"
   },
   {
     "name": "Ilham EL Boloumi",
     "experience": "Founder, Datachain Ed",
-    "imageUrl": "/speakers/elham_el_boloumi.png"
+    "imageUrl": "/speakers/elham_el_boloumi.png",
+    "details": "Something nice about the speaker"
   },
   {
     "name": "Zaryab Afsar",
     "experience": "Blockchain Lead, Push Protocol",
-    "imageUrl": "/speakers/zaryab_afser.png"
+    "imageUrl": "/speakers/zaryab_afser.png",
+    "details": "Something nice about the speaker"
   },
   {
     "name": "Dr. Rajendra Prasath",
     "experience": "Associate Professor, IIIT Sri City",
-    "imageUrl": "/speakers/dr_rajendra_prasath.png"
+    "imageUrl": "/speakers/dr_rajendra_prasath.png",
+    "details": "Something nice about the speaker"
   }
 ]

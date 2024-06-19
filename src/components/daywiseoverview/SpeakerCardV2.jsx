@@ -1,10 +1,9 @@
 import { useState } from "react";
-import { createPortal } from "react-dom";
 import { Modal } from "./Modal";
 import { AnimatePresence } from "framer-motion";
 import clsx from "clsx";
 
-export default function SpeakerCardV2({ title, experience, imgSrc, className }) {
+export default function SpeakerCardV2({ title, experience, imgSrc, data, className }) {
 
   const [modalOpen, setModalOpen] = useState(false);
 
@@ -16,7 +15,7 @@ export default function SpeakerCardV2({ title, experience, imgSrc, className }) 
 
   return (
     <div
-      className={clsx("w-96 aspect-[3/4] overflow-hidden rounded-2xl relative group bg-none cursor-pointer", className)}
+      className={clsx("w-80 aspect-[3/4] overflow-hidden rounded-2xl relative group bg-none cursor-pointer", className)}
       onClick={() =>
         handleClick()
       }
@@ -25,9 +24,21 @@ export default function SpeakerCardV2({ title, experience, imgSrc, className }) 
         {
           modalOpen &&
           <Modal >
-            <h1>HOW THE FUCK DO MODALS WORK</h1>
-            <br />
-            <p>THIS IS A TEST MODAL </p>
+            <div className="sm:flex" >
+              <div className="w-full h-80 sm:w-80 sm:aspect-[3/4] relative">
+                <div className="absolute bg-[url(/bg/we.avif)] w-full h-full" />
+                <img
+                  className="absolute w-full h-full object-cover object-center "
+                  src={imgSrc}
+                />
+              </div>
+              <div className="p-4 w-full sm:w-[80%] h-80 sm:h-[426px] overflow-y-scroll">
+                <h1 className="text-4xl">{title}</h1>
+                <h2 className="text-gray-600 mb-2">{experience}</h2>
+                <p>{data}</p>
+              </div>
+            </div>
+
           </Modal>
         }
       </AnimatePresence>
