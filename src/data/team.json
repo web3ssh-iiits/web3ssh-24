@@ -1,6 +1,19 @@
 [
   {
-    "role": "Co-ordinators",
+    "role": "Faculty Co-ordinators",
+    "members": [
+      {
+        "name": "Dr. Bheemappa Halavar",
+        "profilePic": "/team/dr_bheemappa_halavar.jpg"
+      },
+      {
+        "name": "Dr. Himangsu Sarma",
+        "profilePic": "/team/dr_himangshu_sarma.jpg"
+      }
+    ]
+  },
+  {
+    "role": "Student Co-ordinators",
 
     "members": [
       {
