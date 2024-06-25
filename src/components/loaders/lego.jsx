@@ -1,7 +1,7 @@
 /*
 Credits: https://codepen.io/jkantner/pen/BaPaoGm
 */
-import '../assets/lego.css';
+import './lego.css';
 
 const LegoLoader = () => {
   return (
