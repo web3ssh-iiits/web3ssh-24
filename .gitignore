@@ -24,3 +24,9 @@ dist-ssr
 *.sw?
 
 .env
+bun.lockb
+
+# Next js
+.next
+next-env.d.ts
+dist

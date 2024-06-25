@@ -1,25 +1,25 @@
 [
   {
-    "sectionHead": "Product",
+    "sectionHead": "Organizers",
     "sectionItems": [
-      { "text": "Features", "href": "#" },
-      { "text": "Integrations", "href": "#" },
-      { "text": "Pricing", "href": "#" },
-      { "text": "FAQ", "href": "#" }
+      { "text": "IIIT Sri City", "href": "https://iiits.ac.in" },
+      { "text": "Team", "href": "/team" },
+      { "text": "Pricing", "href": "/join" },
+      { "text": "FAQ", "href": "#faq" }
     ]
   },
   {
-    "sectionHead": "Company",
+    "sectionHead": "Documentation",
     "sectionItems": [
-      { "text": "Privacy", "href": "#" },
-      { "text": "Terms of Service", "href": "#" }
+      { "text": "Sessions", "href": "#" },
+      { "text": "Quizzes", "href": "#" }
     ]
   },
   {
     "sectionHead": "Developers",
     "sectionItems": [
-      { "text": "Developer API", "href": "#" },
-      { "text": "Documentation", "href": "#" },
+      { "text": "Hackathon", "href": "#" },
+      { "text": "Curriculum", "href": "#" },
       { "text": "Guides", "href": "#" }
     ]
   }

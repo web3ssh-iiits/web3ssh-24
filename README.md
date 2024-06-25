@@ -2,6 +2,6 @@
 
 ## Deployment
 
-Build variables required:
+Environment variables required:
 
-`VITE_BACKEND_URL`: the url of the referral code validator api.
+`NEXT_PUBLIC_BACKEND_URL`: the url of the referral code validator api.

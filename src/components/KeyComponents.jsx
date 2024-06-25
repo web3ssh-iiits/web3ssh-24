@@ -1,4 +1,6 @@
-import React, { useRef, useState, useLayoutEffect } from 'react';
+'use client';
+
+import { useRef, useLayoutEffect } from 'react';
 import gsap from 'gsap';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
 import data from '../data/keyComponents.json'; // Importing the JSON data directly
@@ -34,7 +36,7 @@ const KeyComponents = () => {
   return (
     <section
       ref={horContainer}
-      className="flex w-screen h-screen bg-gray-950/40 text-gray-300 flex-col border-b-2 my-8 "
+      className="flex w-screen h-screen  text-gray-300 flex-col border-b-2 my-8 "
     >
       <div className="w-screen h-[300px] flex items-center justify-center border-b-2 sm:text-7xl text-5xl font-bold backdrop-blur-md">
         Key Components
@@ -63,7 +65,9 @@ const KeyComponents = () => {
                 </CardContainer>
               )}
               <div className=" text-left">
-                <h2 className="sm:text-6xl font-bold lg:mb-16 mb-2">{content.title}</h2>
+                <h2 className="sm:text-6xl font-bold lg:mb-16 mb-2">
+                  {content.title}
+                </h2>
                 <p className="mb-4 sm:text-4xl">{content.text}</p>
               </div>
             </div>
