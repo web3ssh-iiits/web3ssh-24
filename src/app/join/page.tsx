@@ -13,7 +13,9 @@ function DiscountUnlocked() {
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
   const code = searchParams.get('code');
-  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
+  const BACKEND_URL =
+    process.env.NEXT_PUBLIC_BACKEND_URL ||
+    'https://web3ssh-referrals-api.deploy.aahnik.dev';
 
   const [recycle, setRecycle] = useState(true);
   useEffect(() => {
