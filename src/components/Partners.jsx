@@ -7,13 +7,13 @@ export default function Partners() {
       <div className="max-w-screen-xl px-4  mx-auto pb-48 sm:pb-0">
         <div className="grid grid-cols-1 gap-1 sm:gap-12 sm:grid-cols-2 text-gray-400">
           <a
-            className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 grayscale hover:grayscale-0"
+            className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
             target="_blank"
           >
             <img src={gdscLogo.src} alt="GDSC" className="w-[950px] " />
           </a>
           <a
-            className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 grayscale hover:grayscale-0"
+            className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2"
             target="_blank"
           >
             <img

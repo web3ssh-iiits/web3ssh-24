@@ -50,7 +50,7 @@ const HeroSection = () => {
         'pt-28',
       )}
     >
-      <div className="flex flex-row items-center justify-center mb-10 w-full">
+      <div className="mt-10 flex flex-row items-center justify-center mb-10 w-full">
         {/* <img
           src={iiitSricityLogo.src}
           alt="IIIT Sri City"
