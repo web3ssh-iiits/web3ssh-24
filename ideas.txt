@@ -1,0 +1,77 @@
+nav logo down
+register now, put liittle down
+whatsapp, linkedin, logos bigger
+
+remove 1 logo
+
+
+hero section text center
+
+& Hackathon below line
+
+pp neueu montreal font
+Sequel Sans
+
+Nimbus SanD Ext
+
+Helvetica World
+
+corner rounded highlight for data in 3rd line
+
+speakers on top logo is white
+hero highlight for date
+
+speaker name centered, and outside image
+
+blurr the bg colors shape
+
+edges in discount code block
+
+nav bar sized box for the bg of key components, rounded corners
+detach bg with below stuff
+
+key box large than nva
+
+bg of the speakers, glassy, look above the main bg
+
+key components, take photo to the edges
+
+border animation remove it from key components, not visible when user scrolls fast
+
+
+rules box more purple
+
+
+outcomes first box, should be more than half
+
+halfen the outcomes normal box from now
+
+top, left, and bottim, spacsame
+
+words on top of images
+
+left part 50%
+
+https://icons8.com/icons/set/send-message
+
+for analytics icons
+
+spacing bw analytics
+
+in the "experience" x section
+
+
+faq font
+
+
+faq, jjust a line as seperattor
+
+
+rounding and co0nsistent border readiusC
+make your footer little larger
+
+
+npm run build
+max css 10 kb
+max js 500 kb
+preloaded react 50 kb by default
