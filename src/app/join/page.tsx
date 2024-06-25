@@ -5,11 +5,11 @@ import Confetti from 'react-confetti';
 import LegoLoader from '@components/loaders/lego';
 import { HeroHighlight, Highlight } from '@components/ui/hero-highlight';
 import { motion } from 'framer-motion';
-
+import { Suspense } from 'react';
 import { useSearchParams } from 'next/navigation';
 
-export default function Page() {
-  const [isValid, setIsValid] = useState(null);
+function DiscountUnlocked() {
+  const [isValid, setIsValid] = useState(false);
   const [loading, setLoading] = useState(true);
   const searchParams = useSearchParams();
   const code = searchParams.get('code');
@@ -43,7 +43,6 @@ export default function Page() {
       setRecycle(false);
     }, 5000);
   });
-
   if (loading) {
     return (
       <>
@@ -63,12 +62,12 @@ export default function Page() {
             <h1 className="text-4xl font-bold">Discount Unlocked</h1>
             <h2 className="text-8xl font-bold my-4 mt-8">🥳</h2>
             <p className="text-2xl pt-16 py-2 ">
-              Congrats! You've unlocked a discount!
+              Congrats! You&aposve unlocked a discount!
             </p>
             <p className="text-2xl"> Offer Valid Till: 10th July 2024.</p>
             <p className="text-2xl">
               {' '}
-              <strike>₹800</strike> ₹499{' '}
+              <s>₹800</s> ₹499{' '}
             </p>
             <a href="https://web3ssh.dev/register">
               <button className="p-[3px] relative my-4 mt-8">
@@ -121,5 +120,20 @@ export default function Page() {
         </div>
       )}
     </div>
+  );
+}
+export default function Page() {
+  return (
+    <>
+      <Suspense
+        fallback={
+          <div className="text-center h-screen text-6xl">
+            <LegoLoader></LegoLoader>
+          </div>
+        }
+      >
+        <DiscountUnlocked />
+      </Suspense>
+    </>
   );
 }
