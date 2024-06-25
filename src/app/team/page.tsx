@@ -1,6 +1,5 @@
 import { GlareCard } from '@components/ui/glare-card';
 import teamData from '@data/team.json';
-import Image from 'next/image';
 
 export default function Page() {
   return (
