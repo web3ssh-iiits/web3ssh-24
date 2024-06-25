@@ -2,19 +2,31 @@
 
 import { useState } from 'react';
 import { motion } from 'framer-motion';
-import { cn } from '@/utils/cn';
+import { cn } from '@utils/cn';
+
+type Tab = {
+  title: string;
+  value: string;
+  content?: string | React.ReactNode | any;
+};
 
 export const Tabs = ({
-  tabs,
+  tabs: propTabs,
   containerClassName,
   activeTabClassName,
   tabClassName,
   contentClassName,
+}: {
+  tabs: Tab[];
+  containerClassName?: string;
+  activeTabClassName?: string;
+  tabClassName?: string;
+  contentClassName?: string;
 }) => {
-  const [active, setActive] = useState(propTabs[0]);
-  const [tabs, setTabs] = useState(propTabs);
+  const [active, setActive] = useState<Tab>(propTabs[0]);
+  const [tabs, setTabs] = useState<Tab[]>(propTabs);
 
-  const moveSelectedTabToTop = (idx) => {
+  const moveSelectedTabToTop = (idx: number) => {
     const newTabs = [...propTabs];
     const selectedTab = newTabs.splice(idx, 1);
     newTabs.unshift(selectedTab[0]);
@@ -73,8 +85,18 @@ export const Tabs = ({
   );
 };
 
-export const FadeInDiv = ({ className, tabs, hovering }) => {
-  const isActive = (tab) => {
+export const FadeInDiv = ({
+  className,
+  tabs,
+  hovering,
+}: {
+  className?: string;
+  key?: string;
+  tabs: Tab[];
+  active: Tab;
+  hovering?: boolean;
+}) => {
+  const isActive = (tab: Tab) => {
     return tab.value === tabs[0].value;
   };
   return (

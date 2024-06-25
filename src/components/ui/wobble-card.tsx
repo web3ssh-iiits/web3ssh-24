@@ -1,14 +1,21 @@
 'use client';
-
-import { useState } from 'react';
+import React, { useState } from 'react';
 import { motion } from 'framer-motion';
-import { cn } from '../../utils/cn';
+import { cn } from '@utils/cn';
 
-export const WobbleCard = ({ children, containerClassName, className }) => {
+export const WobbleCard = ({
+  children,
+  containerClassName,
+  className,
+}: {
+  children: React.ReactNode;
+  containerClassName?: string;
+  className?: string;
+}) => {
   const [mousePosition, setMousePosition] = useState({ x: 0, y: 0 });
   const [isHovering, setIsHovering] = useState(false);
 
-  const handleMouseMove = (event) => {
+  const handleMouseMove = (event: React.MouseEvent<HTMLElement>) => {
     const { clientX, clientY } = event;
     const rect = event.currentTarget.getBoundingClientRect();
     const x = (clientX - (rect.left + rect.width / 2)) / 20;

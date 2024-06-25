@@ -3,9 +3,15 @@
 import { cn } from '@utils/cn';
 import { useRef } from 'react';
 
-export const GlareCard = ({ children, className }) => {
+export const GlareCard = ({
+  children,
+  className,
+}: {
+  children: React.ReactNode;
+  className?: string;
+}) => {
   const isPointerInside = useRef(false);
-  const refElement = useRef(null);
+  const refElement = useRef<HTMLDivElement>(null);
   const state = useRef({
     glare: {
       x: 50,
@@ -33,7 +39,7 @@ export const GlareCard = ({ children, className }) => {
     '--radius': '48px',
     '--easing': 'ease',
     '--transition': 'var(--duration) var(--easing)',
-  };
+  } as any;
 
   const backgroundStyle = {
     '--step': '5%',
