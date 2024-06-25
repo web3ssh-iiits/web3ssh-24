@@ -1,6 +1,9 @@
-import LogoImg from '/web3ssh.png';
+import LogoImg from '@public/web3ssh.png';
+import iiitSricityLogo from '@public/iiits.png';
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
+import Partners from './Partners';
+import { AnimatedTooltip } from './ui/animated-tooltip';
 
 const HeroSection = () => {
   const words = [
@@ -24,6 +27,21 @@ const HeroSection = () => {
       className: 'text-blue-500',
     },
   ];
+
+  const logos = [
+    {
+      id: 1,
+      name: 'IIIT Sri City',
+      designation: 'Organized by Dept. of CSE',
+      image: '/iiits.png',
+    },
+    {
+      id: 2,
+      name: 'web3ssh',
+      designation: 'Web 3.0 Summer School & Hackathon',
+      image: '/web3ssh.png',
+    },
+  ];
   return (
     <div
       className={clsx(
@@ -31,8 +49,14 @@ const HeroSection = () => {
         'pt-28',
       )}
     >
-      <div className="my-4">
-        <img src={LogoImg} alt="Web 3 Event Logo" className="h-24 w-24" />
+      <div className="flex flex-row items-center justify-center mb-10 w-full">
+        {/* <img
+          src={iiitSricityLogo.src}
+          alt="IIIT Sri City"
+          className="h-24 w-24 "
+        />
+        <img src={LogoImg.src} alt="Web 3 Event Logo" className="h-24 w-24" /> */}
+        <AnimatedTooltip items={logos} />
       </div>
       <TypewriterEffect words={words} />
       <div className="2xl:text-lg 2xl:w-2/5  xl:w-2/5 lg:w-1/2 md:text-sm  mt-4 sm:w-3/5 max-[450px]:text-xs max-[375px]:w-4/5 w-3/4 text-white text-lg ">
@@ -69,6 +93,7 @@ const HeroSection = () => {
           </button>
         </div>
       </div>
+      <Partners />
     </div>
   );
 };
