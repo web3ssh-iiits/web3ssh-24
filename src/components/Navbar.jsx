@@ -1,3 +1,5 @@
+'use client';
+
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap/gsap-core';
 import Whatsapp from '../assets/whatsapp.jsx';
@@ -67,7 +69,6 @@ export default function Navbar() {
               >
                 FAQ
               </a>
-
             </li>
             <li>
               <a
@@ -76,7 +77,6 @@ export default function Navbar() {
               >
                 Team
               </a>
-
             </li>
           </ul>
         </div>
