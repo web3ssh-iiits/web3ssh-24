@@ -1,16 +1,19 @@
+'use client';
+
 import { useEffect, useState } from 'react';
 import Confetti from 'react-confetti';
-import { useSearchParams } from 'react-router-dom';
-import LegoLoader from '../loaders/lego';
-import { HeroHighlight, Highlight } from '../components/ui/hero-highlight';
+import LegoLoader from '@components/loaders/lego';
+import { HeroHighlight, Highlight } from '@components/ui/hero-highlight';
 import { motion } from 'framer-motion';
 
-const JoinCodePage = () => {
+import { useSearchParams } from 'next/navigation';
+
+export default function Page() {
   const [isValid, setIsValid] = useState(null);
   const [loading, setLoading] = useState(true);
-  const [searchParams] = useSearchParams();
+  const searchParams = useSearchParams();
   const code = searchParams.get('code');
-  const BACKEND_URL = import.meta.env.VITE_BACKEND_URL;
+  const BACKEND_URL = process.env.NEXT_PUBLIC_BACKEND_URL;
 
   const [recycle, setRecycle] = useState(true);
   useEffect(() => {
@@ -77,29 +80,28 @@ const JoinCodePage = () => {
             </a>
           </div>
           <div className="p-6  mx-8 rounded-lg shadow-md bg-white bg-opacity-0 my-4">
-          <HeroHighlight>
-            <motion.h1
-              initial={{
-                opacity: 0,
-                y: 20,
-              }}
-              animate={{
-                opacity: 1,
-                y: [20, -5, 0],
-              }}
-              transition={{
-                duration: 0.5,
-                ease: [0.4, 0.0, 0.2, 1],
-              }}
-              className="text-xl px-4  py-4 lg:text-xl font-bold text-white  leading-relaxed lg:leading-snug text-center mx-auto max-w-2xl "
-            >
-              Dont forget to use the referral code <br />
-              <Highlight className="text-white">{code}</Highlight>
-              <br /> while filling out the Google Form.
-            </motion.h1>
-          </HeroHighlight>
-            </div>
-
+            <HeroHighlight>
+              <motion.h1
+                initial={{
+                  opacity: 0,
+                  y: 20,
+                }}
+                animate={{
+                  opacity: 1,
+                  y: [20, -5, 0],
+                }}
+                transition={{
+                  duration: 0.5,
+                  ease: [0.4, 0.0, 0.2, 1],
+                }}
+                className="text-xl px-4  py-4 lg:text-xl font-bold text-white  leading-relaxed lg:leading-snug text-center mx-auto max-w-2xl "
+              >
+                Dont forget to use the referral code <br />
+                <Highlight className="text-white">{code}</Highlight>
+                <br /> while filling out the Google Form.
+              </motion.h1>
+            </HeroHighlight>
+          </div>
         </>
       ) : (
         <div className="p-6 border mx-8 rounded-lg shadow-md bg-white bg-opacity-10">
@@ -120,6 +122,4 @@ const JoinCodePage = () => {
       )}
     </div>
   );
-};
-
-export default JoinCodePage;
+}
