@@ -62,7 +62,7 @@ function DiscountUnlocked() {
             <h1 className="text-4xl font-bold">Discount Unlocked</h1>
             <h2 className="text-8xl font-bold my-4 mt-8">🥳</h2>
             <p className="text-2xl pt-16 py-2 ">
-              Congrats! You&aposve unlocked a discount!
+              Congrats! You have unlocked a discount!
             </p>
             <p className="text-2xl"> Offer Valid Till: 10th July 2024.</p>
             <p className="text-2xl">
