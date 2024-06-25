@@ -9,7 +9,10 @@ export default function SpeakersPanel() {
         'w-full flex flex-col justify-center items-center sm:px-40',
       )}
     >
-      <div className="text-white text-4xl md:text-7xl mb-20 font-bold">
+      <div
+        id="speakers"
+        className="text-white text-4xl md:text-7xl mb-20 font-bold"
+      >
         <h1>Speakers</h1>
       </div>
       <div className="w-full flex flex-wrap justify-center items-center">

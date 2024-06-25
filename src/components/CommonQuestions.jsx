@@ -11,7 +11,7 @@ const CommonQuestions = () => {
   };
 
   return (
-    <div className="font-inter antialiased text-white">
+    <div id="faq" className="font-inter antialiased text-white">
       <main className="min-h-screen flex flex-col justify-center  overflow-hidden">
         <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
           <h1 className="text-5xl py-2 font-bold text-white mb-6 text-center">
