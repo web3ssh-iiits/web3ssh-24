@@ -1,6 +1,6 @@
-import InteractiveBubble from './interactiveBubble';
+// import InteractiveBubble from './interactiveBubble';
 
-export default function GradientBackground({ children }) {
+export default function GradientBackground() {
   return (
     <div className="gradient-bg">
       <svg xmlns="http://www.w3.org/2000/svg">
@@ -32,7 +32,6 @@ export default function GradientBackground({ children }) {
         < InteractiveBubble />
         */}
       </div>
-      {children}
     </div>
   );
 }
