@@ -20,7 +20,7 @@ export function Hackathon() {
           </p>
         </div>
         <img
-          src="/graphics/code_cup.png"
+          src="/graphics/code_cup.webp"
           width={500}
           height={500}
           alt="linear demo image"
@@ -33,7 +33,7 @@ export function Hackathon() {
         </h2>
         <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200"></p>
         <img
-          src="/graphics/calendar.png"
+          src="/graphics/calendar.webp"
           width={500}
           height={500}
           alt="linear demo image"
@@ -50,7 +50,7 @@ export function Hackathon() {
           </p>
         </div>
         <img
-          src="/graphics/thinking.png"
+          src="/graphics/thinking.webp"
           width={500}
           height={500}
           alt="linear demo image"
@@ -65,7 +65,7 @@ export function Hackathon() {
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200"></p>
         </div>
         <img
-          src="/graphics/hacker.png"
+          src="/graphics/hacker.webp"
           width={500}
           height={500}
           alt="linear demo image"
@@ -80,7 +80,7 @@ export function Hackathon() {
           <p className="mt-4 max-w-[26rem] text-left  text-base/6 text-neutral-200"></p>
         </div>
         <img
-          src="/graphics/prizes.png"
+          src="/graphics/prizes.webp"
           width={500}
           height={500}
           alt="linear demo image"

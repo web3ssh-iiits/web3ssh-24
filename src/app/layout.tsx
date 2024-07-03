@@ -13,6 +13,8 @@ import Footer from '@components/Footer';
 import { GeistSans } from 'geist/font/sans';
 
 
+
+
 export const metadata: Metadata = {
   title: 'web3ssh',
   description: 'Web 3.0 Summer School & Hackathon',
@@ -28,22 +30,20 @@ export default function RootLayout({
   return (
     <html lang="en" className={GeistSans.className}>
       <head>
-        <link
+        {/* <link
           rel="stylesheet"
           href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200"
-        />
+        /> */}
       </head>
 
       <body>
-        <div className="relative">
-          {/* <BackgroundGradientAnimation> */}
-          <GradientBackground />
+          <div style={{width: "100vw", height: "100vh", position: 'fixed', zIndex: '-10'}}>
+          <GradientBackground/>
+          </div>
           <div className="relative z-10">
             <Navbar />
             <div id="root">{children}</div>
             <Footer />
-          </div>
-          {/* </BackgroundGradientAnimation> */}
         </div>
       </body>
     </html>

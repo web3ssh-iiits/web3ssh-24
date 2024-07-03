@@ -8,6 +8,9 @@ export default {
   content: ['./src/**/*.{js,jsx,ts,tsx}'],
   theme: {
     extend: {
+      height: {
+        'herosection': 'calc(100vh - 70px)',
+      },
       animation: {
         first: 'moveVertical 30s ease infinite',
         second: 'moveInCircle 20s reverse infinite',

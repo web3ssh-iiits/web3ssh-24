@@ -11,7 +11,7 @@ export default function SpeakersPanel() {
     >
       <div
         id="speakers"
-        className="text-white text-4xl md:text-7xl mb-20 font-bold"
+        className="text-white text-4xl md:text-6xl mb-20 font-bold"
       >
         <h1>Speakers</h1>
       </div>
