@@ -22,7 +22,7 @@ const KeyComponents = () => {
         scrollTrigger: {
           trigger: horContainer.current,
           pin: true,
-          scrub: 4,
+          scrub: 10,
           end: () => '+=' + horContainer.current.offsetWidth,
         },
       });
@@ -47,7 +47,7 @@ const KeyComponents = () => {
             <div
               key={index}
               className="group h-full w-screen flex flex-wrap lg:flex-nowrap overflow-hidden gap-5 items-center justify-evenly px-8 border-x text-2xl backdrop-blur-sm bg-black bg-opacity-70"
-              style={{borderRadius: '20px', marginRight:'5px'}}
+              style={{ borderRadius: '20px', marginRight: '5px' }}
             >
               {content.graphics && (
                 <CardContainer className="relative inline-block overflow-hidden rounded-xl px-8 py-3 text-sm font-medium bg-gray-900/30 transition-all">
