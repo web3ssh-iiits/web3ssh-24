@@ -2,31 +2,31 @@
   {
     "title": "Keynote Sessions",
     "text": "Keynote Sessions from Web 3.0 Thought Leaders",
-    "graphics": "/graphics/keynote_session.png"
+    "graphics": "/graphics/keynote_session.webp"
   },
   {
     "title": "Theory Sessions",
     "text": "Theory Sessions by Industry Experts",
-    "graphics": "/graphics/keynote_session.png"
+    "graphics": "/graphics/keynote_session.webp"
   },
   {
     "title": "Hands-on Practicals",
     "text": "Hands-on Practicals with Application Focus",
-    "graphics": "/graphics/hands_on.png"
+    "graphics": "/graphics/hands_on.webp"
   },
   {
     "title": "Exciting Competitions",
     "text": "Quizzes, Live Leaderboard, and attractive Prizes",
-    "graphics": "/graphics/leaderboard.png"
+    "graphics": "/graphics/leaderboard.webp"
   },
   {
     "title": "Visions & Voyages",
     "text": "Peer to peer learning between participants through sharing of expereinces.",
-    "graphics": "/graphics/visions_voyages.png"
+    "graphics": "/graphics/visions_voyages.webp"
   },
   {
     "title": "2-Day Hackathon",
     "text": "At the end, on the 3rd and 4th of August, 2024",
-    "graphics": "/graphics/hackathon.png"
+    "graphics": "/graphics/hackathon.webp"
   }
 ]

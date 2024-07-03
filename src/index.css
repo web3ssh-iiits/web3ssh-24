@@ -14,7 +14,9 @@
   --circle-size: 80%;
   --blending: hard-light;
 }
-
+#root{
+  margin-top: 70px;
+}
 @keyframes moveInCircle {
   0% {
     transform: rotate(0deg);

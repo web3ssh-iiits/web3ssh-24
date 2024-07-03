@@ -34,7 +34,7 @@ export default function SessionTypes() {
       id="schedule"
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gradient-to-r bg-opacity-90 mt-32"
     >
-      <h1 className="text-7xl font-bold mb-8 text-center text-white">
+      <h1 className="text-4xl md:text-7xl font-bold mb-8 text-center text-white">
         Session Types
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">

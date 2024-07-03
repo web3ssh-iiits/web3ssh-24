@@ -5,16 +5,19 @@ import { Hackathon } from '@components/Hackathon';
 import { JoinUs } from '@components/WhyJoin';
 
 import Speakers from '@components/Speakers';
-import dynamic from 'next/dynamic';
+// import dynamic from 'next/dynamic';
 import SessionTypes from '@components/SessionTypes';
-// import Outcomes from '@components/Outcomes';
+import Outcomes from '@components/Outcomes';
 import KeyComponents from '@components/KeyComponents';
+import Partners from '@components/Partners';
 
-const Outcomes = dynamic(() => import('@components/Outcomes'), { ssr: false });
+// const Outcomes = dynamic(() => import('@components/Outcomes'), { ssr: false });
 export default function Page() {
+
   return (
     <>
       <HeroSection />
+      <Partners/>
       <Speakers />
       <SessionTypes />
       <KeyComponents />

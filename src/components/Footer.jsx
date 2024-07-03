@@ -8,7 +8,7 @@ export default function Footer() {
           <div>
             <a href="/" className="flex mr-4">
               <img
-                src="/web3ssh.png"
+                src="/web3ssh.webp"
                 className="w-20 h-20 ml-4 lg:ml-0"
                 alt="Web3SSH logo"
               />
