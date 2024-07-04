@@ -51,11 +51,11 @@ const Outcomes = () => {
   return (
     <>
       <section
-        className={`flex w-screen mx-auto min-h-screen bg-gray-900 bg-opacity-90 text-gray-300 overflow-hidden my-8 pt-10 ${!lg && 'flex-col'}`}
+        className={`flex w-screen mx-auto min-h-screen bg-gray-900 bg-opacity-20 text-gray-300 overflow-hidden my-8 pt-10 ${!lg && 'flex-col'}`}
         ref={lg ? container : horContainer}
       >
         <div
-          className={`flex items-center justify-center    backdrop-blur-md text-center ${lg ? 'w-1/2 h-screen text-7xl' : 'w-screen max-h-48 pb-4 mb-8 text-4xl'}`}
+          className={`pt-12 font-sans flex items-center justify-center text-center ${lg ? 'w-1/2 h-screen text-6xl' : 'w-screen max-h-48 pb-4 mb-8 text-4xl'}`}
           {...textRefProps}
         >
           web3ssh outcomes {<br />}
@@ -72,17 +72,17 @@ const Outcomes = () => {
             >
               {/* 6250 × 4830 */}
               {content.graphics && (
-                <div className="relative inline-block overflow-hidden rounded-xl px-8 py-3 text-sm font-medium bg-gray-900/30  group-hover:bg-white/70 transition-all duration-500 delay-100 mx-8">
+                <div className="w-fit relative inline-block overflow-hidden rounded-xl px-8 py-3 text-sm font-medium bg-gray-900/30  group-hover:bg-white/70 transition-all duration-500 delay-100 mx-8">
                   <img
                     src={content.graphics}
                     alt={content.title}
-                    className=" w-[312.5px] h-[241.5px] mx-4 "
+                    className="w-[300px] object-cover rounded-xl"
                   />
                 </div>
               )}
               <div className="text-left ">
-                <h2 className="text-4xl font-bold mb-4">{content.title}</h2>
-                <p className="mb-4">{content.text}</p>
+                <h2 className="text-4xl font-sans font-medium mb-4">{content.title}</h2>
+                <p className="mb-4 font-sans">{content.text}</p>
               </div>
             </div>
           ))}
