@@ -5,7 +5,7 @@ import { User } from 'lucide-react';
 export default function AnalyticsSection() {
   return (
     <>
-      <div className="grid justify-items-center m-12 grid-cols-1 lg:grid-cols-2 lg:w-[60%] mx-auto  gap-x-0 max-w-4xl">
+      <div className="grid justify-items-center m-12 grid-cols-1 lg:grid-cols-2 lg:w-[60%] mx-auto  gap-x-0 ">
         {analyticsData.map((data, index) => (
           <AnalyticsCard
             key={index}
