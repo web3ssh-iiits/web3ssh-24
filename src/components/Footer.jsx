@@ -5,27 +5,27 @@ export default function Footer() {
     <>
       <footer className="bg-black bg-opacity-70 text-white pt-12 pb-8 px-4">
         <div className="mx-auto px-4 container overflow-hidden flex flex-col lg:flex-row justify-between">
-          <div>
+          <div className="md:1/3 lg:w-1/4">
             <a href="/" className="flex mr-4">
               <img
-                src="/web3ssh.png"
+                src="/web3ssh.webp"
                 className="w-20 h-20 ml-4 lg:ml-0"
                 alt="Web3SSH logo"
               />
-              <h1 className="justify-center items-center text-3xl my-6 lg:my-2 xl:my-6 h-10">
+              <h1 className="font-sans justify-center items-center text-3xl my-6 lg:my-2 xl:my-6 h-10">
                 web3ssh
               </h1>
             </a>
             <p className="text-sm"> © 2024</p>
           </div>
 
-          <div className="w-2/3 block sm:flex text-sm mt-6 lg:mt-0">
+          <div className="w-full block sm:flex text-sm mt-6 lg:mt-0">
             {footerData.map((section, index) => (
               <ul
                 key={index}
-                className="text-gray-700 list-none p-0 font-thin flex flex-col text-left w-full"
+                className="text-gray-700 list-none p-0 font-sans font-thin flex flex-col text-left w-full px-5"
               >
-                <li className="inline-block py-2 px-3 text-white uppercase font-bold text-xl tracking-wide ">
+                <li className="inline-block py-2 px-3 text-white uppercase font-thin text-xl tracking-wide ">
                   {section.sectionHead}
                 </li>
                 {section.sectionItems.map((item, idx) => (

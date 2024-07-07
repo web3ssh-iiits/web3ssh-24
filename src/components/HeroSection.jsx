@@ -1,10 +1,9 @@
-import LogoImg from '@public/web3ssh.png';
-import iiitSricityLogo from '@public/iiits.png';
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
 import Partners from './Partners';
-import { AnimatedTooltip } from './ui/animated-tooltip';
+// import { AnimatedTooltip } from './ui/animated-tooltip';
 import { Highlight } from '@components/ui/hero-highlight';
+
 
 const HeroSection = () => {
   const words = [
@@ -29,54 +28,32 @@ const HeroSection = () => {
     },
   ];
 
-  const logos = [
-    {
-      id: 1,
-      name: 'IIIT Sri City',
-      designation: 'Organized by Dept. of CSE',
-      image: '/iiits.png',
-    },
-    {
-      id: 2,
-      name: 'web3ssh',
-      designation: 'Web 3.0 Summer School & Hackathon',
-      image: '/web3ssh.png',
-    },
-  ];
   return (
     <div
       className={clsx(
-        'flex flex-col items-center justify-center h-[100vh] z-10 text-white',
-        'pt-28',
+        'flex flex-col items-center justify-start pt-5 h-herosection z-10 text-white',
+        'lg:justify-start lg:pt-20',
+        'pt-0',
       )}
     >
-      <div className="mt-10 flex flex-row items-center justify-center mb-10 w-full">
-        {/* <img
-          src={iiitSricityLogo.src}
-          alt="IIIT Sri City"
-          className="h-24 w-24 "
-        />
-        <img src={LogoImg.src} alt="Web 3 Event Logo" className="h-24 w-24" /> */}
-        <AnimatedTooltip items={logos} />
-      </div>
-      <TypewriterEffect words={words} />
-      <div className="lg:text-2xl text-center xl:w-2/5 lg:w-1/2 md:text-sm  mt-4 sm:w-3/5 max-[450px]:text-xs max-[375px]:w-4/5 w-3/4 text-white text-lg ">
+      <TypewriterEffect words={words} className='px-10 min-h-[220px] lg:min-h-[100px]' />
+      <div className="text-md lg:text-2xl  text-center xl:w-2/5 lg:w-1/2 sm:w-3/5 max-[375px]:w-4/5 w-3/4 text-white">
         Building the future, one block at a time! {<br />}Join us for a week of
         learning and fun.
       </div>
       <div>
         <div className="mt-8">
-          <Highlight className="text-3xl font-bold">
+          <div className="text-2xl font-bold">
             29th July to 4th August
-          </Highlight>
+          </div>
         </div>
       </div>
       <div className="my-2">
-        <div className="mt-16 flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 ">
+        <div className="mt-10 lg:mt-10 flex flex-col md:flex-row space-y-4 md:space-y-0 space-x-0 md:space-x-4 items-center justify-center">
           <a href="/register">
-            <button className="transform hover:-translate-y-1 transition duration-400 relative inline-flex sm:h-16 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
+            <button className="w-64 transform hover:-translate-y-1 transition duration-400 relative inline-flex sm:h-16 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 pl-12  pr-8 py-4 text-xl sm:text-4xl font-bold text-white backdrop-blur-3xl">
+              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 pl-12 pr-8 py-4 text-xl sm:text-4xl font-semibold text-white backdrop-blur-3xl">
                 Join Us
                 <svg
                   width="32"
@@ -97,14 +74,13 @@ const HeroSection = () => {
             </button>
           </a>
           <a href="/brochure">
-            <button className="transform hover:-translate-y-1 transition duration-400 w-64 h-16 rounded-full bg-white text-black text-xl sm:text-4xl font-bold bg-opacity-50 flex items-center justify-center">
-              <span className="material-symbols-outlined px-2">download</span>
+            <button className="transform hover:-translate-y-1 transition duration-400 h-16 w-64 md:h-16 md:w-64 rounded-full bg-white text-black text-xl sm:text-4xl font-bold bg-opacity-50 flex items-center justify-center">
+              <img src='./download-icon.svg' style={{ width: '36px', marginRight: '10px' }}></img>
               Brochure
             </button>
           </a>
         </div>
       </div>
-      <Partners />
     </div>
   );
 };

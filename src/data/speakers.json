@@ -2,37 +2,37 @@
   {
     "name": "Dr. Shashidhar",
     "experience": "Lead Researcher, Samsung R&D ",
-    "imageUrl": "/speakers/dr_shashidhar_r.png",
+    "imageUrl": "/speakers/dr_shashidhar_r.webp",
     "details": "Blockchain R&D | Blockchain Architect | KNOX Security| Cryptography"
   },
   {
     "name": "Laisha Wadhwa",
     "experience": "ML @Lucidity, Ex- Goldman Sachs",
-    "imageUrl": "/speakers/laisha_wadhwa.png",
+    "imageUrl": "/speakers/laisha_wadhwa.webp",
     "details": " Web3 Devrel | Ex- Goldman Sachs | Speaker | Podcast Host | Mentor | Web3 Security"
   },
   {
     "name": "Pranshu Rastogi",
     "experience": "Head of Ecosystem, Push Protocol",
-    "imageUrl": "/speakers/pranshu_rastogi.png",
+    "imageUrl": "/speakers/pranshu_rastogi.webp",
     "details": "Something nice about the speaker"
   },
   {
     "name": "Ilham EL Boloumi",
     "experience": "Founder, Datachain Ed",
-    "imageUrl": "/speakers/elham_el_boloumi.png",
+    "imageUrl": "/speakers/elham_el_boloumi.webp",
     "details": "Something nice about the speaker"
   },
   {
     "name": "Zaryab Afsar",
     "experience": "Blockchain Lead, Push Protocol",
-    "imageUrl": "/speakers/zaryab_afser.png",
+    "imageUrl": "/speakers/zaryab_afser.webp",
     "details": "Something nice about the speaker"
   },
   {
     "name": "Dr. Rajendra Prasath",
     "experience": "Associate Professor, IIIT Sri City",
-    "imageUrl": "/speakers/dr_rajendra_prasath.png",
+    "imageUrl": "/speakers/dr_rajendra_prasath.webp",
     "details": "Something nice about the speaker"
   }
 ]

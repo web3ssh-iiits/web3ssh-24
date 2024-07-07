@@ -9,16 +9,16 @@ export default function AnalyticsCard({ icon, number, unit, title }) {
                 {icon}
               </div>
               <div className="pt-1 text-left">
-                <h4 className="text-2xl font-semibold tracking-tighter lg:text-4xl">
+                <h4 className="text-2xl font-sans font-bold tracking-tighter lg:text-4xl">
                   {number}
                 </h4>
-                <p className="text-2xl font-light capitalize">{unit}</p>
+                <p className="text-2xl font-sans font-light capitalize">{unit}</p>
               </div>
             </div>
 
             <div className="p-4">
               <p className="font-light">
-                <span className="text-4xl font-bold">{title}</span>
+                <span className="text-4xl font-sans font-medium">{title}</span>
               </p>
             </div>
           </div>

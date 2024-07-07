@@ -32,27 +32,27 @@ export default function SessionTypes() {
   return (
     <div
       id="schedule"
-      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-12 bg-gradient-to-r bg-opacity-90 mt-32"
+      className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gradient-to-r bg-opacity-90 mb-[120px]"
     >
-      <h1 className="text-7xl font-bold mb-8 text-center text-white">
+      <h1 className="text-4xl md:text-6xl font-sans font-medium mb-10 lg:mb-20 text-center text-white">
         Session Types
       </h1>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 gap-6">
         {scheduleData.map((item, index) => (
           <div
             key={index}
-            className="bg-white bg-opacity-40 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300"
+            className="bg-white bg-opacity-10 shadow-md rounded-lg p-6 hover:scale-105 transition-transform duration-300"
           >
             <div className="flex items-center mb-2">
               {item.icon}
-              <h2 className="text-4xl font-bold">{item.title}</h2>
+              <h2 className="text-2xl lg:text-4xl font-sans font-medium text-white">{item.title}</h2>
             </div>
-            <div className="flex items-center mb-4">
-              <div className="bg-purple-400 text-muted-foreground mx-4 px-2 py-1 rounded-full text-lg font-medium">
+            <div className="flex justify-start items-center my-4 ml-0">
+              <div className="bg-[#222] text-white text-muted-foreground px-5 py-1 rounded-full text-lg font-medium">
                 {item.time}
               </div>
             </div>
-            <p className="text-2xl">{item.description}</p>
+            <p className="text-xl font-sans text-white">{item.description}</p>
           </div>
         ))}
       </div>
