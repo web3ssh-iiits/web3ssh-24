@@ -40,8 +40,8 @@ export default function Navbar() {
   const containerStyle = {
     position: "fixed",
     top: topbarPosition,
-    width: 'calc(100vw - 64px)',
-    left: '32px',
+    width: 'calc(100vw - 100px)',
+    left: '50px',
     marginTop: '20px',
     display: "flex",
     justifyContent: "space-between",
@@ -63,9 +63,10 @@ export default function Navbar() {
     <div className="w-full h-[60px] top-0 flex z-50 text-2xl">
       
       <div style={containerStyle} className="z-50 text-white  border-none flex justify-between items-center">
-        <div className="min-w-fit h-[60px] w-full flex justify-center items-center" >
+        <div className="min-w-fit h-[60px] w-full pl-10 flex justify-start items-center" >
           <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={()=>(window.location.href='/')}/>
         </div>
+        
         <div className="hidden sm:flex justify-between gap-6 items-center">
           <ul className="flex lg:gap-6 sm:gap-2">
             {navData.map((item, index) => (

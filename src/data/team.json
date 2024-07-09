@@ -4,34 +4,44 @@
     "members": [
       {
         "name": "Dr. Bheemappa Halavar",
-        "profilePic": "/team/dr_bheemappa_halavar.webp"
+        "profilePic": "/team/dr_bheemappa_halavar.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Dr. Himangsu Sarma",
-        "profilePic": "/team/dr_himangshu_sarma.webp"
+        "profilePic": "/team/dr_himangshu_sarma.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },
   {
     "role": "Student Co-ordinators",
-
     "members": [
       {
         "name": "Abhishek Bhagat",
-        "profilePic": "/team/abhishek_bhagat.webp"
+        "profilePic": "/team/abhishek_bhagat.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Vaibhav Pande",
-        "profilePic": "/team/vaibhav_pandey.webp"
+        "profilePic": "/team/vaibhav_pandey.webp",
+        "link": "#",
+        "link_title": ""
       },
-
       {
         "name": "Aahnik Daw",
-        "profilePic": "/team/aahnik.webp"
+        "profilePic": "/team/aahnik.webp",
+        "link": "https://aahnik.dev",
+        "link_title": "aahnik.dev"
       },
       {
         "name": "Suvan Sarkar",
-        "profilePic": "/team/suvan.webp"
+        "profilePic": "/team/suvan.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },
@@ -40,31 +50,45 @@
     "members": [
       {
         "name": "Sreevallabh Karanam",
-        "profilePic": "/team/sreevallabh_karanam.webp"
+        "profilePic": "/team/sreevallabh_karanam.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Mithun U",
-        "profilePic": "/team/mithun.webp"
+        "profilePic": "/team/mithun.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Varun Mantri",
-        "profilePic": "/team/varun_mantri.webp"
+        "profilePic": "/team/varun_mantri.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Vinayak Anand",
-        "profilePic": "/team/vinayak_anand.webp"
+        "profilePic": "/team/vinayak_anand.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Bishwajeet Sahoo",
-        "profilePic": "/team/void.webp"
+        "profilePic": "/team/void.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Saurabh Pal",
-        "profilePic": "/team/xor.webp"
+        "profilePic": "/team/xor.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Sudip Halder",
-        "profilePic": "/team/sudip_halder.jpeg"
+        "profilePic": "/team/sudip_halder.jpeg",
+        "link": "https://sudip.me/",
+        "link_title": "sudip.me"
       }
     ]
   },
@@ -73,23 +97,33 @@
     "members": [
       {
         "name": "Aditya Pande",
-        "profilePic": "/team/aditya_pande.webp"
+        "profilePic": "/team/aditya_pande.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Tejasri Pacharu",
-        "profilePic": "/team/tejasri_pacharu.webp"
+        "profilePic": "/team/tejasri_pacharu.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Abhishek Suwalka",
-        "profilePic": "/team/abhishek_suwalka.webp"
+        "profilePic": "/team/abhishek_suwalka.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Naman Goyal",
-        "profilePic": "/team/naman_goyal.webp"
+        "profilePic": "/team/naman_goyal.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Sai Akshita Dimpu Pagoti",
-        "profilePic": "/team/sai_akshita_dimpu_pagoti.webp"
+        "profilePic": "/team/sai_akshita_dimpu_pagoti.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },
@@ -98,28 +132,39 @@
     "members": [
       {
         "name": "Aryan Sharma",
-        "profilePic": "/team/aryan_sharma.webp"
+        "profilePic": "/team/aryan_sharma.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Amodini Ap",
-        "profilePic": "/team/amodini_ap.webp"
+        "profilePic": "/team/amodini_ap.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Shyam Modi",
-        "profilePic": "/team/shyam_modi.webp"
+        "profilePic": "/team/shyam_modi.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Karthik M Sarma",
-        "profilePic": "/team/karthik_m_sarma.webp"
+        "profilePic": "/team/karthik_m_sarma.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Siddharth Singh",
-        "profilePic": "/team/siddharth_singh.webp"
+        "profilePic": "/team/siddharth_singh.webp",
+        "link": "#",
+        "link_title": ""
       },
-
       {
         "name": "Kaushal Edara",
-        "profilePic": "/team/kaushal_edara.webp"
+        "profilePic": "/team/kaushal_edara.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },
@@ -128,15 +173,21 @@
     "members": [
       {
         "name": "Yagnesh Kumar Koduru",
-        "profilePic": "/team/yagnesh_kumar_koduru.webp"
+        "profilePic": "/team/yagnesh_kumar_koduru.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Vanya Awasthi",
-        "profilePic": "/team/vanya_awasthi.webp"
+        "profilePic": "/team/vanya_awasthi.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Vedant Kesarwani",
-        "profilePic": "/team/vedant_kesarwani.webp"
+        "profilePic": "/team/vedant_kesarwani.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },
@@ -145,21 +196,27 @@
     "members": [
       {
         "name": "Charishma Bollineni",
-        "profilePic": "/team/charishma_bollineni.webp"
+        "profilePic": "/team/charishma_bollineni.webp",
+        "link": "#",
+        "link_title": ""
       },
       {
         "name": "Shreeraj M",
-        "profilePic": "/team/shreeraj_m.webp"
+        "profilePic": "/team/shreeraj_m.webp",
+        "link": "#",
+        "link_title": ""
       },
-
       {
         "name": "Adarsh Singh",
-        "profilePic": "/team/adarsh_singh.webp"
+        "profilePic": "/team/adarsh_singh.webp",
+        "link": "#",
+        "link_title": ""
       },
-
       {
         "name": "Piyush Singh",
-        "profilePic": "/team/piyush_singh.webp"
+        "profilePic": "/team/piyush_singh.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   }

@@ -63,7 +63,7 @@ export const FlipWords = ({
           'z-10 inline-block relative text-left text-neutral-900px-2',
           className,
         )}
-        style={{color: 'black', textShadow: '0px 0px 1px white'}}
+        style={{color: 'black'}}
         key={currentWord}
       >
         {currentWord.split('').map((letter, index) => (

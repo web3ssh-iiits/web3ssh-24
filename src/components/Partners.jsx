@@ -1,61 +1,75 @@
-import gdscLogo from '@public/partners/gdsc_iiitsc.webp';
-import iiitiansNetworkLogo from '@public/partners/iiitians_network.webp';
 import { AnimatedTooltip } from './ui/animated-tooltip';
 import iiitLogo from '@public/iiits.webp';
 import web3sshLogo from '@public/web3ssh.webp';
-import blockChainedLogo from '@public/partners/blockchained.webp';
+import gdscLogo from '@public/partners/gdsc-iiitsc-logo.webp';
+import iiitiansNetworkLogo from '@public/partners/iiitians-network-logo.webp';
+import blockChainedLogo from '@public/partners/blockchained-logo.webp';
+import fileCoinLogo from '@public/partners/filecoin-logo.webp';
 
 export default function Partners() {
   return (
-    <section className="mb-[120px] bg-white bg-opacity-0 w-full flex justify-center items-center p-2 lg:mb-[200px] font-sans font-medium">
+    <section className="mt-[50px] mb-[100px] bg-white bg-opacity-0 w-full flex justify-center items-center p-2 font-sans font-medium">
       <div className="max-w-screen-xl px-0  mx-auto  lg:pb-0">
-        {/* <AnimatedTooltip items={logos} /> */}
-        <div className="grid grid-cols-1 gap-14 sm:gap-5 sm:grid-cols-1 text-gray-400">
-          <h1 className="text-white text-4xl md:text-6xl mb-0  text-center">Organizer</h1>
-          <div className="grid grid-cols-1 gap-5 sm:gap-5 sm:grid-cols-1 text-gray-400">
-            <a
-              className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
-              target="_blank"
-            >
-              <img src={iiitLogo.src} alt="IIIT Sri City" className="w-[40%] lg:w-[20%]" />
-            </a>
-            {/* <a
-              className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
-              target="_blank"
-            >
-              <img src={web3sshLogo.src} alt="Web3ssh" className="w-[80%] lg:w-[30%]" />
-            </a> */}
-          </div>
-          <h1 className="text-white text-4xl md:text-6xl text-center lg:mt-20">Partners</h1>
-          <div className="grid grid-cols-1 gap-5 sm:gap-5 sm:grid-cols-2 text-gray-400">
-            <a
-              className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2"
-              target="_blank"
-            >
-              <img
-                src={blockChainedLogo.src}
-                alt="Blockchained India"
-                className="w-[60%] lg:w-[80%] fill-gray-400 hover:fill-current"
-              />
-              </a>
-            <a
-              className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
-              target="_blank"
-            >
-              <img src={gdscLogo.src} alt="GDSC" className="w-[100%] lg:w-[100%]" />
-            </a>
 
-            <a
-              className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2"
-              target="_blank"
-            >
-              <img
-                src={iiitiansNetworkLogo.src}
-                alt="IIITians Network"
-                className="w-[60%] lg:w-[40%] fill-gray-400 hover:fill-current"
-              />
-            </a>
+        <div className="h-fit grid grid-cols-1 gap-14 sm:grid-cols-2 sm:gap-5 md:grid-cols-3 text-gray-400">
+
+          <div className='h-fit m-5'>
+            <h1 className="text-white text-4xl  text-center mb-5">Organizer</h1>
+            <div className="flex w-full h-fit justify-center items-center">
+              <a
+                className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
+                target="_blank"
+              >
+                <img src={iiitLogo.src} alt="IIIT Sri City" className="w-[200px] sm:w-[100px] md:w-[150px]" />
+              </a>
+            </div>
           </div>
+
+          <div className='h-fit m-5'>
+            <h1 className="text-white text-4xl text-center mb-5">Sponsors</h1>
+            <div className="flex w-full h-fit justify-center items-center">
+              <a
+                className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
+                target="_blank"
+              >
+                <img src={fileCoinLogo.src} alt="filecoin" className="w-[250px] lg:w-[250px]" />
+              </a>
+            </div>
+          </div>
+
+          <div className='h-fit m-5'>
+            <h1 className="text-white text-4xl text-center  mb-5">Partners</h1>
+            <div className="flex flex-wrap w-full h-fit justify-center items-center">
+              <a
+                className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2"
+                target="_blank"
+              >
+                <img
+                  src={blockChainedLogo.src}
+                  alt="Blockchained India"
+                  className="w-[250px] lg:w-[250px] fill-gray-400 hover:fill-current"
+                />
+              </a>
+              <a
+                className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2 "
+                target="_blank"
+              >
+                <img src={gdscLogo.src} alt="GDSC" className="w-[300px] lg:w-[200px]" />
+              </a>
+
+              <a
+                className="flex items-center justify-center transform transition duration-300 hover:scale-105 hover:translate-y-2"
+                target="_blank"
+              >
+                <img
+                  src={iiitiansNetworkLogo.src}
+                  alt="IIITians Network"
+                  className="w-[200px] lg:w-[120px] fill-gray-400 hover:fill-current"
+                />
+              </a>
+            </div>
+          </div>
+
         </div>
       </div>
     </section>

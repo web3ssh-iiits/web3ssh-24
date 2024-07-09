@@ -31,8 +31,8 @@ const HeroSection = () => {
   return (
     <div
       className={clsx(
-        'flex flex-col items-center justify-start pt-5 h-herosection z-10 text-white',
-        'lg:justify-start lg:pt-20',
+        'flex flex-col items-center justify-start h-[calc(100vh-200px)] sm:h-fit z-10 text-white',
+        'lg:justify-start ',
         'pt-0',
       )}
     >
