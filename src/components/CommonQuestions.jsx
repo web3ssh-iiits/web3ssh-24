@@ -14,7 +14,7 @@ const CommonQuestions = () => {
     <div id="faq" className="font-inter antialiased text-white">
       <main className="min-h-screen flex flex-col justify-center  overflow-hidden">
         <div className="w-full max-w-6xl mx-auto px-4 md:px-6 py-24">
-          <h1 className="text-5xl py-2 font-bold text-white mb-6 text-center">
+          <h1 className="text-5xl py-2 font-sans font-semibold text-white mb-6 text-center">
             Frequently Asked Questions
           </h1>
           <div className="space-y-4">
@@ -27,7 +27,7 @@ const CommonQuestions = () => {
                   <button
                     id={`faqs-title-0${index + 1}`}
                     type="button"
-                    className="flex items-center justify-between w-full text-left font-semibold py-2 text-white"
+                    className="flex items-center justify-between w-full text-left font-sans font-medium py-2 text-white"
                     onClick={() => toggleExpand(index + 1)}
                     aria-expanded={expandedItem === index + 1}
                     aria-controls={`faqs-text-0${index + 1}`}
@@ -61,7 +61,7 @@ const CommonQuestions = () => {
                       : 'max-h-0 opacity-0'
                   }`}
                 >
-                  <p className="pb-3 text-xl text-gray-300">{item.answer}</p>
+                  <p className="pb-3 text-xl text-gray-300 font-sans">{item.answer}</p>
                 </div>
               </div>
             ))}

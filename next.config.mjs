@@ -10,25 +10,25 @@ const nextConfig = {
       {
         source: '/pitch',
         destination:
-          'https://drive.google.com/file/d/1dwiyvYdlGzo_qKJgDk1rVLfYSY-cBPYx/view?usp=drive_link',
+          'https://drive.google.com/file/d/1lpezW5KzsP82Ku5ECwhUA2tfBuGp1U5K/view?usp=drive_link',
         permanent: false,
       },
       {
         source: '/cfs',
         destination:
-          'https://drive.google.com/file/d/1GHNlv66omIWsknBeFpmgniWPgiENa4Mj/view?usp=drive_link',
+          'https://drive.google.com/file/d/1qBIZWryww6nAM47n4d31E-kMNwu6Yevp/view?usp=drive_link',
         permanent: false,
       },
       {
         source: '/promo',
         destination:
-          'https://drive.google.com/file/d/16HDNVGTlzIlti3GFfH4VXFWqDIJRG2Vz/view?usp=drive_link',
+          'https://drive.google.com/file/d/1kx2dvwie4yqe2rFAnEnteCadNF5g7Of_/view?usp=drive_link',
         permanent: false,
       },
       {
         source: '/brochure',
         destination:
-          'https://drive.google.com/file/d/1sYzc6FaMd4S0wvNOjk7_kjvA4kbmOHCg/view?usp=drive_link',
+          'https://drive.google.com/file/d/19VHPzwg-9_S-TlF4yX5konH3Z9WZlRRV/view?usp=drive_link',
         permanent: false,
       },
       {

@@ -11,6 +11,11 @@ export default {
       height: {
         'herosection': 'calc(100vh - 70px)',
       },
+      fontFamily: {
+        sans: ['Montserrat', 'sans-serif'],
+        exo: ['Exo', 'sans-serif'],
+        raleway: ['Raleway', 'sans-serif'],
+      },
       animation: {
         first: 'moveVertical 30s ease infinite',
         second: 'moveInCircle 20s reverse infinite',

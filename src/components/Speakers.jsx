@@ -6,12 +6,12 @@ export default function SpeakersPanel() {
   return (
     <div
       className={clsx(
-        'w-full flex flex-col justify-center items-center sm:px-40',
+        'w-full mb-[120px] flex flex-col justify-center items-center sm:px-40',
       )}
     >
       <div
         id="speakers"
-        className="text-white text-4xl md:text-6xl mb-20 font-bold"
+        className="text-white text-4xl md:text-6xl mb-10 lg:mb-20 font-sans font-medium"
       >
         <h1>Speakers</h1>
       </div>

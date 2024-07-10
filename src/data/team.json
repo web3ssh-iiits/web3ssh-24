@@ -4,11 +4,11 @@
     "members": [
       {
         "name": "Dr. Bheemappa Halavar",
-        "profilePic": "/team/dr_bheemappa_halavar.jpg"
+        "profilePic": "/team/dr_bheemappa_halavar.webp"
       },
       {
         "name": "Dr. Himangsu Sarma",
-        "profilePic": "/team/dr_himangshu_sarma.jpg"
+        "profilePic": "/team/dr_himangshu_sarma.webp"
       }
     ]
   },
@@ -18,20 +18,20 @@
     "members": [
       {
         "name": "Abhishek Bhagat",
-        "profilePic": "/team/abhishek_bhagat.jpeg"
+        "profilePic": "/team/abhishek_bhagat.webp"
       },
       {
         "name": "Vaibhav Pande",
-        "profilePic": "/team/vaibhav_pandey.jpeg"
+        "profilePic": "/team/vaibhav_pandey.webp"
       },
 
       {
         "name": "Aahnik Daw",
-        "profilePic": "/team/aahnik.png"
+        "profilePic": "/team/aahnik.webp"
       },
       {
         "name": "Suvan Sarkar",
-        "profilePic": "/team/suvan.png"
+        "profilePic": "/team/suvan.webp"
       }
     ]
   },
@@ -40,27 +40,31 @@
     "members": [
       {
         "name": "Sreevallabh Karanam",
-        "profilePic": "/team/sreevallabh_karanam.jpg"
+        "profilePic": "/team/sreevallabh_karanam.webp"
       },
       {
         "name": "Mithun U",
-        "profilePic": "/team/mithun.png"
+        "profilePic": "/team/mithun.webp"
       },
       {
         "name": "Varun Mantri",
-        "profilePic": "/team/varun_mantri.jpeg"
+        "profilePic": "/team/varun_mantri.webp"
       },
       {
         "name": "Vinayak Anand",
-        "profilePic": "/team/vinayak_anand.jpg"
+        "profilePic": "/team/vinayak_anand.webp"
       },
       {
         "name": "Bishwajeet Sahoo",
-        "profilePic": "/team/void.png"
+        "profilePic": "/team/void.webp"
       },
       {
         "name": "Saurabh Pal",
-        "profilePic": "/team/xor.png"
+        "profilePic": "/team/xor.webp"
+      },
+      {
+        "name": "Sudip Halder",
+        "profilePic": "/team/sudip_halder.jpeg"
       }
     ]
   },
@@ -69,23 +73,23 @@
     "members": [
       {
         "name": "Aditya Pande",
-        "profilePic": "/team/aditya_pande.jpg"
+        "profilePic": "/team/aditya_pande.webp"
       },
       {
         "name": "Tejasri Pacharu",
-        "profilePic": "/team/tejasri_pacharu.jpg"
+        "profilePic": "/team/tejasri_pacharu.webp"
       },
       {
         "name": "Abhishek Suwalka",
-        "profilePic": "/team/abhishek_suwalka.jpg"
+        "profilePic": "/team/abhishek_suwalka.webp"
       },
       {
         "name": "Naman Goyal",
-        "profilePic": "/team/naman_goyal.jpg"
+        "profilePic": "/team/naman_goyal.webp"
       },
       {
         "name": "Sai Akshita Dimpu Pagoti",
-        "profilePic": "/team/sai_akshita_dimpu_pagoti.jpg"
+        "profilePic": "/team/sai_akshita_dimpu_pagoti.webp"
       }
     ]
   },
@@ -94,28 +98,28 @@
     "members": [
       {
         "name": "Aryan Sharma",
-        "profilePic": "/team/aryan_sharma.jpg"
+        "profilePic": "/team/aryan_sharma.webp"
       },
       {
         "name": "Amodini Ap",
-        "profilePic": "/team/amodini_ap.jpg"
+        "profilePic": "/team/amodini_ap.webp"
       },
       {
         "name": "Shyam Modi",
-        "profilePic": "/team/shyam_modi.jpg"
+        "profilePic": "/team/shyam_modi.webp"
       },
       {
         "name": "Karthik M Sarma",
-        "profilePic": "/team/karthik_m_sarma.jpg"
+        "profilePic": "/team/karthik_m_sarma.webp"
       },
       {
         "name": "Siddharth Singh",
-        "profilePic": "/team/siddharth_singh.jpg"
+        "profilePic": "/team/siddharth_singh.webp"
       },
 
       {
         "name": "Kaushal Edara",
-        "profilePic": "/team/kaushal_edara.png"
+        "profilePic": "/team/kaushal_edara.webp"
       }
     ]
   },
@@ -124,15 +128,15 @@
     "members": [
       {
         "name": "Yagnesh Kumar Koduru",
-        "profilePic": "/team/yagnesh_kumar_koduru.jpg"
+        "profilePic": "/team/yagnesh_kumar_koduru.webp"
       },
       {
         "name": "Vanya Awasthi",
-        "profilePic": "/team/vanya_awasthi.jpg"
+        "profilePic": "/team/vanya_awasthi.webp"
       },
       {
         "name": "Vedant Kesarwani",
-        "profilePic": "/team/vedant_kesarwani.jpg"
+        "profilePic": "/team/vedant_kesarwani.webp"
       }
     ]
   },
@@ -141,21 +145,21 @@
     "members": [
       {
         "name": "Charishma Bollineni",
-        "profilePic": "/team/charishma_bollineni.jpg"
+        "profilePic": "/team/charishma_bollineni.webp"
       },
       {
         "name": "Shreeraj M",
-        "profilePic": "/team/shreeraj_m.JPG"
+        "profilePic": "/team/shreeraj_m.webp"
       },
 
       {
         "name": "Adarsh Singh",
-        "profilePic": "/team/adarsh_singh.png"
+        "profilePic": "/team/adarsh_singh.webp"
       },
 
       {
         "name": "Piyush Singh",
-        "profilePic": "/team/piyush_singh.png"
+        "profilePic": "/team/piyush_singh.webp"
       }
     ]
   }
