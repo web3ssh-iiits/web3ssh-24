@@ -23,9 +23,9 @@ export default function Footer() {
             {footerData.map((section, index) => (
               <ul
                 key={index}
-                className="text-gray-700 list-none p-0 font-sans font-thin flex flex-col text-left w-full px-5"
+                className="text-gray-700 list-none p-0 font-sans font-normal flex flex-col text-left w-full px-5"
               >
-                <li className="inline-block py-2 px-3 text-white uppercase font-thin text-xl tracking-wide ">
+                <li className="inline-block py-2 px-3 text-white uppercase font-normal text-xl tracking-wide ">
                   {section.sectionHead}
                 </li>
                 {section.sectionItems.map((item, idx) => (
