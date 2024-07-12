@@ -44,7 +44,7 @@ export default function Hackathon() {
           className="w-[240px] absolute -right-5 -bottom-1 object-contain rounded-2xl"
         />
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[500px] lg:min-h-[600px]">
+      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[500px] lg:min-h-[550px]">
         <div className="">
           <h2 className="text-left text-balance text-4xl font-semibold tracking-[-0.015em] text-white mb-10">
             Day 0, August 2
@@ -64,7 +64,7 @@ export default function Hackathon() {
           className="w-[240px] absolute -right-5 -bottom-1 object-contain rounded-2xl"
         />
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[500px] lg:min-h-[600px]">
+      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[500px] lg:min-h-[550px]">
         <div className="max-w-sm">
           <h2 className="text-left text-balance text-4xl font-semibold tracking-[-0.015em] text-white mb-10">
             Day 1, August 3
@@ -83,7 +83,7 @@ export default function Hackathon() {
           className="w-[240px] absolute -right-5 -bottom-1 object-contain rounded-2xl"
         />
       </WobbleCard>
-      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[550px] lg:min-h-[600px]">
+      <WobbleCard containerClassName="col-span-1 lg:col-span-1 bg-blue-900 min-h-[500px] lg:min-h-[550px]">
         <div className="max-w-sm">
           <h2 className="text-left text-balance text-4xl font-semibold tracking-[-0.015em] text-white mb-10">
             Day 2, August 4

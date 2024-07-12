@@ -5,9 +5,9 @@ import AnalyticsSection from '@components/AnalyticsSection';
 import { JoinUs } from '@components/WhyJoin';
 
 import Speakers from '@components/Speakers';
-// import dynamic from 'next/dynamic';
+import dynamic from 'next/dynamic';
 import SessionTypes from '@components/SessionTypes';
-import Outcomes from '@components/Outcomes';
+// import Outcomes from '@components/Outcomes';
 import KeyComponents from '@components/KeyComponents';
 import Partners from '@components/Partners';
 
@@ -15,7 +15,6 @@ const Outcomes = dynamic(() => import('@components/Outcomes'), { ssr: false });
 const Hackathon = dynamic(() => import('@components/Hackathon'), { ssr: false });
 
 export default function Page() {
-
   return (
     <>
       <HeroSection />
