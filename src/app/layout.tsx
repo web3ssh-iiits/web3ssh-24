@@ -12,12 +12,35 @@ import Footer from '@components/Footer';
 import dynamic from 'next/dynamic';
 import { GeistSans } from 'geist/font/sans';
 
+import defaultLinkPreview from '@public/default-link-preview.png';
+
 const Navbar = dynamic(() => import('@components/Navbar'), { ssr: false });
 
 export const metadata: Metadata = {
   title: 'web3ssh',
-  description: 'Web 3.0 Summer School & Hackathon',
-};
+  description: 'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web3.0 technologies and build decentralized applications.',
+  metadataBase: new URL("https://web3ssh.dev/"),
+  openGraph: {
+    title: 'web3ssh',
+    description: 'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web3.0 technologies and build decentralized applications.',
+    type: 'website',
+    url: "https://web3ssh.dev/",
+    images: [
+      {
+        url: defaultLinkPreview.src,
+        width: 800,
+        height: 600,
+        alt: "web3ssh",
+      },
+    ],
+  },
+  twitter: {
+    card: 'summary_large_image',
+    title: 'web3ssh',
+    description: 'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web3.0 technologies and build decentralized applications.',
+    images: [defaultLinkPreview.src],
+  },
+}
 
 gsap.registerPlugin(useGSAP, ScrollTrigger);
 
