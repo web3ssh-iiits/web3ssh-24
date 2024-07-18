@@ -67,7 +67,6 @@ function DiscountUnlocked() {
               <p className="text-2xl pt-16 py-2 ">
                 Congrats! You have unlocked a discount!
               </p>
-              <p className="text-2xl"> Offer Valid Till: 15th July 2024.</p>
               <p className="text-2xl">
                 {' '}
                 <s>₹800</s> ₹499{' '}
