@@ -63,7 +63,7 @@ export default function Navbar() {
     <div className="w-full h-[60px] top-0 flex z-50 text-2xl">
       
       <div style={containerStyle} className="z-50 text-white  border-none flex justify-between items-center">
-        <div className="min-w-fit h-[60px] w-full pl-10 flex justify-start items-center" >
+        <div className="min-w-fit h-[60px] w-full sm:w-fit md:w-full pl-5 flex justify-start items-center" >
           <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={()=>(window.location.href='/')}/>
         </div>
         
@@ -81,7 +81,7 @@ export default function Navbar() {
             ))}
           </ul>
         </div>
-        <div className="flex w-full min-w-fit h-full mr-0 justify-center items-center" >
+        <div className="w-full min-w-fit h-full mr-5 sm:mr-0 flex justify-end sm:justify-around items-center" >
           <ul className=" w-fit hidden lg:flex justify-center items-center mx-5 lg:gap-5 md:gap-1 gap-6" >
             <li>
               <a
@@ -103,7 +103,7 @@ export default function Navbar() {
             </li>
           </ul>
 
-          <a href="/register" className=' sm:w-20 md:w-3/4 lg:w-fit  flex justify-center lg:justify-center'>
+          <a href="/register" className=' sm:w-20 md:w-3/4 lg:w-fit'>
             <button
               type="button"
             className="text-center text-sm lg:block text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg px-5 py-2.5 "
