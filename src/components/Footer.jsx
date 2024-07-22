@@ -47,7 +47,7 @@ export default function Footer() {
               <div className="flex pl-4 justify-start mt-2">
                 <a
                   className="flex items-center text-gray-300 hover:text-white mr-6 no-underline"
-                  href="#"
+                  href="https://www.linkedin.com/company/web3ssh/"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -59,19 +59,39 @@ export default function Footer() {
                 </a>
                 <a
                   className="flex items-center text-gray-300 hover:text-white mr-6 no-underline"
-                  href="#"
+                  href="https://x.com/web3ssh"
                 >
                   <svg
-                    viewBox="0 0 24 24"
-                    className="fill-current w-8 h-8"
                     xmlns="http://www.w3.org/2000/svg"
+                    x="0px"
+                    y="0px"
+                    width="40"
+                    height="40"
+                    viewBox="0 0 48 48"
                   >
-                    <path d="M23.954 4.569a10 10 0 01-2.825.775 4.958 4.958 0 002.163-2.723c-.951.555-2.005.959-3.127 1.184a4.92 4.92 0 00-8.384 4.482C7.691 8.094 4.066 6.13 1.64 3.161a4.822 4.822 0 00-.666 2.475c0 1.71.87 3.213 2.188 4.096a4.904 4.904 0 01-2.228-.616v.061a4.923 4.923 0 003.946 4.827 4.996 4.996 0 01-2.212.085 4.937 4.937 0 004.604 3.417 9.868 9.868 0 01-6.102 2.105c-.39 0-.779-.023-1.17-.067a13.995 13.995 0 007.557 2.209c9.054 0 13.999-7.496 13.999-13.986 0-.209 0-.42-.015-.63a9.936 9.936 0 002.46-2.548l-.047-.02z" />
+                    <path
+                      fill="#D7D7D7"
+                      fill-rule="evenodd"
+                      d="M38,42H10c-2.209,0-4-1.791-4-4V10c0-2.209,1.791-4,4-4h28	c2.209,0,4,1.791,4,4v28C42,40.209,40.209,42,38,42z"
+                      clip-rule="evenodd"
+                    ></path>
+                    <path
+                      fill="#000"
+                      d="M34.257,34h-6.437L13.829,14h6.437L34.257,34z M28.587,32.304h2.563L19.499,15.696h-2.563 L28.587,32.304z"
+                    ></path>
+                    <polygon
+                      fill="#000"
+                      points="15.866,34 23.069,25.656 22.127,24.407 13.823,34"
+                    ></polygon>
+                    <polygon
+                      fill="#000"
+                      points="24.45,21.721 25.355,23.01 33.136,14 31.136,14"
+                    ></polygon>
                   </svg>
                 </a>
                 <a
                   className="flex items-center text-gray-300 hover:text-white no-underline"
-                  href="#"
+                  href="https://github.com/web3ssh-iiits"
                 >
                   <svg
                     viewBox="0 0 24 24"
