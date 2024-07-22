@@ -3,36 +3,48 @@
     "name": "Dr. Shashidhar",
     "experience": "Lead Researcher, Samsung R&D ",
     "imageUrl": "/speakers/dr_shashidhar_r.webp",
-    "details": "Blockchain R&D | Blockchain Architect | KNOX Security| Cryptography"
+    "details": "Lead Researcher Samsung R&D India, Blockchain R&D | Blockchain Architect | KNOX Security| Cryptography, NIT Karnataka"
   },
   {
     "name": "Laisha Wadhwa",
     "experience": "ML @Lucidity, Ex- Goldman Sachs",
     "imageUrl": "/speakers/laisha_wadhwa.webp",
-    "details": " Web3 Devrel | Ex- Goldman Sachs | Speaker | Podcast Host | Mentor | Web3 Security"
+    "details": "ML @Lucidity | Web3 Devrel | Ex- Goldman Sachs | Speaker | Podcast Host | Mentor | Web3 Security"
   },
   {
     "name": "Pranshu Rastogi",
     "experience": "Head of Ecosystem, Push Protocol",
     "imageUrl": "/speakers/pranshu_rastogi.webp",
-    "details": "Something nice about the speaker"
+    "details": "Head of Ecosystem & Integration, Push Protocol"
   },
   {
     "name": "Ilham EL Boloumi",
     "experience": "Founder, Datachain Ed",
     "imageUrl": "/speakers/elham_el_boloumi.webp",
-    "details": "Something nice about the speaker"
+    "details": "Founder DatachainEd, Ex-software engineer Nokia"
   },
   {
     "name": "Zaryab Afsar",
     "experience": "Blockchain Lead, Push Protocol",
     "imageUrl": "/speakers/zaryab_afser.webp",
-    "details": "Something nice about the speaker"
+    "details": "Blockchain Lead Push Protocol"
   },
   {
     "name": "Dr. Rajendra Prasath",
     "experience": "Associate Professor, IIIT Sri City",
     "imageUrl": "/speakers/dr_rajendra_prasath.webp",
-    "details": "Something nice about the speaker"
+    "details": "Associate Professor, Indian Institute of Information Technology, Sri City"
+  },
+  {
+    "name": "Dr. Mallikarjun Reddy Dorsala",
+    "experience": "Assistant Professor IIIT Sri City",
+    "imageUrl": "/speakers/dr_mallikarjun_reddy_dorsala.webp",
+    "details": "Ph.D. From NIT-W and IDRBT | Ex Blockchain researcher at McKinley Rice | Ethereum Developer | Web3"
+  },
+  {
+    "name": "Jelena Gjorgjev",
+    "experience": "Senior Full-Stack Developer",
+    "imageUrl": "/speakers/jelena_gjorgjev.webp",
+    "details": "Web3 Advocate | Passionate Speaker | Expert in Blockchain Solutions | Team Leader & Mentor | Professor"
   }
 ]

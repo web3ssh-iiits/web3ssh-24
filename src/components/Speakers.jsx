@@ -1,39 +1,27 @@
-import SpeakerCardV2 from './daywiseoverview/SpeakerCardV2';
+import React from 'react';
+import SpeakerCard from './daywiseoverview/SpeakerCardV2';
 import speakers from '../data/speakers.json';
-import clsx from 'clsx';
 
 export default function SpeakersPanel() {
   return (
-    <div
-      className={clsx(
-        'w-full mb-[120px] flex flex-col justify-center items-center sm:px-40',
-      )}
-    >
+    <div className="w-full mb-[120px] px-4 sm:px-6 lg:px-8 flex flex-col justify-center items-center">
       <div
         id="speakers"
-        className="text-white text-4xl md:text-6xl mb-10 lg:mb-20 font-sans font-medium"
+        className="text-white text-4xl md:text-6xl mb-10 lg:mb-20 font-sans font-medium text-center"
       >
         <h1>Speakers</h1>
       </div>
-      <div className="w-full flex flex-wrap justify-center items-center">
-        {speakers.map((e) => {
-          return (
-            <SpeakerCardV2
-              key={e.name}
-              title={e.name}
-              experience={e.experience}
-              imgSrc={e.imageUrl}
-              data={e.details}
-              className="mx-6 my-4"
-            />
-          );
-        })}
+      <div className="max-w-[1200px] w-[80%] grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+        {speakers.map((speaker) => (
+          <SpeakerCard
+            key={speaker.name}
+            title={speaker.name}
+            experience={speaker.experience}
+            imgSrc={speaker.imageUrl}
+            data={speaker.details}
+          />
+        ))}
       </div>
     </div>
-    // <SpeakerCardV2
-    //   title="Laisha Wadhwa"
-    //   experience="Lead Researcher, Samsung India"
-    //   imgSrc="/speakers/laisha_wadhwa.png"
-    // />
   );
 }

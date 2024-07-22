@@ -39,7 +39,7 @@ const KeyComponents = () => {
       ref={horContainer}
       className="flex w-screen h-screen text-gray-300 flex-col mb-[120px] pt-24"
     >
-      <div className="w-screen h-fit mb-10 flex items-center justify-center text-4xl md:text-6xl font-sans font-medium">
+      <div className="w-screen h-fit mb-40 flex items-center justify-center text-4xl md:text-6xl font-sans font-medium">
         Key Components
       </div>
       <div className="w-full flex h-[calc(100vh-300px)] overflow-x-hidden">
@@ -47,7 +47,7 @@ const KeyComponents = () => {
           {data.map((content, index) => (
             <div
               key={index}
-              className="group h-full w-screen lg:w-[420px] mx-2 flex flex-col flex-nowrap overflow-hidden gap-5 items-center justify-evenly px-8 pt-4 text-2xl backdrop-blur-sm bg-black bg-opacity-20"
+              className="group h-[400px] w-screen lg:w-[420px] mx-2 flex flex-col flex-nowrap overflow-hidden gap-5 items-center justify-evenly px-8 pt-4 text-2xl backdrop-blur-sm bg-black bg-opacity-20"
               style={{ borderRadius: '20px'}}
             >
               {content.graphics && (

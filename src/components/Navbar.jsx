@@ -48,8 +48,8 @@ export default function Navbar() {
     alignItems: "center",
     transition: "top 0.5s ease-in-out",
     // overflow: "hidden",
-    backgroundColor: 'rgba(0, 0, 0, 0.3)', 
-    borderRadius: '20px', 
+    backgroundColor: 'rgba(0, 0, 0, 0.3)',
+    borderRadius: '20px',
     backdropFilter: 'blur(10px)',
 
   };
@@ -61,12 +61,12 @@ export default function Navbar() {
 
   return (
     <div className="w-full h-[60px] top-0 flex z-50 text-2xl">
-      
+
       <div style={containerStyle} className="z-50 text-white  border-none flex justify-between items-center">
         <div className="min-w-fit h-[60px] w-full sm:w-fit md:w-full pl-5 flex justify-start items-center" >
-          <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={()=>(window.location.href='/')}/>
+          <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={() => (window.location.href = '/')} />
         </div>
-        
+
         <div className="hidden sm:flex justify-between gap-6 items-center">
           <ul className="flex lg:gap-6 sm:gap-2">
             {navData.map((item, index) => (
@@ -93,22 +93,23 @@ export default function Navbar() {
             </li>
             <li>
               <a href="https://x.com/web3ssh" target="_blank">
-              <img style={socialIconStyle} src={XIcon.src} alt="Linkedin" />
+                <img style={socialIconStyle} src={XIcon.src} alt="Linkedin" />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/web3ssh/" target="_blank">
-              <img style={socialIconStyle} src={Instagram.src} alt="Linkedin" />
+                <img style={socialIconStyle} src={Instagram.src} alt="Linkedin" />
               </a>
             </li>
           </ul>
 
-          <a href="/register" className=' sm:w-20 md:w-3/4 lg:w-fit'>
+          <a href="/brochure" className="inline-block">
             <button
               type="button"
-            className="text-center text-sm lg:block text-white bg-gradient-to-br from-purple-600 to-blue-500 hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800 font-medium rounded-lg px-5 py-2.5 "
+              className="flex items-center justify-center w-40 px-5 py-2.5 text-sm font-medium text-white transition-all duration-300 bg-gradient-to-br from-purple-600 to-blue-500 rounded-lg hover:bg-gradient-to-bl focus:ring-4 focus:outline-none focus:ring-blue-300 dark:focus:ring-blue-800"
             >
-              Register Now
+              <img src="./download-icon.svg" alt="Download" className="w-6 h-6 mr-2" />
+              Brochure
             </button>
           </a>
         </div>
