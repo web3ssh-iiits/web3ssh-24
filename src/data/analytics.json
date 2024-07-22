@@ -1,13 +1,13 @@
 [
   {
-    "number": "+300",
+    "number": "+150",
     "title": "Online Participants",
     "unit": "students"
   },
   {
-    "number": "+60",
-    "title": "Offline Participants",
-    "unit": "students"
+    "number": "+4",
+    "title": "Partners",
+    "unit": "organizations"
   },
   {
     "number": "+20",
