@@ -39,7 +39,7 @@
       },
       {
         "name": "Suvan Sarkar",
-        "profilePic": "/team/suvan.webp",
+        "profilePic": "/team/default.jpg",
         "link": "#",
         "link_title": ""
       }
@@ -49,14 +49,14 @@
     "role": "Tech Team",
     "members": [
       {
-        "name": "Sreevallabh Karanam",
-        "profilePic": "/team/sreevallabh_karanam.webp",
-        "link": "#",
-        "link_title": ""
+        "name": "Sudip Halder",
+        "profilePic": "/team/sudip_halder.jpeg",
+        "link": "https://sudip.me/",
+        "link_title": "sudip.me"
       },
       {
         "name": "Mithun U",
-        "profilePic": "/team/mithun.webp",
+        "profilePic": "/team/default.jpg",
         "link": "#",
         "link_title": ""
       },
@@ -74,21 +74,21 @@
       },
       {
         "name": "Bishwajeet Sahoo",
-        "profilePic": "/team/void.webp",
+        "profilePic": "/team/default.jpg",
         "link": "#",
         "link_title": ""
       },
       {
         "name": "Saurabh Pal",
-        "profilePic": "/team/xor.webp",
+        "profilePic": "/team/default.jpg",
         "link": "#",
         "link_title": ""
       },
       {
-        "name": "Sudip Halder",
-        "profilePic": "/team/sudip_halder.jpeg",
-        "link": "https://sudip.me/",
-        "link_title": "sudip.me"
+        "name": "Sreevallabh Karanam",
+        "profilePic": "/team/sreevallabh_karanam.webp",
+        "link": "#",
+        "link_title": ""
       }
     ]
   },

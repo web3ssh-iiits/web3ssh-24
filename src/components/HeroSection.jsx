@@ -1,7 +1,6 @@
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
 import Partners from './Partners';
-// import { AnimatedTooltip } from './ui/animated-tooltip';
 import { Highlight } from '@components/ui/hero-highlight';
 
 
@@ -36,15 +35,20 @@ const HeroSection = () => {
         'pt-0',
       )}
     >
-      <TypewriterEffect words={words} className='px-10 min-h-[220px] lg:min-h-[100px]' />
+      <TypewriterEffect words={words} className='px-10 min-h-[220px] sm:min-h-[160px] lg:min-h-[100px]' />
+
+      <div className="text-2xl lg:text-3xl mb-6 text-center text-white font-sans font-semibold">
+        Organized by IIIT SriCity
+      </div>
+
       <div className="text-md lg:text-2xl  text-center xl:w-2/5 lg:w-1/2 sm:w-3/5 max-[375px]:w-4/5 w-3/4 text-white">
         Building the future, one block at a time! {<br />}Join us for a week of
         learning and fun.
       </div>
       <div>
         <div className="mt-8">
-          <div className="text-2xl font-bold">
-            29th July to 4th August
+          <div className="text-2xl font-sans font-medium ">
+            29th july to 9th August
           </div>
         </div>
       </div>
@@ -73,10 +77,9 @@ const HeroSection = () => {
               </span>
             </button>
           </a>
-          <a href="/brochure">
-            <button className="transform hover:-translate-y-1 transition duration-400 h-16 w-64 md:h-16 md:w-64 rounded-full bg-white text-black text-xl sm:text-4xl font-bold bg-opacity-50 flex items-center justify-center">
-              <img src='./download-icon.svg' style={{ width: '36px', marginRight: '10px' }}></img>
-              Brochure
+          <a href="https://web3ssh.devfolio.co/">
+            <button className="transform hover:-translate-y-1 transition duration-400 h-16 w-64 md:h-16 md:w-64 rounded-full bg-white text-black text-xl sm:text-2xl font-medium bg-opacity-50 flex items-center justify-center">
+              Go for Hackathon
             </button>
           </a>
         </div>
