@@ -46,5 +46,41 @@
     "experience": "Senior Full-Stack Developer",
     "imageUrl": "/speakers/jelena_gjorgjev.webp",
     "details": "Web3 Advocate | Passionate Speaker | Expert in Blockchain Solutions | Team Leader & Mentor | Professor"
+  },
+  {
+    "name": "Ritesh Kant",
+    "experience": "Co founder and CEO Wow Talkies",
+    "imageUrl": "/speakers/ritesh_kant.webp",
+    "details": "Tech evangelist | Cryptopion | Web3 | Future of the Internet | Startup strategy and scaling | Digital innovation| Member Stanford Research Lab: AI, ZK, Cryptography & Web3, MBA IIT Delhi"
+  },
+  {
+    "name": "Rachit Anand Srivastava",
+    "experience": "Engineering @Avail",
+    "imageUrl": "/speakers/rachit_anand_srivastava.webp",
+    "details": "ex. Nethermind, Harmony ONE | Software Engineer | Alumni Computer Engineering @TIET"
+  },
+  {
+    "name": "Sudharsanan Kirubanandhan",
+    "experience": "Rust Dev",
+    "imageUrl": "/speakers/sudharsanan_kirubanandhan.webp",
+    "details": "Software Developer specialised in blockchain and AI | Technical Consultant and Researcher | Pursuing PGDM in LIBA"
+  },
+  {
+    "name": "Jozef Jagan",
+    "experience": "Wallet Hunter, NIT Calicut",
+    "imageUrl": "/speakers/jozef_jagan.webp",
+    "details": "Web3 | Blockchain | NFT | Entrepreneur | Speaker"
+  },
+  {
+    "name": "Dr. Ovia Seshadri",
+    "experience": "Head of DevRel at Okto by CoinDCX",
+    "imageUrl": "/speakers/dr_ovia_seshadri.webp",
+    "details": "PhD CSE IITD (blockchains) | Blockchain Researcher, Web3 Speaker, writer and mentor | TPG - the phoenix guild Chennai chapter Director | H.E.R. DAO | ⭕| Winner at ethIndia2023"
+  },
+  {
+    "name": "Prashant Kumar",
+    "experience": "SDE Juspay, Working on UPI",
+    "imageUrl": "/speakers/prashant_kumar.webp",
+    "details": "SDE Juspay, IIIT Sri City Alumni"
   }
 ]

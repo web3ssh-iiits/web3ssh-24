@@ -9,6 +9,15 @@
     ]
   },
   {
+    "sectionHead": "Join us",
+    "sectionItems": [
+      { "text": "Call for Speakers", "href": "/cfs" },
+      { "text": "Sponsor us", "href": "/pitch" },
+      { "text": "Promotional Partners", "href": "/promo" },
+      { "text": "Students Brochure", "href": "/brochure" }
+    ]
+  },
+  {
     "sectionHead": "Documentation",
     "sectionItems": [
       { "text": "Sessions", "href": "#" },
