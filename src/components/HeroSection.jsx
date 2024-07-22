@@ -3,7 +3,6 @@ import { TypewriterEffect } from './ui/typewriter-effect';
 import Partners from './Partners';
 import { Highlight } from '@components/ui/hero-highlight';
 
-
 const HeroSection = () => {
   const words = [
     {
@@ -35,7 +34,10 @@ const HeroSection = () => {
         'pt-0',
       )}
     >
-      <TypewriterEffect words={words} className='px-10 min-h-[220px] sm:min-h-[160px] lg:min-h-[100px]' />
+      <TypewriterEffect
+        words={words}
+        className="px-10 min-h-[220px] sm:min-h-[160px] lg:min-h-[100px]"
+      />
 
       <div className="text-2xl lg:text-3xl mb-6 text-center text-white font-sans font-semibold">
         Organized by IIIT SriCity
@@ -47,8 +49,12 @@ const HeroSection = () => {
       </div>
       <div>
         <div className="mt-8">
+          {/* todo, work in progress */}
           <div className="text-2xl font-sans font-medium ">
-            29th july to 9th August
+            Summer School: 29th July to 3rd August
+          </div>
+          <div className="text-2xl font-sans font-medium ">
+            Hackathon: 29th July to 3rd August
           </div>
         </div>
       </div>
