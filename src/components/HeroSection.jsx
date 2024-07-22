@@ -54,7 +54,7 @@ const HeroSection = () => {
             Summer School: 29th July to 3rd August
           </div>
           <div className="text-2xl font-sans font-medium ">
-            Hackathon: 29th July to 3rd August
+            Hackathon: 7th August to 9th August
           </div>
         </div>
       </div>
