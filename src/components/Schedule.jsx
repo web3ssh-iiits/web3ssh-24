@@ -7,22 +7,22 @@ export const Schedule = () => {
 
   const scheduleData = {
     1: [
-      { time: '09:00 AM IST', date: 'July 04', title: 'Welcome Note', speaker: '', company: '', image: '', first: true },
-      { time: '09:30 AM IST', date: 'July 04', title: 'Designing for design: API decisions for long-term success', speaker: 'Naman Goel', company: 'StyleX Maintainer, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '10:05 AM IST', date: 'July 04', title: 'Making sense of new React server-side features', speaker: 'Riddhi Krishna', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '10:35 AM IST', date: 'July 04', title: 'Keynote', speaker: 'Nate Moore', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '11:05 AM IST', date: 'July 04', title: 'Just enough React', speaker: 'Andrew Clark', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '11:35 AM IST', date: 'July 04', title: 'Panel: UI/UX Innovations', speaker: 'Various Speakers', company: 'Industry Experts', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '12:30 PM IST', date: 'July 04', title: 'Conclusion', speaker: '', company: '', image: '', last: true }
+      { time: '09:00 AM IST', date: 'July 04', title: 'Welcome Note', speakers: [], first: true },
+      { time: '09:30 AM IST', date: 'July 04', title: 'Designing for design: API decisions for long-term success', speakers: [{ name: 'Naman Goel', company: 'StyleX Maintainer, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '10:05 AM IST', date: 'July 04', title: 'Making sense of new React server-side features', speakers: [{ name: 'Riddhi Krishna', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '10:35 AM IST', date: 'July 04', title: 'Keynote', speakers: [{ name: 'Nate Moore', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '11:05 AM IST', date: 'July 04', title: 'Just enough React', speakers: [{ name: 'Andrew Clark', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '11:35 AM IST', date: 'July 04', title: 'Panel: UI/UX Innovations', speakers: [{ name: 'Speaker 1', company: 'Company 1', image: 'https://api.dicebear.com/7.x/bottts/png' }, { name: 'Speaker 2', company: 'Company 2', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '12:30 PM IST', date: 'July 04', title: 'Conclusion', speakers: [], last: true }
     ],
     2: [
-      { time: '09:00 AM IST', date: 'July 05', title: 'Opening Keynote', speaker: '', company: '', image: '', first: true },
-      { time: '09:30 AM IST', date: 'July 05', title: 'State Management in React', speaker: 'Dan Abramov', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '10:05 AM IST', date: 'July 05', title: 'Concurrent Mode in React', speaker: 'Sebastian Markbåge', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '10:35 AM IST', date: 'July 05', title: 'Performance Optimization', speaker: 'Paul Irish', company: 'Google', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '11:05 AM IST', date: 'July 05', title: 'Advanced Hooks', speaker: 'Ryan Florence', company: 'Remix', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '11:35 AM IST', date: 'July 05', title: 'Panel: Future of Web Development', speaker: 'Various Speakers', company: 'Industry Experts', image: 'https://api.dicebear.com/7.x/bottts/png' },
-      { time: '12:30 PM IST', date: 'July 05', title: 'Closing Remarks', speaker: '', company: '', image: '', last: true }
+      { time: '09:00 AM IST', date: 'July 05', title: 'Opening Keynote', speakers: [], first: true },
+      { time: '09:30 AM IST', date: 'July 05', title: 'State Management in React', speakers: [{ name: 'Dan Abramov', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '10:05 AM IST', date: 'July 05', title: 'Concurrent Mode in React', speakers: [{ name: 'Sebastian Markbåge', company: 'React Team, Meta', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '10:35 AM IST', date: 'July 05', title: 'Performance Optimization', speakers: [{ name: 'Paul Irish', company: 'Google', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '11:05 AM IST', date: 'July 05', title: 'Advanced Hooks', speakers: [{ name: 'Ryan Florence', company: 'Remix', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '11:35 AM IST', date: 'July 05', title: 'Panel: Future of Web Development', speakers: [{ name: 'Speaker 1', company: 'Company 1', image: 'https://api.dicebear.com/7.x/bottts/png' }, { name: 'Speaker 2', company: 'Company 2', image: 'https://api.dicebear.com/7.x/bottts/png' }] },
+      { time: '12:30 PM IST', date: 'July 05', title: 'Closing Remarks', speakers: [], last: true }
     ]
   };
 
@@ -59,18 +59,24 @@ export const Schedule = () => {
             </div>
             <div className={`backdrop-blur-sm bg-black bg-opacity-20 flex-1 rounded-r-lg ${event.first ? '' : 'mt-3'} ${event.last ? '' : 'mb-3'}`}>
               <div className="flex py-2 md:py-2 px-1 md:px-2 items-center gap-2 md:gap-4 my-4">
-                <div className="hidden md:flex items-center justify-center border-2 rounded-full border-white border-opacity-50 p-4 w-20 h-20 mx-4">
-                  <img src={event.image} alt="Speaker Avatar" className="text-5xl" />
-                </div>
-                <div className="flex-1">
-                  <div className="text-white font-bold text-lg md:text-2xl">{event.title}</div>
-                  <div className="block md:flex gap-8">
-                    <div className="mt-1 md:mt-2">
-                      <div className="text-cyan-500 font-semibold text-base md:text-xl">{event.speaker}</div>
-                      <div className="text-gray-100 text-sm md:text-base">{event.company}</div>
-                    </div>
+
+                <div className="flex-1 mx-3 md:mx-0">
+                  <div className="text-white font-bold text-lg md:text-2xl md:mx-4 md:my-3">{event.title}</div>
+                  <div className="flex  gap-3">
+                    {event.speakers.map((speaker, idx) => (
+                      <div key={idx} className="mt-1 md:mt-2 flex flex-wrap">
+                        <div className="hidden md:flex items-center justify-center border-2 rounded-full border-white border-opacity-50 p-4 w-20 h-20 mx-4">
+
+                          <img src={speaker.image} alt="img" className="text-5xl" />
+                        </div>
+                        <div className=' flex flex-col  justify-center' >
+
+                          <div className="text-cyan-500 font-semibold text-base md:text-xl">{speaker.name}</div>
+                          <div className="text-gray-100 text-sm md:text-base">{speaker.company}</div>
+                        </div>
+                      </div>
+                    ))}
                   </div>
-                  
                 </div>
               </div>
             </div>
@@ -80,4 +86,3 @@ export const Schedule = () => {
     </section>
   );
 };
-
