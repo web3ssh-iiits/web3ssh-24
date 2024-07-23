@@ -1,9 +1,22 @@
+"use client"
+
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
 import Partners from './Partners';
 import { Highlight } from '@components/ui/hero-highlight';
+import React from 'react';
 
 const HeroSection = () => {
+  React.useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://apply.devfolio.co/v2/sdk.js';
+    script.async = true;
+    script.defer = true;
+    document.body.appendChild(script);
+    return () => {
+      document.body.removeChild(script);
+    }
+  }, []);
   const words = [
     {
       text: 'Web',
@@ -63,8 +76,8 @@ const HeroSection = () => {
           <a href="/register">
             <button className="w-64 transform hover:-translate-y-1 transition duration-400 relative inline-flex sm:h-16 overflow-hidden rounded-full p-[2px] focus:outline-none focus:ring-2 focus:ring-slate-400 focus:ring-offset-2 focus:ring-offset-slate-50">
               <span className="absolute inset-[-1000%] animate-[spin_2s_linear_infinite] bg-[conic-gradient(from_90deg_at_50%_50%,#E2CBFF_0%,#393BB2_50%,#E2CBFF_100%)]" />
-              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 pl-12 pr-8 py-4 text-xl sm:text-4xl font-semibold text-white backdrop-blur-3xl">
-                Join Us
+              <span className="inline-flex h-full w-full cursor-pointer items-center justify-center rounded-full bg-slate-950 pl-12 pr-8 py-4 sm:text-lg font-semibold text-white backdrop-blur-3xl text-lg">
+                Register Now
                 <svg
                   width="32"
                   height="32"
@@ -83,11 +96,19 @@ const HeroSection = () => {
               </span>
             </button>
           </a>
-          <a href="https://web3ssh.devfolio.co/">
-            <button className="transform hover:-translate-y-1 transition duration-400 h-16 w-64 md:h-16 md:w-64 rounded-full bg-white text-black text-xl sm:text-2xl font-medium bg-opacity-50 flex items-center justify-center">
-              Go for Hackathon
+          <div
+            className="apply-button"
+            data-hackathon-slug="web3ssh"
+            data-button-theme="light"
+            style={{ height: "44px", width: "312px" }}
+          ></div>
+          {/*<a href='https://web3ssh.devfolio.co/' target='_blank'>
+            <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-4 text-md rounded-md'>
+              <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px" />
+              Apply for Hackathon (via Devfolio)
             </button>
           </a>
+          */}
         </div>
       </div>
     </div>

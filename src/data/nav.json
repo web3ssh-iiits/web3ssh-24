@@ -1,7 +1,22 @@
 [
-  { "title": "Home", "url": "/" },
-  { "title": "Speakers", "url": "#speakers" },
-  { "title": "Schedule", "url": "#schedule" },
-  { "title": "Hackathon", "url": "#hackathon" },
-  { "title": "FAQ", "url": "#faq" }
+  {
+    "title": "Home",
+    "url": "/"
+  },
+  {
+    "title": "Speakers",
+    "url": "/#speakers"
+  },
+  {
+    "title": "Schedule",
+    "url": "/#schedule"
+  },
+  {
+    "title": "Hackathon",
+    "url": "/#hackathon"
+  },
+  {
+    "title": "FAQ",
+    "url": "/#faq"
+  }
 ]
