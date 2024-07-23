@@ -1,0 +1,255 @@
+{
+    "July 29 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "July 29",
+        "title": "Overview of Evolution of Web and Web 3.0",
+        "speakers": [
+          {
+            "name": "Laisha Wadhwa",
+            "company": "ML @Lucidity, Ex- Goldman Sachs",
+            "image": "/speakers/laisha_wadhwa.webp"
+          }
+        ],
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "July 29",
+        "title": "comming soon",
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "July 29",
+        "title": "Building some fun Full Stack System",
+        "speakers": [
+          {
+            "name": "Dr. Rajendra Prasath",
+            "company": "Associate Professor, IIIT Sri City",
+            "image": "/speakers/dr_rajendra_prasath.webp"
+          }
+        ],
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "July 29",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ],
+    "July 30 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "July 30",
+        "title": "Fullstack development ecosystem, landscape, snippets",
+        "speakers": [
+          {
+            "name": "Jelena Gjorgjev",
+            "company": "Senior Full-Stack Developer",
+            "image": "/speakers/jelena_gjorgjev.webp"
+          }
+        ],
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "July 30",
+        "title": "System Design of UPI",
+        "speakers": [
+          {
+            "name": "Prashant Kumar",
+            "company": "SDE Juspay, Working on UPI",
+            "image": "/speakers/prashant_kumar.webp"
+          }
+        ],
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "July 30",
+        "title": "comming soon",
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "July 30",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ],
+    "July 31 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "July 31",
+        "title": "comming soon",
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "July 31",
+        "title": "comming soon",
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "July 31",
+        "title": "comming soon",
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "July 31",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ],
+    "August 01 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "August 01",
+        "title": "Dapps",
+        "speakers": [
+          {
+            "name": "Dr. Shashidhar",
+            "company": "Lead Researcher, Samsung R&D",
+            "image": "/speakers/dr_shashidhar_r.webp"
+          }
+        ],
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "August 01",
+        "title": "Pranshu Rastogi",
+        "speakers": [
+          {
+            "name": "Pranshu Rastogi",
+            "company": "Head of Ecosystem, Push Protocol",
+            "image": "/speakers/pranshu_rastogi.webp"
+          }
+        ],
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "August 01",
+        "title": "Building Decentralized Ecommerce Marketplace",
+        "speakers": [
+          {
+            "name": "Sudharsanan Kirubanandhan",
+            "company": "Rust Dev",
+            "image": "/speakers/sudharsanan_kirubanandhan.webp"
+          }
+        ],
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "August 01",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ],
+    "August 02 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "August 02",
+        "title": "comming soon",
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "August 02",
+        "title": "DLT, DeFi, ReFi",
+        "speakers": [
+          {
+            "name": "Jelena Gjorgjev",
+            "company": "Senior Full-Stack Developer",
+            "image": "/speakers/jelena_gjorgjev.webp"
+          }
+        ],
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "August 02",
+        "title": "Building web3 app stack with web2 skills with okto",
+        "speakers": [
+          {
+            "name": "Dr. Ovia Seshadri",
+            "company": "Head of DevRel at Okto by CoinDCX",
+            "image": "/speakers/dr_ovia_seshadri.webp"
+          }
+        ],
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "August 02",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ],
+    "August 03 2024": [
+      {
+        "time": "08:30 AM IST",
+        "date": "August 03",
+        "title": "Future of Web 3.0",
+        "speakers": [
+          {
+            "name": "Ritesh Kant",
+            "company": "Co-founder and CEO Wow Talkies",
+            "image": "/speakers/ritesh_kant.webp"
+          }
+        ],
+        "sessionType": "keynote",
+        "first": true
+      },
+      {
+        "time": "10:30 AM IST",
+        "date": "August 03",
+        "title": "Practical Proj + Solidity Dev, Smart Contracts",
+        "speakers": [
+          {
+            "name": "Zaryab Afsar",
+            "company": "Blockchain Lead, Push Protocol",
+            "image": "/speakers/zaryab_afser.webp"
+          }
+        ],
+        "sessionType": "theory"
+      },
+      {
+        "time": "01:30 PM IST",
+        "date": "August 03",
+        "title": "Web 3.0 Security",
+        "speakers": [
+          {
+            "name": "Jozef Jagan",
+            "company": "Wallet Hunter, NIT Calicut",
+            "image": "/speakers/jozef_jagan.webp"
+          }
+        ],
+        "sessionType": "workshop"
+      },
+      {
+        "time": "05:00 PM IST",
+        "date": "August 03",
+        "title": "comming soon",
+        "sessionType": "panel",
+        "last": true
+      }
+    ]
+  }
+  
