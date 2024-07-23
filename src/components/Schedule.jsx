@@ -30,13 +30,13 @@ export const Schedule = () => {
     <section id="schedule" className="mx-auto px-4 md:px-8 max-w-screen-xl py-2 md:py-16 pt-20">
       <div>
         <h1 className="text-center md:text-left font-bold text-4xl md:text-6xl tracking-wide leading-tight">
-          <span className="text-white">Schedule</span> <span className="text-cyan-500"></span>
+          <span className="text-white">Schedule</span>
         </h1>
       </div>
       <div className="flex gap-4 md:gap-8 mt-8 justify-start md:justify-around max-w-[90vw] overflow-auto">
       {Object.keys(scheduleData).map((date, index) => (
           <div key={date} onClick={() => setActiveDate(date)}>
-            <div className={`ml-2 text-cyan-500 text-base md:text-xl font-bold py-2 px-4 bg-gradient-to-l from-gray-900 to-cyan-900 rounded-tl-xl ${activeDate === date ? 'bg-cyan-700' : ''}`}>
+            <div className={`ml-2 text-gray-200 text-base md:text-xl font-bold py-2 px-4 bg-gradient-to-l from-gray-900 to-cyan-900 rounded-tl-xl ${activeDate === date ? 'bg-cyan-700' : ''}`}>
               Day {index + 1}
             </div>
             <a href={`#schedule-${date.replace(/ /g, '-')}`} className={`py-3 px-4 w-[170px] text-base md:text-lg tracking-wide inline-block font-semibold text-white ${activeDate === date ? 'bg-[#222]' : ' backdrop-blur-sm bg-black bg-opacity-20'} rounded-tl-lg rounded-bl-lg border-white transition-all duration-300`}>
@@ -51,7 +51,7 @@ export const Schedule = () => {
             <div className={`flex border-r-2 border-white border-opacity-50 ${event.first ? '' : 'pt-3'} ${event.last ? '' : 'pb-3'}`}>
               <div className="w-32 md:w-48 items-center justify-between flex rounded-l-lg bg-gradient-to-r backdrop-blur-sm bg-black bg-opacity-20">
                 <div className="ml-2 md:ml-4">
-                  <div className="text-cyan-500 font-bold text-base md:text-xl">{event.time}</div>
+                  <div className="text-white font-bold text-base md:text-xl">{event.time}</div>
                   <div className="text-gray-100 text-sm md:text-base">{event.date}</div>
                 </div>
                 <div className="w-2 md:w-4 border-t-2 border-white border-opacity-40"></div>
@@ -68,7 +68,7 @@ export const Schedule = () => {
                           <img src={speaker.image} alt="img" className="text-5xl" />
                         </div>
                         <div className=' flex flex-col items-center justify-center'>
-                          <div className="text-cyan-500 font-semibold text-base md:text-xl">{speaker.name}</div>
+                          <div className="text-white font-semibold text-base md:text-xl">{speaker.name}</div>
                           <div className="text-gray-100 text-sm md:text-base">{speaker.company}</div>
                         </div>
                       </div>
