@@ -10,6 +10,7 @@ import SessionTypes from '@components/SessionTypes';
 // import Outcomes from '@components/Outcomes';
 import KeyComponents from '@components/KeyComponents';
 import Partners from '@components/Partners';
+import { Schedule } from '@components/Schedule';
 
 const Outcomes = dynamic(() => import('@components/Outcomes'), { ssr: false });
 const Hackathon = dynamic(() => import('@components/Hackathon'), { ssr: false });
@@ -21,6 +22,7 @@ export default function Page() {
       <Partners />
       <Speakers />
       <SessionTypes />
+      <Schedule />
       <KeyComponents />
       <Hackathon />
       <Outcomes />
