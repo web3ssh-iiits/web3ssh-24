@@ -16,8 +16,9 @@ export default function Hackathon() {
     >
       <WobbleCard
         containerClassName="col-span-1 lg:col-span-2 h-full bg-pink-800 min-h-[500px] lg:min-h-[300px]"
-        className=""
+        className="cursor-pointer"
       >
+          <a href="https://web3ssh.devfolio.co/">
         <div className="max-w-xs">
           <h2 className="text-left text-balance text-4xl lg:text-6xl font-sans font-semibold tracking-[-0.015em] text-white">
             7th to 9th August
@@ -30,7 +31,8 @@ export default function Hackathon() {
           src="/graphics/code_cup.webp"
           alt="linear demo image"
           className="w-[240px] absolute -right-5 -bottom-1 object-contain rounded-2xl"
-        />
+          />
+          </a>
       </WobbleCard>
       <WobbleCard containerClassName="col-span-1 min-h-[300px]">
         <h2 className="max-w-80  text-left text-balance text-4xl lg:text-6xl font-semibold tracking-[-0.015em] text-white">

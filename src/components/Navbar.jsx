@@ -93,12 +93,12 @@ export default function Navbar() {
             </li>
             <li>
               <a href="https://x.com/web3ssh" target="_blank">
-                <img style={socialIconStyle} src={XIcon.src} alt="Linkedin" />
+                <img style={socialIconStyle} src={XIcon.src} alt="X" />
               </a>
             </li>
             <li>
               <a href="https://www.instagram.com/web3ssh/" target="_blank">
-                <img style={socialIconStyle} src={Instagram.src} alt="Linkedin" />
+                <img style={socialIconStyle} src={Instagram.src} alt="Instagram" />
               </a>
             </li>
           </ul>
