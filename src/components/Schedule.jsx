@@ -33,13 +33,13 @@ export const Schedule = () => {
           <span className="text-white">Schedule</span> <span className="text-cyan-500"></span>
         </h1>
       </div>
-      <div className="flex gap-4 md:gap-8 mt-8 justify-center md:justify-start">
+      <div className="flex gap-4 md:gap-8 mt-8 justify-start md:justify-around max-w-[90vw] overflow-auto">
       {Object.keys(scheduleData).map((date, index) => (
           <div key={date} onClick={() => setActiveDate(date)}>
             <div className={`ml-2 text-cyan-500 text-base md:text-xl font-bold py-2 px-4 bg-gradient-to-l from-gray-900 to-cyan-900 rounded-tl-xl ${activeDate === date ? 'bg-cyan-700' : ''}`}>
               Day {index + 1}
             </div>
-            <a href={`#schedule-${date.replace(/ /g, '-')}`} className={`py-3 px-4 text-base md:text-xl tracking-wide inline-block font-semibold text-white ${activeDate === date ? 'bg-[#222]' : ' backdrop-blur-sm bg-black bg-opacity-20'} rounded-tl-lg rounded-bl-lg border-white transition-all duration-300`}>
+            <a href={`#schedule-${date.replace(/ /g, '-')}`} className={`py-3 px-4 w-[170px] text-base md:text-lg tracking-wide inline-block font-semibold text-white ${activeDate === date ? 'bg-[#222]' : ' backdrop-blur-sm bg-black bg-opacity-20'} rounded-tl-lg rounded-bl-lg border-white transition-all duration-300`}>
               <span className="flex items-center justify-center">{date}</span>
             </a>
           </div>
@@ -59,8 +59,8 @@ export const Schedule = () => {
             </div>
             <div className={`backdrop-blur-sm bg-black bg-opacity-20 flex-1 rounded-r-lg ${event.first ? '' : 'mt-3'} ${event.last ? '' : 'mb-3'}`}>
               <div className="flex py-2 md:py-2 px-1 md:px-2 items-center gap-2 md:gap-4 my-4">
-                <div className="flex-1 mx-3 md:mx-0">
-                  <div className="text-white font-bold text-lg md:text-2xl md:mx-4 md:my-3">{event.title}</div>
+                <div className="flex flex-col mx-3 md:mx-0 items-center md:items-start text-center md:text-start">
+                  <div className="text-white font-bold text-lg md:text-2xl md:mx-4 my-3">{event.title}</div>
                   <div className="flex flex-wrap w-full items-center md:items-start justify-center md:justify-start gap-3">
                     {event.speakers && event.speakers.map((speaker, idx) => (
                       <div key={idx} className="mt-1 md:mt-2 flex flex-col md:flex-row items-center">
