@@ -3,28 +3,24 @@
     "number": "+150",
     "title": "Online Participants",
     "unit": "students",
-    "icon": "/graphics/student.webp",
     "gradientColor": "violet"
   },
   {
     "number": "+4",
     "title": "Partners",
     "unit": "organizations",
-    "icon": "/graphics/partners.webp",
     "gradientColor": "amber"
   },
   {
     "number": "+20",
     "title": "Speakers",
     "unit": "experts",
-    "icon": "/graphics/speakers.webp",
     "gradientColor": "yellow"
   },
   {
     "number": "+4",
     "title": "Sponsors",
     "unit": "companies",
-    "icon": "/graphics/sponsers.webp",
     "gradientColor": "green"
   }
 ]

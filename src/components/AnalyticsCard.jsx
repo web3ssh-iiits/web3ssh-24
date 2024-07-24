@@ -4,8 +4,8 @@ export default function AnalyticsCard({ icon, number, unit, title, gradientColor
       <div className="flex w-80">
         <div className="flex w-full max-w-full flex-col break-words rounded-lg bg-gray-800 bg-opacity-50 text-white shadow-lg">
           <div className="p-4 relative">
-            <div className="absolute -mt-8 ml-[256px] bg-gray-600 bg-opacity-50 h-16 w-16 rounded-[32px] text-center text-white shadow-lg p-2.5">
-              <img src={icon} alt="Icon" />
+            <div className="absolute -mt-8 ml-[256px] bg-gray-800 bg-opacity-90 h-16 w-16 rounded-full text-center text-white shadow-lg flex items-center justify-center">
+              {icon}
             </div>
             <div className="pt-1 text-left">
               <h4 className={`text-2xl bg-clip-text text-transparent bg-gradient-to-r from-${gradientColor}-900 to-${gradientColor}-400 font-sans font-bold tracking-tighter lg:text-4xl`}>
