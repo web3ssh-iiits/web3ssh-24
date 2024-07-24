@@ -1,6 +1,6 @@
 import AnalyticsCard from './AnalyticsCard';
 import analyticsData from '../data/analytics.json';
-import { User } from 'lucide-react';
+// import { User } from 'lucide-react';
 
 export default function AnalyticsSection() {
   return (
@@ -12,7 +12,9 @@ export default function AnalyticsSection() {
             number={data.number}
             title={data.title}
             unit={data.unit}
-            icon={<User className="h-10 w-10" />}
+            icon={data.icon}
+            gradientColor={data.gradientColor}
+            // icon={<User className="h-10 w-10" />}
           />
         ))}
       </div>
