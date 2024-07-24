@@ -6,8 +6,8 @@
     "gradientColorFrom": "rose-700",
     "gradientColorVia": "orange-700",
     "gradientColorTo": "yellow-600",
-    "bgColorFrom": "gray-700",
-    "bgColorTo": "gray-500",
+    "bgColorFrom": "transparent",
+    "bgColorTo": "gray-600",
     "direction": "br"
   },
   {
@@ -17,8 +17,8 @@
     "gradientColorFrom": "indigo-600",
     "gradientColorVia": "violet-700",
     "gradientColorTo": "purple-600",
-    "bgColorFrom": "gray-700",
-    "bgColorTo": "gray-500",
+    "bgColorFrom": "transparent",
+    "bgColorTo": "gray-600",
     "direction": "bl"
   },
   {
@@ -28,8 +28,8 @@
     "gradientColorFrom": "lime-800",
     "gradientColorVia": "green-700",
     "gradientColorTo": "emerald-600",
-    "bgColorFrom": "gray-700",
-    "bgColorTo": "gray-500",
+    "bgColorFrom": "transparent",
+    "bgColorTo": "gray-600",
     "direction": "tr"
   },
   {
@@ -39,8 +39,8 @@
     "gradientColorFrom": "yellow-500",
     "gradientColorVia": "yellow-600",
     "gradientColorTo": "yellow-800",
-    "bgColorFrom": "gray-700",
-    "bgColorTo": "gray-500",
+    "bgColorFrom": "transparent",
+    "bgColorTo": "gray-600",
     "direction": "tl"
   }
 ]
