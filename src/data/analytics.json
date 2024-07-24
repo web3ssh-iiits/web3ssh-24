@@ -1,35 +1,35 @@
 [
   {
     "number": "+150",
-    "title": "Online Participants",
+    "title": "Participants",
     "unit": "students",
     "gradientColorFrom": "rose-700",
-    "gradientColorVia": "red-600",
-    "gradientColorTo": "orange-500",
-    "bgColorFrom": "gray-800",
-    "bgColorTo": "gray-600",
+    "gradientColorVia": "orange-700",
+    "gradientColorTo": "yellow-600",
+    "bgColorFrom": "gray-700",
+    "bgColorTo": "gray-500",
     "direction": "br"
   },
   {
     "number": "+4",
     "title": "Partners",
     "unit": "organizations",
-    "gradientColorFrom": "indigo-400",
-    "gradientColorVia": "indigo-500",
-    "gradientColorTo": "indigo-600",
-    "bgColorFrom": "gray-800",
-    "bgColorTo": "gray-600",
+    "gradientColorFrom": "indigo-600",
+    "gradientColorVia": "violet-700",
+    "gradientColorTo": "purple-600",
+    "bgColorFrom": "gray-700",
+    "bgColorTo": "gray-500",
     "direction": "bl"
   },
   {
     "number": "+20",
     "title": "Speakers",
     "unit": "experts",
-    "gradientColorFrom": "green-800",
+    "gradientColorFrom": "lime-800",
     "gradientColorVia": "green-700",
-    "gradientColorTo": "lime-600",
-    "bgColorFrom": "gray-800",
-    "bgColorTo": "gray-600",
+    "gradientColorTo": "emerald-600",
+    "bgColorFrom": "gray-700",
+    "bgColorTo": "gray-500",
     "direction": "tr"
   },
   {
@@ -39,8 +39,8 @@
     "gradientColorFrom": "yellow-500",
     "gradientColorVia": "yellow-600",
     "gradientColorTo": "yellow-800",
-    "bgColorFrom": "gray-800",
-    "bgColorTo": "gray-600",
+    "bgColorFrom": "gray-700",
+    "bgColorTo": "gray-500",
     "direction": "tl"
   }
 ]
