@@ -18,7 +18,7 @@
     {
       "time": "10:30 AM IST",
       "date": "July 29",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
       "time": "01:30 PM IST",
@@ -37,7 +37,7 @@
     {
       "time": "05:00 PM IST",
       "date": "July 29",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
@@ -74,12 +74,12 @@
     {
       "time": "01:30 PM IST",
       "date": "July 30",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
       "time": "05:00 PM IST",
       "date": "July 30",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
@@ -88,23 +88,23 @@
       "time": "08:30 AM IST",
       "duration": "1h 30m",
       "date": "July 31",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "first": true
     },
     {
       "time": "10:30 AM IST",
       "date": "July 31",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
       "time": "01:30 PM IST",
       "date": "July 31",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
       "time": "05:00 PM IST",
       "date": "July 31",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
@@ -155,7 +155,7 @@
     {
       "time": "05:00 PM IST",
       "date": "August 01",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
@@ -164,7 +164,7 @@
       "time": "08:30 AM IST",
       "duration": "1h 30m",
       "date": "August 02",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "first": true
     },
     {
@@ -198,7 +198,7 @@
     {
       "time": "05:00 PM IST",
       "date": "August 02",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
@@ -249,7 +249,7 @@
     {
       "time": "05:00 PM IST",
       "date": "August 03",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ]
