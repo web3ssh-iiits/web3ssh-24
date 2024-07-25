@@ -111,9 +111,9 @@
       "title": "Basic Cryptography for Blockchain",
       "speakers": [
         {
-          "name": "Anand Srivastava",
+          "name": "Rachit Anand Srivastava",
           "company": "Blockchain Engineer, Avail",
-          "image": "/speakers/anand_srivastava.webp"
+          "image": "/speakers/rachit_anand.webp"
         }
       ],
       "sessionType": "theory"
@@ -279,8 +279,8 @@
       "speakers": [
         {
           "name": "Kartik Chugh",
-          "company": "Wallet Hunter, NIT Calicut",
-          "image": "/speakers/jozef_jagan.webp"
+          "company": "Quill Audits",
+          "image": "/speakers/kartik_chugh.webp"
         }
       ],
       "sessionType": "workshop"
