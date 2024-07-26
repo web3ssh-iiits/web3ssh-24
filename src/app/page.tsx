@@ -13,7 +13,7 @@ import Partners from '@components/Partners';
 import { Schedule } from '@components/Schedule';
 
 const Outcomes = dynamic(() => import('@components/Outcomes'), { ssr: false });
-const Hackathon = dynamic(() => import('@components/Hackathon'), { ssr: false });
+// const Hackathon = dynamic(() => import('@components/Hackathon'), { ssr: false });
 
 export default function Page() {
   return (
@@ -24,7 +24,7 @@ export default function Page() {
       <SessionTypes />
       <Schedule />
       <KeyComponents />
-      <Hackathon />
+      {/* <Hackathon /> */}
       <Outcomes />
       <AnalyticsSection />
       <JoinUs />

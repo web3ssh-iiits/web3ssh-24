@@ -1,7 +1,7 @@
 {
   "July 29": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "July 29",
       "title": "Overview of Evolution of Web and Web 3.0",
@@ -16,15 +16,15 @@
       "first": true
     },
     {
-      "time": "10:30 AM IST",
+      "time": "11:30 AM IST",
       "date": "July 29",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
-      "time": "01:30 PM IST",
-      "duration": "2h 30m",
+      "time": "02:00 PM IST",
+      "duration": "2h 00m",
       "date": "July 29",
-      "title": "Building some fun Full Stack System",
+      "title": "Crafting a stunning Full Stack System",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",
@@ -37,16 +37,16 @@
     {
       "time": "05:00 PM IST",
       "date": "July 29",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
   "July 30": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
-      "title": "Fullstack development ecosystem, landscape, snippets",
+      "title": "The Full-Stack Odyssey: Ecosystem Insights, Landscape Wonders, and Code Snippets",
       "speakers": [
         {
           "name": "Jelena Gjorgjev",
@@ -58,62 +58,93 @@
       "first": true
     },
     {
-      "time": "10:30 AM IST",
-      "duration": "2h",
+      "time": "11:30 AM IST",
+      "duration": "2h 00m",
       "date": "July 30",
-      "title": "System Design of UPI",
+      "title": "Unveiling the System Design Behind UPI and Blinkit: How They Power Modern Transactions",
       "speakers": [
         {
           "name": "Prashant Kumar",
           "company": "SDE Juspay, Working on UPI",
           "image": "/speakers/prashant_kumar.webp"
+        },
+        {
+          "name": "Abhay Ray",
+          "company": "SDE Zomato",
+          "image": "/speakers/abhay_ray.webp"
         }
       ],
       "sessionType": "theory"
     },
     {
-      "time": "01:30 PM IST",
+      "time": "02:00 PM IST",
       "date": "July 30",
-      "title": "comming soon"
+      "title": "Coming Soon"
     },
     {
       "time": "05:00 PM IST",
       "date": "July 30",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
   "July 31": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "July 31",
-      "title": "comming soon",
+      "title": "Intro to blockchain, Why, How and History",
+      "speakers": [
+        {
+          "name": "Jozef Jagan",
+          "company": "Founder: Wallet Hunter",
+          "image": "/speakers/jozef_jagan.webp"
+        }
+      ],
+      "sessionType": "keynote",
       "first": true
     },
     {
-      "time": "10:30 AM IST",
+      "time": "11:30 AM IST",
+      "duration": "2h 00m",
       "date": "July 31",
-      "title": "comming soon"
+      "title": "Basic Cryptography for Blockchain",
+      "speakers": [
+        {
+          "name": "Rachit Anand Srivastava",
+          "company": "Blockchain Engineer, Avail",
+          "image": "/speakers/rachit_anand.webp"
+        }
+      ],
+      "sessionType": "theory"
     },
     {
-      "time": "01:30 PM IST",
+      "time": "02:00 PM IST",
+      "duration": "2h 00m",
       "date": "July 31",
-      "title": "comming soon"
+      "title": "Introduction to Solidity Dev",
+      "speakers": [
+        {
+          "name": "Dr. Mallikarjun Reddy",
+          "company": "Assistant Professor IIIT Sri City",
+          "image": "/speakers/dr_mallikarjun_reddy_dorsala.webp"
+        }
+      ],
+      "sessionType": "workshop"
     },
     {
       "time": "05:00 PM IST",
       "date": "July 31",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
   "August 01": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "August 01",
-      "title": "Dapps",
+      "title": "Discovering DApps: The Future of Decentralized Applications",
       "speakers": [
         {
           "name": "Dr. Shashidhar",
@@ -125,22 +156,22 @@
       "first": true
     },
     {
-      "time": "10:30 AM IST",
-      "duration": "2h",
+      "time": "11:30 AM IST",
+      "duration": "2h 00m",
       "date": "August 01",
-      "title": "Pranshu Rastogi",
+      "title": "Coming Soon",
       "speakers": [
         {
           "name": "Pranshu Rastogi",
           "company": "Head of Ecosystem, Push Protocol",
-          "image": "/speakers/pranshu_rastogi.webp"
+          "image": "/speakers/pranshu_rastogi_1.webp"
         }
       ],
       "sessionType": "theory"
     },
     {
-      "time": "01:30 PM IST",
-      "duration": "2h 30m",
+      "time": "02:00 PM IST",
+      "duration": "2h 00m",
       "date": "August 01",
       "title": "Building Decentralized Ecommerce Marketplace",
       "speakers": [
@@ -155,23 +186,31 @@
     {
       "time": "05:00 PM IST",
       "date": "August 01",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
   "August 02": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "August 02",
-      "title": "comming soon",
+      "title": "Tokenization of RWA",
+      "speakers": [
+        {
+          "name": "Illham El BOLOUMI",
+          "company": "Founder: Datachain Ed",
+          "image": "/speakers/elham_el_boloumi.webp"
+        }
+      ],
+      "sessionType": "keynote",
       "first": true
     },
     {
-      "time": "10:30 AM IST",
-      "duration": "2h",
+      "time": "11:30 AM IST",
+      "duration": "2h 00m",
       "date": "August 02",
-      "title": "DLT, DeFi, ReFi",
+      "title": "Navigating DLT, DeFi, and ReFi: The Evolution of Decentralized Technologies",
       "speakers": [
         {
           "name": "Jelena Gjorgjev",
@@ -182,8 +221,8 @@
       "sessionType": "theory"
     },
     {
-      "time": "01:30 PM IST",
-      "duration": "2h 30m",
+      "time": "02:00 PM IST",
+      "duration": "2h 00m",
       "date": "August 02",
       "title": "Building web3 app stack with web2 skills with okto",
       "speakers": [
@@ -198,13 +237,13 @@
     {
       "time": "05:00 PM IST",
       "date": "August 02",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ],
   "August 03": [
     {
-      "time": "08:30 AM IST",
+      "time": "09:30 AM IST",
       "duration": "1h 30m",
       "date": "August 03",
       "title": "Future of Web 3.0",
@@ -219,10 +258,10 @@
       "first": true
     },
     {
-      "time": "10:30 AM IST",
-      "duration": "2h",
+      "time": "11:30 AM IST",
+      "duration": "2h 00m",
       "date": "August 03",
-      "title": "Practical Proj + Solidity Dev, Smart Contracts",
+      "title": "Practical Projects with Solidity: Smart Contracts, Development, and Career Guidance",
       "speakers": [
         {
           "name": "Zaryab Afsar",
@@ -233,15 +272,15 @@
       "sessionType": "theory"
     },
     {
-      "time": "01:30 PM IST",
-      "duration": "2h 30m",
+      "time": "02:00 PM IST",
+      "duration": "2h 00m",
       "date": "August 03",
-      "title": "Web 3.0 Security",
+      "title": "Web 3.0 Security: Insights into Quill Audits and Best Practices",
       "speakers": [
         {
-          "name": "Jozef Jagan",
-          "company": "Wallet Hunter, NIT Calicut",
-          "image": "/speakers/jozef_jagan.webp"
+          "name": "Kartik Chugh",
+          "company": "Quill Audits",
+          "image": "/speakers/kartik_chugh.webp"
         }
       ],
       "sessionType": "workshop"
@@ -249,7 +288,7 @@
     {
       "time": "05:00 PM IST",
       "date": "August 03",
-      "title": "comming soon",
+      "title": "Coming Soon",
       "last": true
     }
   ]
