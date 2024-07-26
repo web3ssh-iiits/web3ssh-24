@@ -82,5 +82,17 @@
     "experience": "SDE Juspay, Working on UPI",
     "imageUrl": "/speakers/prashant_kumar.webp",
     "details": "SDE Juspay, IIIT Sri City Alumni"
+  },
+  {
+    "name": "Kartik Chugh",
+    "experience": "web3 security",
+    "imageUrl": "/speakers/kartik_chugh.webp",
+    "details": "Blockchain Project Manager at Quill Audits"
+  },
+  {
+    "name": "Abhay Ray",
+    "experience": "SDE Blinkit, Working on UPI",
+    "imageUrl": "/speakers/abhay_ray.webp",
+    "details": "SDE at Blinkit(Zomato)"
   }
 ]
