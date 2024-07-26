@@ -30,8 +30,8 @@ export const metadata: Metadata = {
     images: [
       {
         url: defaultLinkPreview.src,
-        width: 800,
-        height: 600,
+        width: 2425,
+        height: 1365,
         alt: 'web3ssh',
       },
     ],
