@@ -4,8 +4,16 @@
     "url": "/"
   },
   {
+    "title": "Dignitaries",
+    "url": "/#dignitaries"
+  },
+  {
     "title": "Speakers",
     "url": "/#speakers"
+  },
+  {
+    "title": "Guides",
+    "url": "/#guides"
   },
   {
     "title": "Schedule",
@@ -13,7 +21,7 @@
   },
   {
     "title": "Hackathon",
-    "url": "/#hackathon"
+    "url": "https://web3ssh.devfolio.co/"
   },
   {
     "title": "FAQ",

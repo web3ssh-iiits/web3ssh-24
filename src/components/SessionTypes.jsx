@@ -31,7 +31,7 @@ export default function SessionTypes() {
   ];
   return (
     <div
-      id="schedule"
+      id="sessionType"
       className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 bg-gradient-to-r bg-opacity-90 mb-[120px]"
     >
       <h1 className="text-4xl md:text-6xl font-sans font-medium mb-10 lg:mb-20 text-center text-white">

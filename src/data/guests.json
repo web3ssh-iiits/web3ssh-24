@@ -1,0 +1,20 @@
+[
+    {
+        "name": "Prof. M.V. Kartikeyan",
+        "experience": "Director, IIITDM Kancheepuram",
+        "imageUrl": "/speakers/prof_mv_kartikeyan_1.webp",
+        "position": "CHIEF PATRON"
+    },
+    {
+        "name": "Shri. M Balasubramaniam",
+        "experience": "Chairman, IIIT Sri City",
+        "imageUrl": "/speakers/shri_m_balasubramaniam.webp",
+        "position": "GUEST OF HONOUR"
+    },
+    {
+        "name": "Shri. Srinivasa C Raju",
+        "experience": "Chairman of iLabs Group",
+        "imageUrl": "/speakers/shri_shrinivasa_c_raju.webp",
+        "position": "GUEST OF HONOUR"
+    }
+]
