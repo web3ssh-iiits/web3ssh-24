@@ -1,7 +1,32 @@
 {
   "July 29": [
     {
-      "time": "09:30 AM IST",
+      "time": "09:45 AM IST",
+      "duration": "1h 00m",
+      "date": "July 29",
+      "title": "Inaugration Session of Web 3.0 Summer School & Hackathon",
+      "speakers": [
+        {
+          "name": "Prof. M.V. Kartikeyan",
+          "company": "Director, IIIT Sri City",
+          "image": "/speakers/prof_mv_kartikeyan_1.webp"
+        },
+        {
+          "name": "Shri. M Balasubramaniam",
+          "company": "CEO, StratInfinity Inc",
+          "image": "/speakers/shri_m_balasubramaniam-1.webp"
+        },
+        {
+          "name": "Shri. Srinivasa C Raju",
+          "company": "Chairman of Sri City Foundation",
+          "image": "/speakers/shri_shrinivasa_c_raju.webp"
+        }
+      ],
+      "sessionType": "inaugration",
+      "first": true
+    },
+    {
+      "time": "11:00 AM IST",
       "duration": "1h 30m",
       "date": "July 29",
       "title": "Overview of Evolution of Web and Web 3.0",
@@ -14,11 +39,6 @@
       ],
       "sessionType": "keynote",
       "first": true
-    },
-    {
-      "time": "11:30 AM IST",
-      "date": "July 29",
-      "title": "Coming Soon"
     },
     {
       "time": "02:00 PM IST",

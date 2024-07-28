@@ -1,5 +1,5 @@
 'use client';
-import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon } from 'lucide-react';
+import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon, BookmarkPlusIcon } from 'lucide-react';
 import React, { useState } from 'react';
 import scheduleData from '../data/schedule.json';
 
@@ -19,6 +19,10 @@ const sessionTypes = {
   panel: {
     icon: <UsersIcon className="h-5 w-5" />,
     title: 'Panel Discussion',
+  },
+  inaugration: {
+    icon: <BookmarkPlusIcon className="h-5 w-5" />,
+    title: 'Inaugration Session',
   },
 };
 
