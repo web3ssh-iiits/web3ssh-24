@@ -1,4 +1,5 @@
 'use client';
+import Link from 'next/link';
 import { useState, useEffect } from 'react';
 import { useGSAP } from '@gsap/react';
 import gsap from 'gsap/gsap-core';
@@ -40,9 +41,10 @@ export default function Navbar() {
   const containerStyle = {
     position: "fixed",
     top: topbarPosition,
-    width: 'calc(100vw - 100px)',
-    left: '50px',
-    marginTop: '20px',
+    // width: 'calc(100vw - 100px)',
+    // width: '50%',
+    // left: '50px',
+    // marginTop: '20px',
     display: "flex",
     justifyContent: "space-between",
     alignItems: "center",
@@ -60,10 +62,10 @@ export default function Navbar() {
   }
 
   return (
-    <div className="w-full h-[60px] top-0 flex z-50 text-2xl">
+    <div className="w-full h-[60px]  flex z-50 text-2xl flex justify-center">
 
-      <div style={containerStyle} className="z-50 text-white  border-none flex justify-between items-center">
-        <div className="min-w-fit h-[60px] w-full sm:w-fit md:w-full pl-5 flex justify-start items-center" >
+      <div style={containerStyle} className="w-[70%] sm:w-fit  z-50 text-white  border-none flex justify-between items-center px-5 py-1 mt-2 space-x-2">
+        <div className="min-w-fit h-[60px] w-full sm:w-fit md:w-full flex justify-start items-center" >
           <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={() => (window.location.href = '/')} />
         </div>
 
@@ -71,12 +73,12 @@ export default function Navbar() {
           <ul className="flex lg:gap-6 sm:gap-2">
             {navData.map((item, index) => (
               <li key={index}>
-                <a
+                <Link
                   href={item.url}
                   className="text-lg lg:text-2xl px-1 py-1 rounded-md cursor-pointer hover:font-semibold hover:scale-125 hover:-translate-y-1"
                 >
                   {item.title}
-                </a>
+                </Link>
               </li>
             ))}
           </ul>

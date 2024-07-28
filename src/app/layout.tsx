@@ -1,9 +1,7 @@
 import 'index.css';
+import './global.css';
 
 import type { Metadata } from 'next';
-// import Navbar from '@components/Navbar';
-// import { BackgroundGradientAnimation } from '@components/ui/background-gradient-animation';
-// it seems that Aceternity ui background gradient makes the page unresponsive to scroll, and no content other than the front page is visible
 import GradientBackground from '@components/GradientBackground';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
@@ -67,16 +65,7 @@ export default function RootLayout({
       </head>
 
       <body>
-        <div
-          style={{
-            width: '100vw',
-            height: '100vh',
-            position: 'fixed',
-            zIndex: '-10',
-          }}
-        >
-          <GradientBackground />
-        </div>
+        <GradientBackground />
         <div className="relative z-10">
           <Navbar />
           <div id="root">{children}</div>

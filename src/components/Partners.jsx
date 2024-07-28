@@ -59,7 +59,7 @@ export default function Partners() {
   ];
   return (
     <section className="mt-[50px] mb-[100px] bg-white bg-opacity-0 w-full flex justify-center items-center p-2 font-sans font-medium">
-      <div className="w-full lg:pb-0">
+      <div className="w-full max-w-[1800px] lg:pb-0">
 
         <div className="w-full h-fit grid grid-cols-1 gap-14 sm:grid-cols-2 sm:gap-5 md:grid-cols-2 text-gray-400">
 
