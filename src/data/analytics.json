@@ -3,44 +3,24 @@
     "number": "+150",
     "title": "Participants",
     "unit": "students",
-    "gradientColorFrom": "rose-700",
-    "gradientColorVia": "orange-700",
-    "gradientColorTo": "yellow-600",
-    "bgColorFrom": "transparent",
-    "bgColorTo": "gray-600",
     "direction": "br"
   },
   {
     "number": "+4",
     "title": "Partners",
     "unit": "organizations",
-    "gradientColorFrom": "indigo-600",
-    "gradientColorVia": "violet-700",
-    "gradientColorTo": "purple-600",
-    "bgColorFrom": "transparent",
-    "bgColorTo": "gray-600",
     "direction": "bl"
   },
   {
     "number": "+20",
     "title": "Speakers",
     "unit": "experts",
-    "gradientColorFrom": "lime-800",
-    "gradientColorVia": "green-700",
-    "gradientColorTo": "emerald-600",
-    "bgColorFrom": "transparent",
-    "bgColorTo": "gray-600",
     "direction": "tr"
   },
   {
     "number": "+4",
     "title": "Sponsors",
     "unit": "companies",
-    "gradientColorFrom": "yellow-500",
-    "gradientColorVia": "yellow-600",
-    "gradientColorTo": "yellow-800",
-    "bgColorFrom": "transparent",
-    "bgColorTo": "gray-600",
     "direction": "tl"
   }
 ]

@@ -33,13 +33,13 @@ export const Schedule = () => {
           <span className="text-white">Schedule</span>
         </h1>
       </div>
-      <div className="flex gap-4 md:gap-8 mt-8 justify-start md:justify-around max-w-[90vw] overflow-auto">
+      <div className="flex gap-4 md:gap-8 mt-8  max-w-[90vw] font-sans overflow-auto">
         {Object.keys(scheduleData).map((date, index) => (
           <div key={date} onClick={() => setActiveDate(date)}>
-            <div className={`ml-2 text-gray-200 text-base md:text-xl font-bold py-2 px-4 bg-gradient-to-l from-gray-900 to-cyan-900 rounded-tl-xl ${activeDate === date ? 'bg-cyan-700' : ''}`}>
+            <div className={`text-gray-200 text-center text-base md:text-xl font-semibold p-2 bg-[#222] rounded-t-xl`}>
               Day {index + 1}
             </div>
-            <a href={`#schedule-${date.replace(/ /g, '-')}`} className={`py-3 px-4 w-[170px] text-base md:text-lg tracking-wide inline-block font-semibold text-white ${activeDate === date ? 'bg-[#222]' : ' backdrop-blur-sm bg-black bg-opacity-20'} rounded-tl-lg rounded-bl-lg border-white transition-all duration-300`}>
+            <a href={`#schedule-${date.replace(/ /g, '-')}`} className={`py-3 px-4 w-[140px] text-base md:text-lg tracking-wide inline-block font-semibold text-white ${activeDate === date ? 'bg-[#222]' : ' backdrop-blur-sm bg-black bg-opacity-20'} rounded-b-xl border-white transition-all duration-300`}>
               <span className="flex items-center justify-center">{date}</span>
             </a>
           </div>

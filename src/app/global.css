@@ -1,0 +1,55 @@
+html {
+  scroll-behavior: smooth;
+}
+
+.gradient-bg {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    overflow: hidden;
+    z-index: -1;
+    will-change: transform;
+  }
+  
+  .gradients-container {
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    right: -50%;
+    bottom: -50%;
+    width: 200%;
+    height: 200%;
+    transform: translateZ(0);
+    filter: url('#goo');
+  }
+  
+  .g1, .g2, .g3, .g4, .g5 {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    mix-blend-mode: multiply;
+    animation: blob 15s ease-in-out infinite alternate;
+    transform: translateZ(0);
+  }
+  
+  .g1 { background: radial-gradient(circle at center, rgba(255,0,0,0.5) 0%, rgba(255,0,0,0) 70%); }
+  .g2 { background: radial-gradient(circle at center, rgba(0,255,0,0.5) 0%, rgba(0,255,0,0) 70%); }
+  .g3 { background: radial-gradient(circle at center, rgba(0,0,255,0.5) 0%, rgba(0,0,255,0) 70%); }
+  .g4 { background: radial-gradient(circle at center, rgba(255,255,0,0.5) 0%, rgba(255,255,0,0) 70%); }
+  .g5 { background: radial-gradient(circle at center, rgba(0,255,255,0.5) 0%, rgba(0,255,255,0) 70%); }
+  
+  @keyframes blob {
+    0%, 100% { transform: translate(0, 0) scale(1); }
+    25% { transform: translate(150px, -100px) scale(0.8); }
+    50% { transform: translate(-100px, 200px) scale(1.2); }
+    75% { transform: translate(200px, 100px) scale(0.9); }
+  }
+  
+  @media (prefers-reduced-motion: reduce) {
+    .g1, .g2, .g3, .g4, .g5 {
+      animation: none;
+    }
+  }

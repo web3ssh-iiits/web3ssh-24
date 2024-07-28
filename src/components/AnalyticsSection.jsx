@@ -12,18 +12,13 @@ const iconMap = {
 export default function AnalyticsSection() {
   return (
     <>
-      <div className="grid justify-items-center m-12 grid-cols-1 lg:grid-cols-2 lg:w-[50%] mx-auto  gap-x-0 ">
+      <div className="w-full mx-auto mt-20 md:mt-40 md:w-fit grid justify-items-center grid-cols-1 md:grid-cols-2 xl:grid-cols-4 gap-x-4 ">
         {analyticsData.map((data, index) => (
           <AnalyticsCard
             key={index}
             number={data.number}
             title={data.title}
             unit={data.unit}
-            gradientColorFrom={data.gradientColorFrom}
-            gradientColorVia={data.gradientColorVia}
-            gradientColorTo={data.gradientColorTo}
-            bgColorFrom={data.bgColorFrom}
-            bgColorTo={data.bgColorTo}
             direction = {data.direction}
             icon={iconMap[data.unit]}
           />

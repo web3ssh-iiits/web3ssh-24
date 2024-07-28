@@ -1,16 +1,12 @@
-// import InteractiveBubble from './interactiveBubble';
+import React from 'react';
 
 export default function GradientBackground() {
   return (
     <div className="gradient-bg">
-      <svg xmlns="http://www.w3.org/2000/svg">
+      <svg xmlns="http://www.w3.org/2000/svg" className="hidden">
         <defs>
           <filter id="goo">
-            <feGaussianBlur
-              in="SourceGraphic"
-              stdDeviation="10"
-              result="blur"
-            />
+            <feGaussianBlur in="SourceGraphic" stdDeviation="10" result="blur" />
             <feColorMatrix
               in="blur"
               mode="matrix"
@@ -27,10 +23,6 @@ export default function GradientBackground() {
         <div className="g3"></div>
         <div className="g4"></div>
         <div className="g5"></div>
-        {/*
-          WARNING: Uncommenting this will make background interactive but will also make the website very laggy!
-        < InteractiveBubble />
-        */}
       </div>
     </div>
   );
