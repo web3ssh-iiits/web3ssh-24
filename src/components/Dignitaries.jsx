@@ -13,7 +13,7 @@ export default function DignitariesPanel() {
                 >
                     <h1>Event Dignitaries</h1>
                 </div>
-                <div className="max-w-[1300px] w-[80%] mb-10 lg:mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
+                <div className="max-w-[1200px] w-[80%] mb-10 lg:mb-20 grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-10">
                     {guests.map((guest) => (
                         <SpeakerCard
                             key={guest.name}
@@ -24,7 +24,7 @@ export default function DignitariesPanel() {
                         />
                     ))}
                 </div>
-                <div className="max-w-[850px] w-[80%] mb-10 lg:mb-20 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10">
+                <div className="max-w-[800px] w-[80%] mb-10 lg:mb-20 grid grid-cols-2 md:grid-cols-2 lg:grid-cols-2 gap-10">
                     {facultyCoordinators.map((coordinators) => (
                         <SpeakerCard
                             key={coordinators.name}

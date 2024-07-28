@@ -11,7 +11,7 @@ const SpeakerCard = ({ title, experience, imgSrc, data, position }) => {
     return (
         <>
             <motion.div
-                className="w-auto h-[500px] overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-xl transition-shadow duration-300 ease-in-out"
+                className="w-auto h-[400px] overflow-hidden rounded-lg shadow-lg cursor-pointer hover:shadow-xl transition-shadow duration-300 ease-in-out"
                 whileHover={{ scale: 1.05 }}
                 onClick={toggleModal}
             >
