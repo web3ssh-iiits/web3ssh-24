@@ -29,11 +29,11 @@
       "time": "11:00 AM IST",
       "duration": "1h 30m",
       "date": "July 29",
-      "title": "Overview of Evolution of Web and Web 3.0",
+      "title": "Beyond 2.0: Embracing Web 3.0",
       "speakers": [
         {
           "name": "Laisha Wadhwa",
-          "company": "ML @Lucidity, Ex- Goldman Sachs",
+          "company": "Lead ML Engineer @Lucidity, Ex-Devrel @Polygon, Ex-SDE Goldman Sachs",
           "image": "/speakers/laisha_wadhwa.webp"
         }
       ],
@@ -41,29 +41,59 @@
       "first": true
     },
     {
-      "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "time": "12:30 AM IST",
+      "duration": "30 minutes",
+      "title": "Basic Quiz: Frontend Dev, Backend Dev, and Blockchain",
+      "sessionType": "quiz"
+    },
+    {
+      "time": "01:00 PM IST",
+      "duration": "1h 00m",
       "date": "July 29",
-      "title": "Crafting a stunning Full Stack System",
+      "title": "Lunch Break",
+      "sessionType": "lunch",
+      "last": true
+    },
+    {
+      "time": "02:00 PM IST",
+      "duration": "1h 15m",
+      "date": "July 29",
+      "title": "Hands-on Session Part 1: Evolution of Web",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",
-          "company": "Associate Professor, IIIT Sri City",
+          "company": "Associate Professor IIIT Sri City, Phd CSE IIT Kgp, Phd Mathematics University of Madras",
           "image": "/speakers/dr_rajendra_prasath.webp"
         }
       ],
       "sessionType": "workshop"
     },
     {
-      "time": "05:00 PM IST",
+      "time": "03:15 PM IST",
+      "duration": "15 minutes",
       "date": "July 29",
-      "title": "Coming Soon",
+      "title": "Coffee Break",
+      "sessionType": "coffee",
       "last": true
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
+      "date": "July 29",
+      "title": "Hands-on Session Part 2: Hands-on Fullstack Dev",
+      "speakers": [
+        {
+          "name": "Dr. Rajendra Prasath",
+          "company": "Associate Professor IIIT Sri City, Phd CSE IIT Kgp, Phd Mathematics University of Madras",
+          "image": "/speakers/dr_rajendra_prasath.webp"
+        }
+      ],
+      "sessionType": "workshop"
     }
   ],
   "July 30": [
     {
-      "time": "09:30 AM IST",
+      "time": "09:45 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
       "title": "The Full-Stack Odyssey: Ecosystem Insights, Landscape Wonders, and Code Snippets",
@@ -79,7 +109,7 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "July 30",
       "title": "Unveiling the System Design Behind UPI and Blinkit: How They Power Modern Transactions",
       "speakers": [
@@ -97,15 +127,41 @@
       "sessionType": "theory"
     },
     {
+      "time": "01:00 PM IST",
+      "duration": "1h 00m",
+      "date": "July 29",
+      "title": "Lunch Break",
+      "sessionType": "lunch",
+      "last": true
+    },
+    {
       "time": "02:00 PM IST",
+      "duration": "1h 15m",
       "date": "July 30",
-      "title": "Coming Soon"
+      "title": "Hands-on Workshop: Part 1",
+      "sessionType": "workshop"
+    },
+    {
+      "time": "03:15 PM IST",
+      "duration": "15 minutes",
+      "date": "July 29",
+      "title": "Coffee Break",
+      "sessionType": "coffee",
+      "last": true
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
+      "date": "July 30",
+      "title": "Hands-on Workshop: Part 2",
+      "sessionType": "workshop"
     },
     {
       "time": "05:00 PM IST",
+      "duration": "1h 00m",
       "date": "July 30",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Panel Discussion/Interactive QnA",
+      "sessionType": "panel"
     }
   ],
   "July 31": [
