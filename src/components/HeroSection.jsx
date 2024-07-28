@@ -13,11 +13,10 @@ const HeroSection = () => {
     script.async = true;
     script.defer = true;
     document.body.appendChild(script);
-    // return () => {
-    //   document.body.removeChild(script);
-    // }
+    return () => {
+      document.body.removeChild(script);
+    }
   }, []);
-
   const words = [
     {
       text: 'Web',
@@ -97,41 +96,12 @@ const HeroSection = () => {
               </span>
             </button>
           </a>
-
           <div
             className="apply-button"
             data-hackathon-slug="web3ssh"
-            data-button-theme="dark"
-          >
-            <div className="inner-button">
-              Apply Now
-              <svg
-                className="ml-2"
-                width="32"
-                height="32"
-                viewBox="0 0 24 24"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  stroke="currentColor"
-                  strokeLinecap="round"
-                  strokeLinejoin="round"
-                  strokeWidth="1.5"
-                  d="M10.75 8.75L14.25 12L10.75 15.25"
-                ></path>
-              </svg>
-            </div>
-          </div>
-
-          {/* <div
-            className="apply-button"
-            data-hackathon-slug="web3ssh"
             data-button-theme="light"
-            // style={{ height: "44px", width: "312px" }}
-          >
-          </div> */}
-
+            style={{ height: "44px", width: "312px" }}
+          ></div>
           {/*<a href='https://web3ssh.devfolio.co/' target='_blank'>
             <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-4 text-md rounded-md'>
               <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px" />

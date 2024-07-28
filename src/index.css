@@ -14,7 +14,7 @@
   --circle-size: 80%;
   --blending: hard-light;
 }
-#root {
+#root{
   margin-top: 70px;
 }
 @keyframes moveInCircle {
@@ -207,52 +207,4 @@
 
 body {
   overflow-x: hidden;
-}
-
-.apply-button {
-  position: relative;
-  display: inline-flex;
-  padding: 2px;
-  border-radius: 9999px;
-  overflow: hidden;
-  height: 64px;
-  width: 256px;
-}
-.apply-button::before {
-  content: '';
-  position: absolute;
-  top: -50%;
-  left: -50%;
-  width: 200%;
-  height: 200%;
-  background: conic-gradient(
-    from 90deg at 50% 50%,
-    #e2cbff 0%,
-    #393bb2 50%,
-    #e2cbff 100%
-  );
-  animation: spin 2s linear infinite;
-  z-index: 0;
-}
-.apply-button > .inner-button {
-  position: relative;
-  z-index: 1;
-  display: inline-flex;
-  align-items: center;
-  justify-content: center;
-  padding-left: 3rem;
-  padding-right: 2rem;
-  padding-top: 1rem;
-  padding-bottom: 1rem;
-  border-radius: 9999px;
-  background-color: #1e293b; /* bg-slate-950 */
-  color: white;
-  font-weight: 600;
-  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
-  text-align: center;
-}
-@keyframes spin {
-  to {
-    transform: rotate(360deg);
-  }
 }
