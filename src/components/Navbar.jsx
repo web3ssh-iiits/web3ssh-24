@@ -64,7 +64,7 @@ export default function Navbar() {
 
       <div style={containerStyle} className="z-50 text-white  border-none flex justify-between items-center">
         <div className="min-w-fit h-[60px] w-full sm:w-fit md:w-full pl-5 flex justify-start items-center" >
-          <img src={web3sshLogo.src} alt="Web3SSH logo" style={{ height: '50px' }} onClick={() => (window.location.href = '/')} />
+          <img src={web3sshLogo.src} alt="web3ssh logo" style={{ height: '50px' }} onClick={() => (window.location.href = '/')} />
         </div>
 
         <div className="hidden sm:flex justify-between gap-6 items-center">
