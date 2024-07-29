@@ -9,21 +9,21 @@ export default function SessionTypes() {
     },
     {
       icon: <ClipboardIcon className="h-10 w-10 mr-2" />,
-      title: 'Fundamental Theory',
+      title: 'Fundamental Lectures',
       time: '11:00 AM - 12:00 PM',
       description:
         'Dive deep into the fundamental theories and concepts that underpin the field. These sessions will provide a solid foundation for your learning.',
     },
     {
       icon: <HammerIcon className="h-10 w-10 mr-2" />,
-      title: 'Hands-on Workshop',
+      title: 'Hands-on Workshops',
       time: '2:00 PM - 4:00 PM',
       description:
         "Get your hands dirty and apply what you've learned in a series of interactive workshops. Collaborate with your peers and instructors to solve real-world problems.",
     },
     {
       icon: <UsersIcon className="h-10 w-10 mr-2" />,
-      title: 'Panel Discussions',
+      title: 'Discussions',
       time: '5:00 PM - 6:00 PM',
       description:
         'Join us for a panel discussion with industry experts, where you can ask questions and engage in thought-provoking conversations about the future of the field.',

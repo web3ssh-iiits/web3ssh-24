@@ -17,9 +17,24 @@
           "image": "/speakers/shri_m_balasubramaniam-1.webp"
         },
         {
-          "name": "Shri. Srinivasa C Raju",
-          "company": "Chairman of Sri City Foundation",
-          "image": "/speakers/shri_shrinivasa_c_raju.webp"
+          "name": "Dr. Annushree Bablani",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/annushree_bablani.webp"
+        },
+        {
+          "name": "Dr. Hrishikesh Venkatraman",
+          "company": "Associate Professor & Associate Dean - R&D, IIIT Sri City",
+          "image": "/speakers/hrishikesh_venkatraman.webp"
+        },
+        {
+          "name": "Dr. Bheemappa Halavar",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/dr_bheemappa_halavar-1.webp"
+        },
+        {
+          "name": "Dr. Himangshu Sarma",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/dr_himangshu_sarma.webp"
         }
       ],
       "sessionType": "inaugration",
@@ -51,7 +66,7 @@
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "July 29",
-      "title": "Hands-on Session Part 1: Evolution of Web",
+      "title": "Foundational Lecture: Evolution of Web",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",
@@ -62,18 +77,10 @@
       "sessionType": "workshop"
     },
     {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "July 29",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
-    },
-    {
       "time": "03:30 PM IST",
       "duration": "1h 15m",
       "date": "July 29",
-      "title": "Hands-on Session Part 2: Hands-on Fullstack Dev",
+      "title": "Hands-on Session: Fullstack Dev",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",
@@ -104,48 +111,56 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
-      "title": "Unveiling the System Design Behind UPI and Blinkit: How They Power Modern Transactions",
+      "title": "Unveiling the System Design Behind UPI",
       "speakers": [
         {
           "name": "Prashant Kumar",
           "company": "SDE Juspay, Working on UPI",
           "image": "/speakers/prashant_kumar.webp"
-        },
+        }
+      ],
+      "sessionType": "theory"
+    },
+    {
+      "time": "2:00 AM IST",
+      "duration": "1h 15m",
+      "date": "July 30",
+      "title": "Workshop Part 1: Prototype of real time grocery app",
+      "speakers": [
         {
           "name": "Abhay Ray",
           "company": "SDE Zomato",
           "image": "/speakers/abhay_ray.webp"
         }
       ],
-      "sessionType": "theory"
-    },
-    {
-      "time": "02:00 PM IST",
-      "duration": "1h 15m",
-      "date": "July 30",
-      "title": "Hands-on Workshop: Part 1",
       "sessionType": "workshop"
     },
     {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "July 30",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
-    },
-    {
-      "time": "03:30 PM IST",
+      "time": "3:30 AM IST",
       "duration": "1h 15m",
       "date": "July 30",
-      "title": "Hands-on Workshop: Part 2",
+      "title": "Workshop Part 2: Prototype of real time grocery app",
+      "speakers": [
+        {
+          "name": "Abhay Ray",
+          "company": "SDE Zomato",
+          "image": "/speakers/abhay_ray.webp"
+        }
+      ],
       "sessionType": "workshop"
     },
     {
       "time": "05:00 PM IST",
       "duration": "1h 00m",
       "date": "July 30",
-      "title": "Panel Discussion/Interactive QnA",
+      "title": "How to approach placements preparation",
+      "speakers": [
+        {
+          "name": "Tapesh Vashisth",
+          "company": "ICPC Regionalist, IIIT Sri City Alumni",
+          "image": "/speakers/tapesh_vashisth.webp"
+        }
+      ],
       "sessionType": "panel"
     }
   ],
@@ -192,14 +207,6 @@
         }
       ],
       "sessionType": "workshop"
-    },
-    {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "July 31",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
     },
     {
       "time": "03:30 PM IST",
@@ -436,7 +443,7 @@
         }
       ],
       "sessionType": "workshop"
-    }  ,
+    },
     {
       "time": "05:00 PM IST",
       "duration": "1h 00m",

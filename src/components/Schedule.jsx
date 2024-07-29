@@ -10,7 +10,7 @@ const sessionTypes = {
   },
   theory: {
     icon: <ClipboardIcon className="h-5 w-5" />,
-    title: 'Fundamental Theory',
+    title: 'Fundamental Lecture',
   },
   workshop: {
     icon: <HammerIcon className="h-5 w-5" />,
@@ -34,7 +34,7 @@ const sessionTypes = {
   },
   quiz: {
     icon: <FileQuestionIcon className='h-5 w-5' />,
-    title: 'Basic Quiz'
+    title: 'Quiz'
   }
 };
 
