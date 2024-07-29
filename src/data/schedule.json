@@ -96,11 +96,11 @@
       "time": "09:45 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
-      "title": "The Full-Stack Odyssey: Ecosystem Insights, Landscape Wonders, and Code Snippets",
+      "title": "Navigating the Full Stack: Current Frameworks, Ecosystems, and Best Practices",
       "speakers": [
         {
           "name": "Jelena Gjorgjev",
-          "company": "Senior Full-Stack Developer",
+          "company": "Senior Full Stack Engineer, Speaker, University of Barcelona Alumni",
           "image": "/speakers/jelena_gjorgjev.webp"
         }
       ],
@@ -111,11 +111,11 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
-      "title": "Unveiling the System Design Behind UPI",
+      "title": "Overview of Large-Scale Payment Systems: The UPI Case Study",
       "speakers": [
         {
           "name": "Prashant Kumar",
-          "company": "SDE Juspay, Working on UPI",
+          "company": "SDE Juspay",
           "image": "/speakers/prashant_kumar.webp"
         }
       ],
@@ -125,11 +125,11 @@
       "time": "2:00 AM IST",
       "duration": "2h 30m",
       "date": "July 30",
-      "title": "Prototype of real time grocery app",
+      "title": "Groceries on Demand: Prototyping a Real-Time Delivery Experience ",
       "speakers": [
         {
           "name": "Abhay Ray",
-          "company": "SDE Zomato",
+          "company": "SDE Blinkit",
           "image": "/speakers/abhay_ray.webp"
         }
       ],
@@ -139,7 +139,7 @@
       "time": "05:00 PM IST",
       "duration": "1h 00m",
       "date": "July 30",
-      "title": "How to approach for placements preparation",
+      "title": "Placement Prep: Strategies for Winning Your Dream Job",
       "speakers": [
         {
           "name": "Tapesh Vashisth",
