@@ -82,29 +82,5 @@
     "experience": "CMO @QuillAudits",
     "imageUrl": "/speakers/kartik_chugh_1.webp",
     "details": "Digital Experience Developer"
-  },
-  {
-    "name": "Dr. Annushree Bablani",
-    "experience": "Assistant Professor, IIIT Sri City",
-    "imageUrl": "/speakers/annushree_bablani.webp",
-    "details": "Doctor of Philosophy - PhD CSE, NIT Goa"
-  },
-  {
-    "name": "Dr. Bheemappa Halavar",
-    "experience": "Assistant Professor, IIIT Sri City",
-    "imageUrl": "/speakers/dr_bheemappa_halavar-1.webp",
-    "details": "Doctor of Philosophy - PhD CSE, NIT Karnataka"
-  },
-  {
-    "name": "Dr. Himangshu Sarma",
-    "experience": "Assistant Professor, IIIT Sri City",
-    "imageUrl": "/speakers/dr_himangshu_sarma.webp",
-    "details": "Doctor of Philosophy - PhD CSE, University of Bremen"
-  },
-  {
-    "name": "Dr. Hrishikesh Venkatraman",
-    "experience": "Associate Professor & Associate Dean - R&D, IIIT Sri City",
-    "imageUrl": "/speakers/hrishikesh_venkatraman.webp",
-    "details": "Leading Smart Transportation Research Group"
   }
 ]
