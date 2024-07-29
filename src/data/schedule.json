@@ -123,23 +123,9 @@
     },
     {
       "time": "2:00 AM IST",
-      "duration": "1h 15m",
+      "duration": "2h 30m",
       "date": "July 30",
-      "title": "Workshop Part 1: Prototype of real time grocery app",
-      "speakers": [
-        {
-          "name": "Abhay Ray",
-          "company": "SDE Zomato",
-          "image": "/speakers/abhay_ray.webp"
-        }
-      ],
-      "sessionType": "workshop"
-    },
-    {
-      "time": "3:30 AM IST",
-      "duration": "1h 15m",
-      "date": "July 30",
-      "title": "Workshop Part 2: Prototype of real time grocery app",
+      "title": "Prototype of real time grocery app",
       "speakers": [
         {
           "name": "Abhay Ray",
@@ -153,11 +139,11 @@
       "time": "05:00 PM IST",
       "duration": "1h 00m",
       "date": "July 30",
-      "title": "How to approach placements preparation",
+      "title": "How to approach for placements preparation",
       "speakers": [
         {
           "name": "Tapesh Vashisth",
-          "company": "ICPC Regionalist, IIIT Sri City Alumni",
+          "company": "ICPC Regionalist, Summer Analyst at Morgan Stanley",
           "image": "/speakers/tapesh_vashisth.webp"
         }
       ],

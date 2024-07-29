@@ -18,7 +18,7 @@ const sessionTypes = {
   },
   panel: {
     icon: <UsersIcon className="h-5 w-5" />,
-    title: 'Panel Discussion',
+    title: 'Discussion',
   },
   inaugration: {
     icon: <BookmarkPlusIcon className="h-5 w-5" />,
