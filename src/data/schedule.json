@@ -48,14 +48,6 @@
       "sessionType": "quiz"
     },
     {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "July 29",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
-    },
-    {
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "July 29",
