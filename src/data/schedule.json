@@ -120,14 +120,6 @@
       "sessionType": "theory"
     },
     {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "July 30",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
-    },
-    {
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "July 30",
@@ -186,14 +178,6 @@
         }
       ],
       "sessionType": "theory"
-    },
-    {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "July 31",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
     },
     {
       "time": "02:00 PM IST",
@@ -270,14 +254,6 @@
       "sessionType": "theory"
     },
     {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "August 01",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
-    },
-    {
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "August 01",
@@ -352,14 +328,6 @@
       "sessionType": "theory"
     },
     {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "August 02",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
-    },
-    {
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "August 02",
@@ -432,14 +400,6 @@
         }
       ],
       "sessionType": "theory"
-    },
-    {
-      "time": "01:00 PM IST",
-      "duration": "1h 00m",
-      "date": "August 03",
-      "title": "Lunch Break",
-      "sessionType": "lunch",
-      "last": true
     },
     {
       "time": "02:00 PM IST",
