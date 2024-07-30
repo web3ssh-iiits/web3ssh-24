@@ -98,11 +98,26 @@ const HeroSection = () => {
           </a>
           <a href='https://web3ssh.devfolio.co/' target='_blank'>
             <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-3 text-lg rounded-full'>
-              <span>
-              <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px"  className='inline'/>
-              Apply with Devfolio
+              <span className='p-0.5 inline-flex items-center'>
+                <img src='/icons/Devfolio_Logo.webp' height="30px" width="30px" className='mx-2 inline fill-white drop-shadow-lg invert' />
+                Apply with Devfolio
+                <svg
+                  width="32"
+                  height="32"
+                  viewBox="0 0 24 24"
+                  fill="none"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    stroke="currentColor"
+                    strokeLinecap="round"
+                    strokeLinejoin="round"
+                    strokeWidth="1.5"
+                    d="M10.75 8.75L14.25 12L10.75 15.25"
+                  ></path>
+                </svg>
               </span>
-              <span className='text-lg'>&nbsp; &lt;Hackathon&gt;</span>
+              {/* <span className='text-lg'>&nbsp; &lt;Hackathon&gt;</span> */}
             </button>
           </a>
           {/*<a href='https://web3ssh.devfolio.co/' target='_blank'>
