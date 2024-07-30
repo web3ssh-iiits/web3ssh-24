@@ -7,11 +7,6 @@
       "title": "Inaugration Session of Web 3.0 Summer School & Hackathon",
       "speakers": [
         {
-          "name": "Prof. M.V. Kartikeyan",
-          "company": "Director, IIIT Sri City",
-          "image": "/speakers/prof_mv_kartikeyan_1.webp"
-        },
-        {
           "name": "Shri. M Balasubramaniam",
           "company": "CEO, StratInfinity Inc",
           "image": "/speakers/shri_m_balasubramaniam-1.webp"
@@ -44,7 +39,7 @@
       "time": "11:00 AM IST",
       "duration": "1h 30m",
       "date": "July 29",
-      "title": "Beyond 2.0: Embracing Web 3.0",
+      "title": "Keynote Session 'Beyond 2.0: Embracing Web 3.0'",
       "speakers": [
         {
           "name": "Laisha Wadhwa",
@@ -59,7 +54,7 @@
       "time": "12:30 PM IST",
       "duration": "30 minutes",
       "date": "July 29",
-      "title": "Basic Quiz: Frontend Dev, Backend Dev, and Blockchain",
+      "title": "Basic Quiz to assess your knowledge in Frontend Dev, Backend Dev, and Blockchain",
       "sessionType": "quiz"
     },
     {
@@ -74,13 +69,13 @@
           "image": "/speakers/dr_rajendra_prasath.webp"
         }
       ],
-      "sessionType": "workshop"
+      "sessionType": "theory"
     },
     {
       "time": "03:30 PM IST",
       "duration": "1h 15m",
       "date": "July 29",
-      "title": "Hands-on Session: Fullstack Dev",
+      "title": "Hands-on workshop: Hands-on Fullstack Dev",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",

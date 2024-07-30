@@ -96,12 +96,15 @@ const HeroSection = () => {
               </span>
             </button>
           </a>
-          <div
-            className="apply-button"
-            data-hackathon-slug="web3ssh"
-            data-button-theme="light"
-            style={{ height: "44px", width: "312px" }}
-          ></div>
+          <a href='https://web3ssh.devfolio.co/' target='_blank'>
+            <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-3 text-lg rounded-full'>
+              <span>
+              <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px"  className='inline'/>
+              Apply with Devfolio
+              </span>
+              <span className='text-lg'>&nbsp; &lt;Hackathon&gt; </span>
+            </button>
+          </a>
           {/*<a href='https://web3ssh.devfolio.co/' target='_blank'>
             <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-4 text-md rounded-md'>
               <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px" />
