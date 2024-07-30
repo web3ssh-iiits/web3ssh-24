@@ -102,7 +102,7 @@ const HeroSection = () => {
               <img src='https://avatars.githubusercontent.com/u/38809367?v=4' height="30px" width="30px"  className='inline'/>
               Apply with Devfolio
               </span>
-              <span className='text-lg'>&nbsp; &lt;Hackathon&gt; </span>
+              <span className='text-lg'>&nbsp; <b>'web3ssh'</b></span>
             </button>
           </a>
           {/*<a href='https://web3ssh.devfolio.co/' target='_blank'>
