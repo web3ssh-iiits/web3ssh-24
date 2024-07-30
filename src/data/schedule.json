@@ -150,7 +150,7 @@
       "time": "09:45 AM IST",
       "duration": "1h 15m",
       "date": "July 31",
-      "title": "Intro to blockchain, Why, How and History",
+      "title": "The Story of Blockchain: Origins, Evolution and Impact",
       "speakers": [
         {
           "name": "Jozef Jagan",
@@ -165,10 +165,10 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "July 31",
-      "title": "Basic Cryptography for Blockchain",
+      "title": "Introduction to Cryptography Fundamentals",
       "speakers": [
         {
-          "name": "Rachit Anand Srivastava",
+          "name": "Anand Srivastava",
           "company": "Blockchain Engineer, Avail",
           "image": "/speakers/rachit_anand_srivastava.webp"
         }
@@ -177,38 +177,17 @@
     },
     {
       "time": "02:00 PM IST",
-      "duration": "1h 15m",
+      "duration": "2h 30m",
       "date": "July 31",
-      "title": "Introduction to Solidity Dev",
+      "title": "Introduction to Smart Contract Development using Solidity",
       "speakers": [
         {
-          "name": "Dr. Mallikarjun Reddy",
+          "name": "Dr. Dorsala Mallikarjun Reddy",
           "company": "Assistant Professor IIIT Sri City",
           "image": "/speakers/dr_mallikarjun_reddy_dorsala.webp"
         }
       ],
       "sessionType": "workshop"
-    },
-    {
-      "time": "03:30 PM IST",
-      "duration": "1h 15m",
-      "date": "July 31",
-      "title": "Introduction to Solidity Dev",
-      "speakers": [
-        {
-          "name": "Dr. Mallikarjun Reddy",
-          "company": "Assistant Professor IIIT Sri City",
-          "image": "/speakers/dr_mallikarjun_reddy_dorsala.webp"
-        }
-      ],
-      "sessionType": "workshop"
-    },
-    {
-      "time": "05:00 PM IST",
-      "duration": "1h 00m",
-      "date": "July 31",
-      "title": "Discussion/Interactive QnA",
-      "sessionType": "panel"
     }
   ],
   "August 01": [
