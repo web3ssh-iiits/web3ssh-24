@@ -154,7 +154,7 @@
       "speakers": [
         {
           "name": "Jozef Jagan",
-          "company": "Founder: Wallet Hunter",
+          "company": "Founder Wallet Hunter, NIT Calicut Alumni",
           "image": "/speakers/jozef_jagan.webp"
         }
       ],
@@ -193,9 +193,9 @@
   "August 01": [
     {
       "time": "09:45 AM IST",
-      "duration": "1h 15m",
+      "duration": "1h 30m",
       "date": "August 01",
-      "title": "Discovering DApps: The Future of Decentralized Applications",
+      "title": "Building decentralized applications using Hardhat and Truffle frameworks",
       "speakers": [
         {
           "name": "Dr. Shashidhar",
@@ -210,12 +210,12 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "August 01",
-      "title": "Coming Soon",
+      "title": "Identity Management and Skill Credentials through DApps",
       "speakers": [
         {
-          "name": "Pranshu Rastogi",
-          "company": "Head of Ecosystem, Push Protocol",
-          "image": "/speakers/pranshu_rastogi_1.webp"
+          "name": "Dr. Shashidhar",
+          "company": "Lead Researcher, Samsung R&D",
+          "image": "/speakers/dr_shashidhar_r.webp"
         }
       ],
       "sessionType": "theory"
@@ -233,14 +233,6 @@
         }
       ],
       "sessionType": "workshop"
-    },
-    {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "August 01",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
     },
     {
       "time": "03:30 PM IST",
@@ -267,7 +259,7 @@
   "August 02": [
     {
       "time": "09:45 AM IST",
-      "duration": "1h 15m",
+      "duration": "1h 30m",
       "date": "August 02",
       "title": "Tokenization of RWA",
       "speakers": [
@@ -341,7 +333,7 @@
   "August 03": [
     {
       "time": "09:45 AM IST",
-      "duration": "1h 15m",
+      "duration": "1h 30m",
       "date": "August 03",
       "title": "Future of Web 3.0",
       "speakers": [
