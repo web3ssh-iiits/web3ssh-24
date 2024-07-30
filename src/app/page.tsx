@@ -5,6 +5,7 @@ import AnalyticsSection from '@components/AnalyticsSection';
 import { JoinUs } from '@components/WhyJoin';
 
 import Speakers from '@components/Speakers';
+import Guides from '@components/Guides'
 import dynamic from 'next/dynamic';
 import SessionTypes from '@components/SessionTypes';
 // import Outcomes from '@components/Outcomes';
@@ -21,6 +22,7 @@ export default function Page() {
       <HeroSection />
       <Partners />
       <Speakers />
+      <Guides />
       <SessionTypes />
       <Schedule />
       <KeyComponents />

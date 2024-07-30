@@ -1,14 +1,54 @@
 {
   "July 29": [
     {
-      "time": "09:30 AM IST",
+      "time": "09:45 AM IST",
+      "duration": "1h 00m",
+      "date": "July 29",
+      "title": "Inaugration Session of Web 3.0 Summer School & Hackathon",
+      "speakers": [
+        {
+          "name": "Prof. M.V. Kartikeyan",
+          "company": "Director, IIIT Sri City",
+          "image": "/speakers/prof_mv_kartikeyan_1.webp"
+        },
+        {
+          "name": "Shri. M Balasubramaniam",
+          "company": "CEO, StratInfinity Inc",
+          "image": "/speakers/shri_m_balasubramaniam-1.webp"
+        },
+        {
+          "name": "Dr. Annushree Bablani",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/annushree_bablani.webp"
+        },
+        {
+          "name": "Dr. Hrishikesh Venkatraman",
+          "company": "Associate Professor & Associate Dean - R&D, IIIT Sri City",
+          "image": "/speakers/hrishikesh_venkatraman.webp"
+        },
+        {
+          "name": "Dr. Bheemappa Halavar",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/dr_bheemappa_halavar-1.webp"
+        },
+        {
+          "name": "Dr. Himangshu Sarma",
+          "company": "Assistant Professor, IIIT Sri City",
+          "image": "/speakers/dr_himangshu_sarma.webp"
+        }
+      ],
+      "sessionType": "inaugration",
+      "first": true
+    },
+    {
+      "time": "11:00 AM IST",
       "duration": "1h 30m",
       "date": "July 29",
-      "title": "Overview of Evolution of Web and Web 3.0",
+      "title": "Beyond 2.0: Embracing Web 3.0",
       "speakers": [
         {
           "name": "Laisha Wadhwa",
-          "company": "ML @Lucidity, Ex- Goldman Sachs",
+          "company": "Lead ML Engineer @Lucidity, Ex-Devrel @Polygon, Ex-SDE Goldman Sachs",
           "image": "/speakers/laisha_wadhwa.webp"
         }
       ],
@@ -16,41 +56,51 @@
       "first": true
     },
     {
-      "time": "11:30 AM IST",
+      "time": "12:30 PM IST",
+      "duration": "30 minutes",
       "date": "July 29",
-      "title": "Coming Soon"
+      "title": "Basic Quiz: Frontend Dev, Backend Dev, and Blockchain",
+      "sessionType": "quiz"
     },
     {
       "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "duration": "1h 15m",
       "date": "July 29",
-      "title": "Crafting a stunning Full Stack System",
+      "title": "Foundational Lecture: Evolution of Web",
       "speakers": [
         {
           "name": "Dr. Rajendra Prasath",
-          "company": "Associate Professor, IIIT Sri City",
+          "company": "Associate Professor IIIT Sri City, Phd CSE IIT Kgp, Phd Mathematics University of Madras",
           "image": "/speakers/dr_rajendra_prasath.webp"
         }
       ],
       "sessionType": "workshop"
     },
     {
-      "time": "05:00 PM IST",
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
       "date": "July 29",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Hands-on Session: Fullstack Dev",
+      "speakers": [
+        {
+          "name": "Dr. Rajendra Prasath",
+          "company": "Associate Professor IIIT Sri City, Phd CSE IIT Kgp, Phd Mathematics University of Madras",
+          "image": "/speakers/dr_rajendra_prasath.webp"
+        }
+      ],
+      "sessionType": "workshop"
     }
   ],
   "July 30": [
     {
-      "time": "09:30 AM IST",
+      "time": "09:45 AM IST",
       "duration": "1h 30m",
       "date": "July 30",
-      "title": "The Full-Stack Odyssey: Ecosystem Insights, Landscape Wonders, and Code Snippets",
+      "title": "Navigating the Full Stack: Current Frameworks, Ecosystems, and Best Practices",
       "speakers": [
         {
           "name": "Jelena Gjorgjev",
-          "company": "Senior Full-Stack Developer",
+          "company": "Senior Full Stack Engineer, Speaker, University of Barcelona Alumni",
           "image": "/speakers/jelena_gjorgjev.webp"
         }
       ],
@@ -59,39 +109,51 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "July 30",
-      "title": "Unveiling the System Design Behind UPI and Blinkit: How They Power Modern Transactions",
+      "title": "Overview of Large-Scale Payment Systems: The UPI Case Study",
       "speakers": [
         {
           "name": "Prashant Kumar",
-          "company": "SDE Juspay, Working on UPI",
+          "company": "SDE Juspay",
           "image": "/speakers/prashant_kumar.webp"
-        },
-        {
-          "name": "Abhay Ray",
-          "company": "SDE Zomato",
-          "image": "/speakers/abhay_ray.webp"
         }
       ],
       "sessionType": "theory"
     },
     {
-      "time": "02:00 PM IST",
+      "time": "2:00 AM IST",
+      "duration": "2h 30m",
       "date": "July 30",
-      "title": "Coming Soon"
+      "title": "Groceries on Demand: Prototyping a Real-Time Delivery Experience ",
+      "speakers": [
+        {
+          "name": "Abhay Ray",
+          "company": "SDE Blinkit",
+          "image": "/speakers/abhay_ray.webp"
+        }
+      ],
+      "sessionType": "workshop"
     },
     {
       "time": "05:00 PM IST",
+      "duration": "1h 00m",
       "date": "July 30",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Placement Prep: Strategies for Winning Your Dream Job",
+      "speakers": [
+        {
+          "name": "Tapesh Vashisth",
+          "company": "ICPC Regionalist, Summer Analyst at Morgan Stanley",
+          "image": "/speakers/tapesh_vashisth.webp"
+        }
+      ],
+      "sessionType": "panel"
     }
   ],
   "July 31": [
     {
-      "time": "09:30 AM IST",
-      "duration": "1h 30m",
+      "time": "09:45 AM IST",
+      "duration": "1h 15m",
       "date": "July 31",
       "title": "Intro to blockchain, Why, How and History",
       "speakers": [
@@ -106,21 +168,35 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "July 31",
       "title": "Basic Cryptography for Blockchain",
       "speakers": [
         {
           "name": "Rachit Anand Srivastava",
           "company": "Blockchain Engineer, Avail",
-          "image": "/speakers/rachit_anand.webp"
+          "image": "/speakers/rachit_anand_srivastava.webp"
         }
       ],
       "sessionType": "theory"
     },
     {
       "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "duration": "1h 15m",
+      "date": "July 31",
+      "title": "Introduction to Solidity Dev",
+      "speakers": [
+        {
+          "name": "Dr. Mallikarjun Reddy",
+          "company": "Assistant Professor IIIT Sri City",
+          "image": "/speakers/dr_mallikarjun_reddy_dorsala.webp"
+        }
+      ],
+      "sessionType": "workshop"
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
       "date": "July 31",
       "title": "Introduction to Solidity Dev",
       "speakers": [
@@ -134,15 +210,16 @@
     },
     {
       "time": "05:00 PM IST",
+      "duration": "1h 00m",
       "date": "July 31",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Panel Discussion/Interactive QnA",
+      "sessionType": "panel"
     }
   ],
   "August 01": [
     {
-      "time": "09:30 AM IST",
-      "duration": "1h 30m",
+      "time": "09:45 AM IST",
+      "duration": "1h 15m",
       "date": "August 01",
       "title": "Discovering DApps: The Future of Decentralized Applications",
       "speakers": [
@@ -157,7 +234,7 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "August 01",
       "title": "Coming Soon",
       "speakers": [
@@ -171,7 +248,29 @@
     },
     {
       "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "duration": "1h 15m",
+      "date": "August 01",
+      "title": "Building Decentralized Ecommerce Marketplace",
+      "speakers": [
+        {
+          "name": "Sudharsanan Kirubanandhan",
+          "company": "Rust Dev",
+          "image": "/speakers/sudharsanan_kirubanandhan.webp"
+        }
+      ],
+      "sessionType": "workshop"
+    },
+    {
+      "time": "03:15 PM IST",
+      "duration": "15 minutes",
+      "date": "August 01",
+      "title": "Coffee Break",
+      "sessionType": "coffee",
+      "last": true
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
       "date": "August 01",
       "title": "Building Decentralized Ecommerce Marketplace",
       "speakers": [
@@ -185,15 +284,16 @@
     },
     {
       "time": "05:00 PM IST",
+      "duration": "1h 00m",
       "date": "August 01",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Panel Discussion/Interactive QnA",
+      "sessionType": "panel"
     }
   ],
   "August 02": [
     {
-      "time": "09:30 AM IST",
-      "duration": "1h 30m",
+      "time": "09:45 AM IST",
+      "duration": "1h 15m",
       "date": "August 02",
       "title": "Tokenization of RWA",
       "speakers": [
@@ -208,7 +308,7 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "August 02",
       "title": "Navigating DLT, DeFi, and ReFi: The Evolution of Decentralized Technologies",
       "speakers": [
@@ -222,7 +322,29 @@
     },
     {
       "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "duration": "1h 15m",
+      "date": "August 02",
+      "title": "Building web3 app stack with web2 skills with okto",
+      "speakers": [
+        {
+          "name": "Dr. Ovia Seshadri",
+          "company": "Head of DevRel at Okto by CoinDCX",
+          "image": "/speakers/dr_ovia_seshadri.webp"
+        }
+      ],
+      "sessionType": "workshop"
+    },
+    {
+      "time": "03:15 PM IST",
+      "duration": "15 minutes",
+      "date": "August 02",
+      "title": "Coffee Break",
+      "sessionType": "coffee",
+      "last": true
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
       "date": "August 02",
       "title": "Building web3 app stack with web2 skills with okto",
       "speakers": [
@@ -236,15 +358,16 @@
     },
     {
       "time": "05:00 PM IST",
+      "duration": "1h 00m",
       "date": "August 02",
-      "title": "Coming Soon",
-      "last": true
+      "title": "Panel Discussion/Interactive QnA",
+      "sessionType": "panel"
     }
   ],
   "August 03": [
     {
-      "time": "09:30 AM IST",
-      "duration": "1h 30m",
+      "time": "09:45 AM IST",
+      "duration": "1h 15m",
       "date": "August 03",
       "title": "Future of Web 3.0",
       "speakers": [
@@ -259,7 +382,7 @@
     },
     {
       "time": "11:30 AM IST",
-      "duration": "2h 00m",
+      "duration": "1h 30m",
       "date": "August 03",
       "title": "Practical Projects with Solidity: Smart Contracts, Development, and Career Guidance",
       "speakers": [
@@ -273,13 +396,35 @@
     },
     {
       "time": "02:00 PM IST",
-      "duration": "2h 00m",
+      "duration": "1h 15m",
       "date": "August 03",
       "title": "Web 3.0 Security: Insights into Quill Audits and Best Practices",
       "speakers": [
         {
           "name": "Kartik Chugh",
-          "company": "Quill Audits",
+          "company": "CMO @Quill Audits",
+          "image": "/speakers/kartik_chugh.webp"
+        }
+      ],
+      "sessionType": "workshop"
+    },
+    {
+      "time": "03:15 PM IST",
+      "duration": "15 minutes",
+      "date": "August 03",
+      "title": "Coffee Break",
+      "sessionType": "coffee",
+      "last": true
+    },
+    {
+      "time": "03:30 PM IST",
+      "duration": "1h 15m",
+      "date": "August 03",
+      "title": "Web 3.0 Security: Insights into Quill Audits and Best Practices",
+      "speakers": [
+        {
+          "name": "Kartik Chugh",
+          "company": "CMO @Quill Audits",
           "image": "/speakers/kartik_chugh.webp"
         }
       ],
@@ -287,9 +432,10 @@
     },
     {
       "time": "05:00 PM IST",
-      "date": "August 03",
-      "title": "Coming Soon",
-      "last": true
+      "duration": "1h 00m",
+      "date": "August 02",
+      "title": "Panel Discussion/Interactive QnA",
+      "sessionType": "panel"
     }
   ]
 }

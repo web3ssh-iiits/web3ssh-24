@@ -8,12 +8,16 @@
     "url": "/#speakers"
   },
   {
+    "title": "Guides",
+    "url": "/#guides"
+  },
+  {
     "title": "Schedule",
     "url": "/#schedule"
   },
   {
     "title": "Hackathon",
-    "url": "/#hackathon"
+    "url": "https://web3ssh.devfolio.co/"
   },
   {
     "title": "FAQ",

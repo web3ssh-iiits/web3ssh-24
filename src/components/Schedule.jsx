@@ -1,5 +1,5 @@
 'use client';
-import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon } from 'lucide-react';
+import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon, BookmarkPlusIcon, Coffee, FileQuestionIcon, SoupIconp, SoupIcon } from 'lucide-react';
 import React, { useState } from 'react';
 import scheduleData from '../data/schedule.json';
 
@@ -10,7 +10,7 @@ const sessionTypes = {
   },
   theory: {
     icon: <ClipboardIcon className="h-5 w-5" />,
-    title: 'Fundamental Theory',
+    title: 'Fundamental Lecture',
   },
   workshop: {
     icon: <HammerIcon className="h-5 w-5" />,
@@ -18,8 +18,24 @@ const sessionTypes = {
   },
   panel: {
     icon: <UsersIcon className="h-5 w-5" />,
-    title: 'Panel Discussion',
+    title: 'Discussion',
   },
+  inaugration: {
+    icon: <BookmarkPlusIcon className="h-5 w-5" />,
+    title: 'Inaugration Session',
+  },
+  lunch: {
+    icon: <SoupIcon className="h-5 w-5" />,
+    title: 'Lunch Break',
+  },
+  coffee: {
+    icon: <Coffee className='h-5 w-5' />,
+    title: 'Hands-on Session'
+  },
+  quiz: {
+    icon: <FileQuestionIcon className='h-5 w-5' />,
+    title: 'Quiz'
+  }
 };
 
 export const Schedule = () => {

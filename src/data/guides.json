@@ -1,0 +1,44 @@
+[
+    {
+        "name": "Prashant Kumar",
+        "experience": "SDE Juspay, Working on UPI",
+        "imageUrl": "/speakers/prashant_kumar.webp",
+        "details": "SDE Juspay, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Abhay Ray",
+        "experience": "SDE Blnkit(Zomato)",
+        "imageUrl": "/speakers/abhay_ray.webp",
+        "details": "Ex - Urban Company, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Tapesh Vashisth",
+        "experience": "Intern at Morgan Stanley",
+        "imageUrl": "/speakers/tapesh_vashisth.webp",
+        "details": "ICPC Regionalist, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Harsh Vardhan Gupta",
+        "experience": "SWE Intern at PayPal",
+        "imageUrl": "/speakers/harsh_gupta.webp",
+        "details": "Former intern at DRDO, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Abhishek Bhagat",
+        "experience": "FBI fellow, Research in Tokenisation",
+        "imageUrl": "/speakers/abhishek_bhagat.webp",
+        "details": "Intern at TrustyFi, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Vaibhav Pandey",
+        "experience": "Dev at Push Protocol",
+        "imageUrl": "/speakers/vaibhav_pandey.webp",
+        "details": "Workflow Engineer at Instadapp, IIIT Sri City Alumni"
+    },
+    {
+        "name": "Sreevallabh Karanam",
+        "experience": "SIH 22 Winner, UIA Internation Hackathon Finalist",
+        "imageUrl": "/speakers/sreevallabh_karanam-1.webp",
+        "details": "Intern at Fluidity, IIIT Sri City Alumni"
+    }
+]
