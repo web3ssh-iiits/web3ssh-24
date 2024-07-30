@@ -100,7 +100,7 @@ const HeroSection = () => {
             <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-3 text-lg rounded-full'>
               <span className='p-0.5 inline-flex items-center'>
                 <img src='/icons/Devfolio_Logo.webp' height="30px" width="30px" className='mx-2 inline fill-white drop-shadow-lg invert' />
-                Apply with Devfolio
+                Hackathon on Devfolio
                 <svg
                   width="32"
                   height="32"
