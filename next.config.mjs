@@ -37,6 +37,12 @@ const nextConfig = {
           'https://docs.google.com/forms/d/e/1FAIpQLSd5Di8MKfGigs0tGXBXriaJmZqWgvu0FmbXOUwwGC4ypBAB2g/viewform?usp=sf_link',
         permanent: false,
       },
+      {
+        source: '/hackathon',
+        destination:
+          'https://drive.google.com/file/d/1-ErCH16EsNWvVS0AeqMPO_bIjVjnAe58/view?usp=sharing',
+        permanent: false,
+      },
     ];
   },
 };
