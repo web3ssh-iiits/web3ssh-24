@@ -4,13 +4,13 @@
     "members": [
       {
         "name": "Dr. Bheemappa Halavar",
-        "profilePic": "/team/dr_bheemappa_halavar.webp",
+        "profilePic": "/speakers/dr_bheemappa_halavar-1.webp",
         "link": "#",
         "link_title": ""
       },
       {
         "name": "Dr. Himangsu Sarma",
-        "profilePic": "/team/dr_himangshu_sarma.webp",
+        "profilePic": "/speakers/dr_himangshu_sarma.webp",
         "link": "#",
         "link_title": ""
       }
@@ -21,13 +21,13 @@
     "members": [
       {
         "name": "Abhishek Bhagat",
-        "profilePic": "/team/abhishek_bhagat.webp",
+        "profilePic": "/speakers/abhishek_bhagat.webp",
         "link": "#",
         "link_title": ""
       },
       {
         "name": "Vaibhav Pande",
-        "profilePic": "/team/vaibhav_pandey.webp",
+        "profilePic": "/speakers/vaibhav_pandey.webp",
         "link": "#",
         "link_title": ""
       },
@@ -67,6 +67,12 @@
         "link_title": ""
       },
       {
+        "name": "Abhishek Sahay",
+        "profilePic": "/team/abhishek_sahay.webp",
+        "link": "#",
+        "link_title": ""
+      },
+      {
         "name": "Vinayak Anand",
         "profilePic": "/team/vinayak_anand.webp",
         "link": "#",
@@ -87,12 +93,6 @@
       {
         "name": "Sreevallabh Karanam",
         "profilePic": "/team/sreevallabh_karanam.webp",
-        "link": "#",
-        "link_title": ""
-      },
-      {
-        "name": "Abhishek Sahay",
-        "profilePic": "/team/abhishek_sahay.webp",
         "link": "#",
         "link_title": ""
       }
@@ -200,18 +200,6 @@
   {
     "role": "Sponsorship Team",
     "members": [
-      {
-        "name": "Charishma Bollineni",
-        "profilePic": "/team/charishma_bollineni.webp",
-        "link": "#",
-        "link_title": ""
-      },
-      {
-        "name": "Shreeraj M",
-        "profilePic": "/team/shreeraj_m.webp",
-        "link": "#",
-        "link_title": ""
-      },
       {
         "name": "Adarsh Singh",
         "profilePic": "/team/adarsh_singh.webp",
