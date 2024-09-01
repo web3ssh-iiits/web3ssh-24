@@ -92,7 +92,7 @@ export default function TeamSection({ teamData }) {
                 profilePic={member.profilePic}
                 link={member.link}
                 linkTitle={member.link_title}
-                bio={member.bio || "No bio available."}
+                bio={member.bio || "No bio available."} 
               />
             ))}
           </div>
