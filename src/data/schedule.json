@@ -168,7 +168,7 @@
       "title": "Introduction to Cryptography Fundamentals",
       "speakers": [
         {
-          "name": "Anand Srivastava",
+          "name": "Rachit Anand Srivastava",
           "company": "Blockchain Engineer, Avail",
           "image": "/speakers/rachit_anand_srivastava.webp"
         }
@@ -198,7 +198,7 @@
       "title": "Building decentralized applications using Hardhat and Truffle frameworks",
       "speakers": [
         {
-          "name": "Dr. Shashidhar",
+          "name": "Dr. Shashidhara R",
           "company": "Lead Researcher, Samsung R&D",
           "image": "/speakers/dr_shashidhar_r.webp"
         }
@@ -213,7 +213,7 @@
       "title": "Identity Management and Skill Credentials through DApps",
       "speakers": [
         {
-          "name": "Dr. Shashidhar",
+          "name": "Dr. Shashidhar R",
           "company": "Lead Researcher, Samsung R&D",
           "image": "/speakers/dr_shashidhar_r.webp"
         }
@@ -222,50 +222,29 @@
     },
     {
       "time": "02:00 PM IST",
-      "duration": "1h 15m",
+      "duration": "2h 30m",
       "date": "August 01",
-      "title": "Building Decentralized Ecommerce Marketplace",
+      "title": "Building Decentralized E-Commerce Marketplace",
       "speakers": [
         {
           "name": "Sudharsanan Kirubanandhan",
-          "company": "Rust Dev",
+          "company": "Rust Dev, Technical Co-Founder, Stealth Startup - A blockchain-based startup",
           "image": "/speakers/sudharsanan_kirubanandhan.webp"
         }
       ],
       "sessionType": "workshop"
-    },
-    {
-      "time": "03:30 PM IST",
-      "duration": "1h 15m",
-      "date": "August 01",
-      "title": "Building Decentralized Ecommerce Marketplace",
-      "speakers": [
-        {
-          "name": "Sudharsanan Kirubanandhan",
-          "company": "Rust Dev",
-          "image": "/speakers/sudharsanan_kirubanandhan.webp"
-        }
-      ],
-      "sessionType": "workshop"
-    },
-    {
-      "time": "05:00 PM IST",
-      "duration": "1h 00m",
-      "date": "August 01",
-      "title": "Discussion/Interactive QnA",
-      "sessionType": "panel"
     }
   ],
   "August 02": [
     {
-      "time": "09:45 AM IST",
-      "duration": "1h 30m",
+      "time": "10:00 AM IST",
+      "duration": "1h 15m",
       "date": "August 02",
-      "title": "Tokenization of RWA",
+      "title": "Tokenization of Real World Assets",
       "speakers": [
         {
           "name": "Illham El BOLOUMI",
-          "company": "Founder: Datachain Ed",
+          "company": "Founder, DatachainEd, Ex-SWE Nokia",
           "image": "/speakers/elham_el_boloumi.webp"
         }
       ],
@@ -276,11 +255,11 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "August 02",
-      "title": "Navigating DLT, DeFi, and ReFi: The Evolution of Decentralized Technologies",
+      "title": "Exploring the Future of Finance : Web 3.0 DeFi, ReFi and DLT",
       "speakers": [
         {
           "name": "Jelena Gjorgjev",
-          "company": "Senior Full-Stack Developer",
+          "company": "Senior Full Stack Developer, Speaker at SysAln3r, University of Barcelona",
           "image": "/speakers/jelena_gjorgjev.webp"
         }
       ],
@@ -290,33 +269,25 @@
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "August 02",
-      "title": "Building web3 app stack with web2 skills with okto",
+      "title": "Pushing the Boundaries of Web 3 UX",
       "speakers": [
         {
-          "name": "Dr. Ovia Seshadri",
-          "company": "Head of DevRel at Okto by CoinDCX",
-          "image": "/speakers/dr_ovia_seshadri.webp"
+          "name": "Pranshu Rastogi",
+          "company": "Head of Ecosystem, Push Protocol",
+          "image": "/speakers/pranshu_rastogi_1.webp"
         }
       ],
       "sessionType": "workshop"
     },
     {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "August 02",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
-    },
-    {
       "time": "03:30 PM IST",
       "duration": "1h 15m",
       "date": "August 02",
-      "title": "Building web3 app stack with web2 skills with okto",
+      "title": "Building Web 3 App Stack with Web 2 Skills",
       "speakers": [
         {
           "name": "Dr. Ovia Seshadri",
-          "company": "Head of DevRel at Okto by CoinDCX",
+          "company": "Head of DevRel at Okto by CoinDCX, PhD IIT Delhi",
           "image": "/speakers/dr_ovia_seshadri.webp"
         }
       ],
@@ -324,9 +295,16 @@
     },
     {
       "time": "05:00 PM IST",
-      "duration": "1h 00m",
+      "duration": "0h 30m",
       "date": "August 02",
-      "title": "Panel Discussion/Interactive QnA",
+      "title": "Building Legal-Tech Tools with Decentralised Tech",
+      "speakers": [
+        {
+          "name": "Sneha Vijayan",
+          "company": "web3 Lawyer, Builder, Researcher, Master of Laws from National University of Singapore (NUS)",
+          "image": "/speakers/snehaVijayan.webp"
+        }
+      ],
       "sessionType": "panel"
     }
   ],
@@ -335,11 +313,11 @@
       "time": "09:45 AM IST",
       "duration": "1h 30m",
       "date": "August 03",
-      "title": "Future of Web 3.0",
+      "title": "Web 3: Is This Third Iteration of the Web 3 Times as Powerful?",
       "speakers": [
         {
           "name": "Ritesh Kant",
-          "company": "Co-founder and CEO Wow Talkies",
+          "company": "Co-Founder and CEO of wow-talkies, MBA IIT Delhi",
           "image": "/speakers/ritesh_kant.webp"
         }
       ],
@@ -350,7 +328,7 @@
       "time": "11:30 AM IST",
       "duration": "1h 30m",
       "date": "August 03",
-      "title": "Practical Projects with Solidity: Smart Contracts, Development, and Career Guidance",
+      "title": "Mental Models for Building Smart Contracts",
       "speakers": [
         {
           "name": "Zaryab Afsar",
@@ -364,7 +342,7 @@
       "time": "02:00 PM IST",
       "duration": "1h 15m",
       "date": "August 03",
-      "title": "Web 3.0 Security: Insights into Quill Audits and Best Practices",
+      "title": "Bolstering Web 3.0 Security",
       "speakers": [
         {
           "name": "Kartik Chugh",
@@ -375,33 +353,11 @@
       "sessionType": "workshop"
     },
     {
-      "time": "03:15 PM IST",
-      "duration": "15 minutes",
-      "date": "August 03",
-      "title": "Coffee Break",
-      "sessionType": "coffee",
-      "last": true
-    },
-    {
-      "time": "03:30 PM IST",
-      "duration": "1h 15m",
-      "date": "August 03",
-      "title": "Web 3.0 Security: Insights into Quill Audits and Best Practices",
-      "speakers": [
-        {
-          "name": "Kartik Chugh",
-          "company": "CMO @Quill Audits",
-          "image": "/speakers/kartik_chugh.webp"
-        }
-      ],
-      "sessionType": "workshop"
-    },
-    {
-      "time": "05:00 PM IST",
+      "time": "03:45 PM IST",
       "duration": "1h 00m",
       "date": "August 02",
-      "title": "Panel Discussion/Interactive QnA",
-      "sessionType": "panel"
+      "title": "Valedictory Session",
+      "sessionType": "valedictory"
     }
   ]
 }

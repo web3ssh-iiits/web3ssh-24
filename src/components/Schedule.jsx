@@ -1,5 +1,5 @@
 'use client';
-import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon, BookmarkPlusIcon, Coffee, FileQuestionIcon, SoupIconp, SoupIcon } from 'lucide-react';
+import { BookIcon, ClipboardIcon, Clock, HammerIcon, UsersIcon, BookmarkPlusIcon, Coffee, FileQuestionIcon, SoupIconp, SoupIcon, GraduationCapIcon } from 'lucide-react';
 import React, { useState } from 'react';
 import scheduleData from '../data/schedule.json';
 
@@ -35,6 +35,10 @@ const sessionTypes = {
   quiz: {
     icon: <FileQuestionIcon className='h-5 w-5' />,
     title: 'Quiz'
+  },
+  valedictory: {
+    icon: <GraduationCapIcon className='h-5 w-5'/>,
+    title: 'Valedictory'
   }
 };
 
