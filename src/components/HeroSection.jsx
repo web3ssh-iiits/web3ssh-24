@@ -1,4 +1,4 @@
-"use client"
+'use client';
 
 import clsx from 'clsx';
 import { TypewriterEffect } from './ui/typewriter-effect';
@@ -15,7 +15,7 @@ const HeroSection = () => {
     document.body.appendChild(script);
     return () => {
       document.body.removeChild(script);
-    }
+    };
   }, []);
   const words = [
     {
@@ -36,6 +36,9 @@ const HeroSection = () => {
     {
       text: 'Hackathon',
       className: 'text-blue-500',
+    },
+    {
+      text: '2024',
     },
   ];
 
@@ -64,10 +67,10 @@ const HeroSection = () => {
         <div className="mt-8">
           {/* todo, work in progress */}
           <div className="text-2xl font-sans font-medium ">
-            Summer School: 29th July to 3rd August
+            Summer School: 29th July to 3rd August, 2024
           </div>
           <div className="text-2xl font-sans font-medium ">
-            Hackathon: 7th August to 9th August
+            Hackathon: 7th August to 9th August, 2024
           </div>
         </div>
       </div>
@@ -96,10 +99,15 @@ const HeroSection = () => {
               </span>
             </button>
           </a>
-          <a href='https://web3ssh.devfolio.co/' target='_blank'>
-            <button className='w-full h-full bg-[#3770FF] flex items-center justify-center p-3 text-lg rounded-full'>
-              <span className='p-0.5 inline-flex items-center'>
-                <img src='/icons/Devfolio_Logo.webp' height="30px" width="30px" className='mx-2 inline fill-white drop-shadow-lg invert' />
+          <a href="https://web3ssh.devfolio.co/" target="_blank">
+            <button className="w-full h-full bg-[#3770FF] flex items-center justify-center p-3 text-lg rounded-full">
+              <span className="p-0.5 inline-flex items-center">
+                <img
+                  src="/icons/Devfolio_Logo.webp"
+                  height="30px"
+                  width="30px"
+                  className="mx-2 inline fill-white drop-shadow-lg invert"
+                />
                 Hackathon on Devfolio
                 <svg
                   width="32"
