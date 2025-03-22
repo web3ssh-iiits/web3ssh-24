@@ -1,20 +1,12 @@
 import 'index.css';
 
 import type { Metadata } from 'next';
-// import Navbar from '@components/Navbar';
-// import { BackgroundGradientAnimation } from '@components/ui/background-gradient-animation';
-// it seems that Aceternity ui background gradient makes the page unresponsive to scroll, and no content other than the front page is visible
 import GradientBackground from '@components/GradientBackground';
 import gsap from 'gsap';
 import { useGSAP } from '@gsap/react';
 import { ScrollTrigger } from 'gsap/ScrollTrigger';
-import Footer from '@components/Footer';
-import dynamic from 'next/dynamic';
 import { GeistSans } from 'geist/font/sans';
-
 import defaultLinkPreview from '@public/link_preview.png';
-
-const Navbar = dynamic(() => import('@components/Navbar'), { ssr: false });
 
 export const metadata: Metadata = {
   title: 'web3ssh',
@@ -24,7 +16,7 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'web3ssh',
     description:
-      'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web 3.0 technologies and build decentralized applications.',
+      'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web3.0 technologies and build decentralized applications.',
     type: 'website',
     url: 'https://web3ssh.dev/',
     images: [
@@ -40,7 +32,7 @@ export const metadata: Metadata = {
     card: 'summary_large_image',
     title: 'web3ssh',
     description:
-      'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web 3.0 technologies and build decentralized applications.',
+      'Web 3.0 Summer School & Hackathon. Organized by IIIT SriCity. Learn Web3.0 technologies and build decentralized applications.',
     images: [defaultLinkPreview.src],
   },
 };
@@ -65,7 +57,6 @@ export default function RootLayout({
         <script src="https://cdn.tailwindcss.com"></script>
         <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"></script>
       </head>
-
       <body>
         <div
           style={{
@@ -78,9 +69,7 @@ export default function RootLayout({
           <GradientBackground />
         </div>
         <div className="relative z-10">
-          <Navbar />
-          <div id="root">{children}</div>
-          <Footer />
+          {children}
         </div>
       </body>
     </html>

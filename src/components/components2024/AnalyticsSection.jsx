@@ -1,12 +1,21 @@
 import AnalyticsCard from './AnalyticsCard';
-import analyticsData from '../data/analytics.json';
-import { User, Users, Podcast, micVocal, Handshake, MicVocal, Landmark, Bitcoin } from 'lucide-react';
+import analyticsData from '../../data/analytics.json';
+import {
+  User,
+  Users,
+  Podcast,
+  micVocal,
+  Handshake,
+  MicVocal,
+  Landmark,
+  Bitcoin,
+} from 'lucide-react';
 
 const iconMap = {
   students: <Users className="h-10 w-10" />,
   organizations: <Handshake className="h-10 w-10" />,
   experts: <MicVocal className="h-10 w-10" />,
-  companies: <Bitcoin className="h-10 w-10" />
+  companies: <Bitcoin className="h-10 w-10" />,
 };
 
 export default function AnalyticsSection() {
@@ -24,7 +33,7 @@ export default function AnalyticsSection() {
             gradientColorTo={data.gradientColorTo}
             bgColorFrom={data.bgColorFrom}
             bgColorTo={data.bgColorTo}
-            direction = {data.direction}
+            direction={data.direction}
             icon={iconMap[data.unit]}
           />
         ))}
