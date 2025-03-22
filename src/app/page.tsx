@@ -1,4 +1,4 @@
-import CommonQuestions from '@components/components2024/CommonQuestions';
+import CommonQuestions from '@components/components2025/CommonQuestions';
 import HeroSection from '@components/components2025/HeroSection2025';
 // import AnalyticsSection from '@components/components2024/AnalyticsSection';
 import { JoinUs } from '@components/WhyJoin';

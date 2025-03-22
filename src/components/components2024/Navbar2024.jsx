@@ -96,15 +96,6 @@ export default function Navbar() {
                 </a>
               </li>
             ))}
-            {/* Added Archive 2024 Button */}
-            <li>
-              <a
-                href="/archive2024"
-                className="text-sm lg:text-lg px-1 py-1 rounded-md cursor-pointer hover:font-semibold hover:scale-125 hover:-translate-y-1"
-              >
-                2024
-              </a>
-            </li>
           </ul>
         </div>
 
